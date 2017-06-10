@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -x
 # Start Proof General with the right -I options
 # Use the Makefile to rebuild dependencies if needed
 # Recompile the modified file after coqide editing
@@ -26,6 +26,6 @@ COQPROGARGS="
 #        \"-I\" \"$PWD/../../../certiucos/proofs/msgqueue\"
 #"
 
-basename $1 | xargs find -type f -name | xargs emacs --eval "(setq coq-prog-name \"$COQPROGNAME\")" \
+basename $1 | xargs find . -type f -name | xargs emacs --eval "(setq coq-prog-name \"$COQPROGNAME\")" \
  --eval "(setq coq-prog-args '($COQPROGARGS))"
 
