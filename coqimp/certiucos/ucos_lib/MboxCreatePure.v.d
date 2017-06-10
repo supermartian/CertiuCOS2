@@ -1,0 +1,2 @@
+certiucos/ucos_lib/MboxCreatePure.vo certiucos/ucos_lib/MboxCreatePure.glob certiucos/ucos_lib/MboxCreatePure.v.beautified: certiucos/ucos_lib/MboxCreatePure.v certiucos/proofs/ucos_include.vo certiucos/ucos_lib/OSQCreatePure.vo certiucos/ucos_lib/Mbox_common.vo
+certiucos/ucos_lib/MboxCreatePure.vio: certiucos/ucos_lib/MboxCreatePure.v certiucos/proofs/ucos_include.vio certiucos/ucos_lib/OSQCreatePure.vio certiucos/ucos_lib/Mbox_common.vio

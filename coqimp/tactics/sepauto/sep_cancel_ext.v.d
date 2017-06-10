@@ -1,0 +1,2 @@
+tactics/sepauto/sep_cancel_ext.vo tactics/sepauto/sep_cancel_ext.glob tactics/sepauto/sep_cancel_ext.v.beautified: tactics/sepauto/sep_cancel_ext.v framework/include_frm.vo tactics/sepauto/sep_combine.vo tactics/sepauto/seplog_lemmas.vo tactics/sepauto/seplog_tactics.vo
+tactics/sepauto/sep_cancel_ext.vio: tactics/sepauto/sep_cancel_ext.v framework/include_frm.vio tactics/sepauto/sep_combine.vio tactics/sepauto/seplog_lemmas.vio tactics/sepauto/seplog_tactics.vio

@@ -1,0 +1,7 @@
+DIGEST 9ce6fdd6f2de4fafd3192dd2430f5d12
+FCertiOS.certiucos.spec.absop_rules
+R15:30 CertiOS.certiucos.spec.absoprules.mbox_absop_rules <> <> lib
+R48:64 CertiOS.certiucos.spec.absoprules.mutex_absop_rules <> <> lib
+R82:96 CertiOS.certiucos.spec.absoprules.sem_absop_rules <> <> lib
+R114:129 CertiOS.certiucos.spec.absoprules.msgq_absop_rules <> <> lib
+R147:162 CertiOS.certiucos.spec.absoprules.time_absop_rules <> <> lib

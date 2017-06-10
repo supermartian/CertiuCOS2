@@ -1,0 +1,2 @@
+certiucos/proofs/semaphore/OSSemDeleteProof.vo certiucos/proofs/semaphore/OSSemDeleteProof.glob certiucos/proofs/semaphore/OSSemDeleteProof.v.beautified: certiucos/proofs/semaphore/OSSemDeleteProof.v certiucos/ucos_lib/sem_common.vo certiucos/ucos_lib/semdel_pure.vo
+certiucos/proofs/semaphore/OSSemDeleteProof.vio: certiucos/proofs/semaphore/OSSemDeleteProof.v certiucos/ucos_lib/sem_common.vio certiucos/ucos_lib/semdel_pure.vio

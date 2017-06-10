@@ -1,0 +1,2 @@
+tactics/ucostac/ucos_frmaop.vo tactics/ucostac/ucos_frmaop.glob tactics/ucostac/ucos_frmaop.v.beautified: tactics/ucostac/ucos_frmaop.v framework/include_frm.vo tactics/pure/frmaop_sol.vo certiucos/spec/os_inv.vo certiucos/code/os_code_defs.vo certiucos/code/os_ucos_h.vo framework/model/code_notations.vo
+tactics/ucostac/ucos_frmaop.vio: tactics/ucostac/ucos_frmaop.v framework/include_frm.vio tactics/pure/frmaop_sol.vio certiucos/spec/os_inv.vio certiucos/code/os_code_defs.vio certiucos/code/os_ucos_h.vio framework/model/code_notations.vio

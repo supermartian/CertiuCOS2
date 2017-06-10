@@ -1,0 +1,8 @@
+DIGEST e01b55279d199cfc0ff5f44dae969376
+FCertiOS.framework.include_frm
+R15:20 CertiOS.framework.model.memory <> <> lib
+R38:45 CertiOS.framework.model.language <> <> lib
+R63:67 CertiOS.framework.model.opsem <> <> lib
+R85:93 CertiOS.framework.logic.assertion <> <> lib
+R111:119 CertiOS.framework.logic.inferules <> <> lib
+R137:150 CertiOS.framework.model.code_notations <> <> lib

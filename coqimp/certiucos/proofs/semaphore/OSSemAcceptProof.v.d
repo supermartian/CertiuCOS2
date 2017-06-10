@@ -1,0 +1,2 @@
+certiucos/proofs/semaphore/OSSemAcceptProof.vo certiucos/proofs/semaphore/OSSemAcceptProof.glob certiucos/proofs/semaphore/OSSemAcceptProof.v.beautified: certiucos/proofs/semaphore/OSSemAcceptProof.v certiucos/ucos_lib/sem_common.vo certiucos/ucos_lib/semacc_pure.vo
+certiucos/proofs/semaphore/OSSemAcceptProof.vio: certiucos/proofs/semaphore/OSSemAcceptProof.v certiucos/ucos_lib/sem_common.vio certiucos/ucos_lib/semacc_pure.vio

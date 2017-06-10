@@ -1,0 +1,6 @@
+DIGEST 72c2dde0afb0529592c0418e564af2dd
+FCertiOS.tactics.basetac.perm_map_lemmas
+R15:35 CertiOS.tactics.basetac.perm_map_lemmas_part1 <> <> lib
+R53:73 CertiOS.tactics.basetac.perm_map_lemmas_part2 <> <> lib
+R91:111 CertiOS.tactics.basetac.perm_map_lemmas_part3 <> <> lib
+R129:149 CertiOS.tactics.basetac.perm_map_lemmas_part4 <> <> lib

@@ -1,0 +1,2 @@
+certiucos/proofs/msgqueue/OSQAcceptProof.vo certiucos/proofs/msgqueue/OSQAcceptProof.glob certiucos/proofs/msgqueue/OSQAcceptProof.v.beautified: certiucos/proofs/msgqueue/OSQAcceptProof.v certiucos/proofs/ucos_include.vo certiucos/ucos_lib/OSQAcceptPure.vo certiucos/spec/absoprules/msgq_absop_rules.vo
+certiucos/proofs/msgqueue/OSQAcceptProof.vio: certiucos/proofs/msgqueue/OSQAcceptProof.v certiucos/proofs/ucos_include.vio certiucos/ucos_lib/OSQAcceptPure.vio certiucos/spec/absoprules/msgq_absop_rules.vio

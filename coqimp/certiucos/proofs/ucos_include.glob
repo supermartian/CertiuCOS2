@@ -1,0 +1,21 @@
+DIGEST c80b0599eee418b39204153f74762afb
+FCertiOS.certiucos.proofs.ucos_include
+R15:21 CertiOS.certiucos.spec.os_spec <> <> lib
+R39:44 CertiOS.certiucos.spec.os_inv <> <> lib
+R92:103 CertiOS.certiucos.code.os_code_defs <> <> lib
+R121:130 CertiOS.certiucos.code.os_program <> <> lib
+R148:156 CertiOS.certiucos.spec.ifun_spec <> <> lib
+R174:179 CertiOS.certiucos.spec.abs_op <> <> lib
+R197:204 CertiOS.certiucos.spec.inv_prop <> <> lib
+R223:233 CertiOS.framework.include_frm <> <> lib
+R251:258 CertiOS.tactics.abs_step <> <> lib
+R276:283 CertiOS.tactics.base_tac <> <> lib
+R301:313 CertiOS.tactics.hoare_forward <> <> lib
+R331:339 CertiOS.tactics.math_auto <> <> lib
+R357:364 CertiOS.tactics.sep_auto <> <> lib
+R382:385 CertiOS.tactics.pure <> <> lib
+R404:415 CertiOS.tactics.ucostac.ucos_forward <> <> lib
+R433:442 CertiOS.tactics.ucostac.ucos_pauto <> <> lib
+R460:470 CertiOS.tactics.ucostac.ucos_frmaop <> <> lib
+R488:499 CertiOS.tactics.ucostac.ucos_bitsmap <> <> lib
+R517:527 CertiOS.tactics.ucostac.ucos_common <> <> lib

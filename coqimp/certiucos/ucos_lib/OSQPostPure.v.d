@@ -1,0 +1,2 @@
+certiucos/ucos_lib/OSQPostPure.vo certiucos/ucos_lib/OSQPostPure.glob certiucos/ucos_lib/OSQPostPure.v.beautified: certiucos/ucos_lib/OSQPostPure.v certiucos/proofs/ucos_include.vo certiucos/ucos_lib/OSTimeDlyPure.vo certiucos/ucos_lib/OSQAcceptPure.vo certiucos/ucos_lib/oscore_common.vo certiucos/spec/new_inv.vo
+certiucos/ucos_lib/OSQPostPure.vio: certiucos/ucos_lib/OSQPostPure.v certiucos/proofs/ucos_include.vio certiucos/ucos_lib/OSTimeDlyPure.vio certiucos/ucos_lib/OSQAcceptPure.vio certiucos/ucos_lib/oscore_common.vio certiucos/spec/new_inv.vio

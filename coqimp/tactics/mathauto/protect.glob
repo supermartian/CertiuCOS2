@@ -1,0 +1,12 @@
+DIGEST ca2c9c198fa8370d9d619cfbaadfd4d3
+FCertiOS.tactics.mathauto.protect
+R15:24 CertiOS.tactics.basetac.LibTactics <> <> lib
+def 39:52 <> ProtectWrapper
+R72:72 CertiOS.tactics.mathauto.protect <> a var
+prf 81:98 <> MakeProtectWrapper
+R113:116 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R117:130 CertiOS.tactics.mathauto.protect <> ProtectWrapper def
+R132:132 CertiOS.tactics.mathauto.protect <> H var
+R112:112 CertiOS.tactics.mathauto.protect <> H var
+R219:236 CertiOS.tactics.mathauto.protect <> MakeProtectWrapper thm
+R279:292 CertiOS.tactics.mathauto.protect <> ProtectWrapper def

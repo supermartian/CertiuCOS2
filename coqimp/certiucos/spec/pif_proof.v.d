@@ -1,0 +1,2 @@
+certiucos/spec/pif_proof.vo certiucos/spec/pif_proof.glob certiucos/spec/pif_proof.v.beautified: certiucos/spec/pif_proof.v framework/proof/lemmasfortoptheo.vo certiucos/proofs/ucos_include.vo framework/proof/oscorrectness.vo framework/proof/auxdef.vo
+certiucos/spec/pif_proof.vio: certiucos/spec/pif_proof.v framework/proof/lemmasfortoptheo.vio certiucos/proofs/ucos_include.vio framework/proof/oscorrectness.vio framework/proof/auxdef.vio

@@ -1,0 +1,1650 @@
+DIGEST a029ff4199b6aa088c63c910587d07b3
+FCertiOS.framework.model.language
+R15:20 CertiOS.framework.model.memory <> <> lib
+def 128:135 <> priority
+R140:144 CertiOS.framework.auxlibs.Integers <> int32 syndef
+def 158:162 <> ecbid
+R167:173 CertiOS.framework.auxlibs.Modules <> addrval def
+def 187:189 <> msg
+R194:196 CertiOS.framework.model.memory <> val ind
+def 210:215 <> maxlen
+R220:224 CertiOS.framework.auxlibs.Integers <> int32 syndef
+def 239:244 <> ostime
+R249:253 CertiOS.framework.auxlibs.Integers <> int32 syndef
+def 267:273 <> waitset
+R278:281 Coq.Init.Datatypes <> list ind
+R283:285 CertiOS.framework.auxlibs.Modules <> tid def
+ind 299:306 <> tcbstats
+constr 312:322 <> os_stat_sem
+constr 345:353 <> os_stat_q
+constr 376:387 <> os_stat_time
+constr 402:413 <> os_stat_mbox
+constr 436:451 <> os_stat_mutexsem
+R330:333 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R334:341 CertiOS.framework.model.language <> tcbstats ind
+R325:329 CertiOS.framework.model.language <> ecbid def
+R361:364 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R365:372 CertiOS.framework.model.language <> tcbstats ind
+R356:360 CertiOS.framework.model.language <> ecbid def
+R391:398 CertiOS.framework.model.language <> tcbstats ind
+R421:424 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R425:432 CertiOS.framework.model.language <> tcbstats ind
+R416:420 CertiOS.framework.model.language <> ecbid def
+R459:462 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R463:470 CertiOS.framework.model.language <> tcbstats ind
+R454:458 CertiOS.framework.model.language <> ecbid def
+ind 484:493 <> taskstatus
+constr 501:503 <> rdy
+constr 520:523 <> wait
+R506:515 CertiOS.framework.model.language <> taskstatus ind
+R535:538 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R544:547 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R548:557 CertiOS.framework.model.language <> taskstatus ind
+R539:543 CertiOS.framework.auxlibs.Integers <> int32 syndef
+R527:534 CertiOS.framework.model.language <> tcbstats ind
+mod 568:573 <> abstcb
+def 589:589 abstcb B
+R623:625 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R610:612 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R602:609 CertiOS.framework.model.language <> priority def
+R613:622 CertiOS.framework.model.language <> taskstatus ind
+R626:628 CertiOS.framework.model.language <> msg def
+def 650:655 abstcb holder
+R659:659 CertiOS.framework.model.language abstcb B def
+R663:663 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R672:673 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R677:678 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R684:684 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R664:671 CertiOS.framework.auxlibs.Integers Int zero def
+R674:676 CertiOS.framework.model.language <> rdy constr
+R679:683 CertiOS.framework.model.memory <> Vnull constr
+R691:696 CertiOS.framework.model.language abstcb <> mod
+R717:729 CertiOS.framework.auxlibs.MapLib MapFun <> modtype
+R731:737 CertiOS.framework.auxlibs.Modules tidspec <> modtype
+R739:744 CertiOS.framework.model.language abstcb <> modtype
+mod 707:712 <> TcbMod
+inst 861:866 <> TcbMap
+R869:875 CertiOS.framework.auxlibs.Maps <> PermMap class
+R912:921 CertiOS.framework.model.language <> map def
+R904:906 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R891:893 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R883:890 CertiOS.framework.model.language <> priority def
+R894:903 CertiOS.framework.model.language <> taskstatus ind
+R907:909 CertiOS.framework.model.language <> msg def
+R877:879 CertiOS.framework.auxlibs.Modules <> tid def
+R1234:1238 CertiOS.framework.auxlibs.Maps <> minus meth
+R1207:1211 CertiOS.framework.auxlibs.Maps <> merge meth
+R1090:1093 CertiOS.framework.auxlibs.Maps <> join meth
+R1184:1186 CertiOS.framework.auxlibs.Maps <> sig meth
+R1115:1117 CertiOS.framework.auxlibs.Maps <> del meth
+R1161:1163 CertiOS.framework.auxlibs.Maps <> set meth
+R1138:1140 CertiOS.framework.auxlibs.Maps <> get meth
+R1067:1069 CertiOS.framework.auxlibs.Maps <> emp meth
+R1042:1045 CertiOS.framework.auxlibs.Maps <> same meth
+R1015:1019 CertiOS.framework.auxlibs.Maps <> sameV meth
+R990:993 CertiOS.framework.auxlibs.Maps <> flip meth
+R965:968 CertiOS.framework.auxlibs.Maps <> isRw meth
+R934:940 CertiOS.framework.auxlibs.Maps <> usePerm meth
+R945:958 CertiOS.framework.model.language <> usePerm def
+R973:983 CertiOS.framework.model.language <> isRw def
+R998:1008 CertiOS.framework.model.language <> flip def
+R1024:1035 CertiOS.framework.model.language <> sameV def
+R1050:1060 CertiOS.framework.model.language <> same def
+R1074:1083 CertiOS.framework.model.language <> emp def
+R1145:1154 CertiOS.framework.model.language <> get def
+R1168:1177 CertiOS.framework.model.language <> set def
+R1122:1131 CertiOS.framework.model.language <> del def
+R1191:1200 CertiOS.framework.model.language <> sig def
+R1098:1108 CertiOS.framework.model.language <> join def
+R1216:1227 CertiOS.framework.model.language <> merge def
+R1243:1254 CertiOS.framework.model.language <> minus def
+R1274:1289 CertiOS.framework.model.language <> map_dec_a thm
+R1274:1289 CertiOS.framework.model.language <> map_dec_a thm
+R1340:1358 CertiOS.framework.model.language <> map_join_emp thm
+R1340:1358 CertiOS.framework.model.language <> map_join_emp thm
+R1369:1387 CertiOS.framework.model.language <> map_join_pos thm
+R1369:1387 CertiOS.framework.model.language <> map_join_pos thm
+R1398:1417 CertiOS.framework.model.language <> map_join_comm thm
+R1398:1417 CertiOS.framework.model.language <> map_join_comm thm
+R1428:1448 CertiOS.framework.model.language <> map_join_assoc thm
+R1428:1448 CertiOS.framework.model.language <> map_join_assoc thm
+R1459:1480 CertiOS.framework.model.language <> map_join_cancel thm
+R1459:1480 CertiOS.framework.model.language <> map_join_cancel thm
+R1491:1511 CertiOS.framework.model.language <> map_join_deter thm
+R1491:1511 CertiOS.framework.model.language <> map_join_deter thm
+R1522:1538 CertiOS.framework.model.language <> map_sv_ref thm
+R1522:1538 CertiOS.framework.model.language <> map_sv_ref thm
+R1549:1566 CertiOS.framework.model.language <> map_sv_comm thm
+R1549:1566 CertiOS.framework.model.language <> map_sv_comm thm
+R1577:1595 CertiOS.framework.model.language <> map_sv_assoc thm
+R1577:1595 CertiOS.framework.model.language <> map_sv_assoc thm
+R1606:1624 CertiOS.framework.model.language <> map_perm_eql thm
+R1606:1624 CertiOS.framework.model.language <> map_perm_eql thm
+R1635:1654 CertiOS.framework.model.language <> map_flip_isRw thm
+R1635:1654 CertiOS.framework.model.language <> map_flip_isRw thm
+R1665:1682 CertiOS.framework.model.language <> map_flip_sv thm
+R1665:1682 CertiOS.framework.model.language <> map_flip_sv thm
+R1693:1710 CertiOS.framework.model.language <> map_emp_get thm
+R1693:1710 CertiOS.framework.model.language <> map_emp_get thm
+R1721:1734 CertiOS.framework.model.language <> map_eql thm
+R1721:1734 CertiOS.framework.model.language <> map_eql thm
+R1745:1763 CertiOS.framework.model.language <> map_disjoint thm
+R1745:1763 CertiOS.framework.model.language <> map_disjoint thm
+R1774:1794 CertiOS.framework.model.language <> map_get_unique thm
+R1774:1794 CertiOS.framework.model.language <> map_get_unique thm
+R1805:1822 CertiOS.framework.model.language <> map_get_sig thm
+R1805:1822 CertiOS.framework.model.language <> map_get_sig thm
+R1833:1851 CertiOS.framework.model.language <> map_get_sig' thm
+R1833:1851 CertiOS.framework.model.language <> map_get_sig' thm
+R1862:1879 CertiOS.framework.model.language <> map_get_set thm
+R1862:1879 CertiOS.framework.model.language <> map_get_set thm
+R1890:1908 CertiOS.framework.model.language <> map_get_set' thm
+R1890:1908 CertiOS.framework.model.language <> map_get_set' thm
+R1919:1942 CertiOS.framework.model.language <> map_join_get_none thm
+R1919:1942 CertiOS.framework.model.language <> map_join_get_none thm
+R1953:1976 CertiOS.framework.model.language <> map_join_get_some thm
+R1953:1976 CertiOS.framework.model.language <> map_join_get_some thm
+R1987:2011 CertiOS.framework.model.language <> map_join_getp_some thm
+R1987:2011 CertiOS.framework.model.language <> map_join_getp_some thm
+R2022:2039 CertiOS.framework.model.language <> map_set_emp thm
+R2022:2039 CertiOS.framework.model.language <> map_set_emp thm
+R2050:2067 CertiOS.framework.model.language <> map_set_sig thm
+R2050:2067 CertiOS.framework.model.language <> map_set_sig thm
+R2078:2101 CertiOS.framework.model.language <> map_join_set_none thm
+R2078:2101 CertiOS.framework.model.language <> map_join_set_none thm
+R2112:2135 CertiOS.framework.model.language <> map_join_set_perm thm
+R2112:2135 CertiOS.framework.model.language <> map_join_set_perm thm
+R2146:2168 CertiOS.framework.model.language <> map_join_get_sig thm
+R2146:2168 CertiOS.framework.model.language <> map_join_get_sig thm
+R2179:2206 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R2179:2206 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R2217:2236 CertiOS.framework.model.language <> map_merge_sem thm
+R2217:2236 CertiOS.framework.model.language <> map_merge_sem thm
+R2267:2287 CertiOS.framework.model.language <> map_join_merge thm
+R2267:2287 CertiOS.framework.model.language <> map_join_merge thm
+R2298:2318 CertiOS.framework.model.language <> map_merge_comm thm
+R2298:2318 CertiOS.framework.model.language <> map_merge_comm thm
+R2369:2388 CertiOS.framework.model.language <> map_minus_sem thm
+R2369:2388 CertiOS.framework.model.language <> map_minus_sem thm
+R2419:2439 CertiOS.framework.model.language <> map_join_minus thm
+R2419:2439 CertiOS.framework.model.language <> map_join_minus thm
+R2450:2467 CertiOS.framework.model.language <> map_del_sem thm
+R2450:2467 CertiOS.framework.model.language <> map_del_sem thm
+def 2491:2495 <> owner
+R2499:2504 Coq.Init.Datatypes <> option ind
+R2510:2512 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R2507:2509 CertiOS.framework.auxlibs.Modules <> tid def
+R2513:2517 CertiOS.framework.auxlibs.Integers <> int32 syndef
+ind 2532:2536 <> edata
+constr 2542:2547 <> abssem
+constr 2567:2573 <> absmsgq
+constr 2607:2613 <> absmbox
+constr 2631:2641 <> absmutexsem
+R2555:2558 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2559:2563 CertiOS.framework.model.language <> edata ind
+R2550:2554 CertiOS.framework.auxlibs.Integers <> int32 syndef
+R2585:2588 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2595:2598 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2599:2603 CertiOS.framework.model.language <> edata ind
+R2589:2594 CertiOS.framework.model.language <> maxlen def
+R2577:2580 Coq.Init.Datatypes <> list ind
+R2582:2584 CertiOS.framework.model.language <> msg def
+R2619:2622 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2623:2627 CertiOS.framework.model.language <> edata ind
+R2616:2618 CertiOS.framework.model.language <> msg def
+R2649:2652 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2658:2661 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2662:2666 CertiOS.framework.model.language <> edata ind
+R2653:2657 CertiOS.framework.model.language <> owner def
+R2644:2648 CertiOS.framework.auxlibs.Integers <> int32 syndef
+mod 2677:2682 <> absecb
+def 2698:2698 absecb B
+R2709:2712 Coq.Init.Datatypes <> prod ind
+R2720:2726 CertiOS.framework.model.language <> waitset def
+R2714:2718 CertiOS.framework.model.language <> edata ind
+def 2742:2747 absecb holder
+R2751:2751 CertiOS.framework.model.language absecb B def
+R2756:2756 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2770:2771 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2775:2775 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2757:2763 CertiOS.framework.model.language <> absmbox constr
+R2765:2769 CertiOS.framework.model.memory <> Vnull constr
+R2772:2774 Coq.Init.Datatypes <> nil constr
+R2782:2787 CertiOS.framework.model.language absecb <> mod
+R2808:2820 CertiOS.framework.auxlibs.MapLib MapFun <> modtype
+R2822:2828 CertiOS.framework.auxlibs.Modules tidspec <> modtype
+R2830:2835 CertiOS.framework.model.language absecb <> modtype
+mod 2798:2803 <> EcbMod
+inst 2951:2956 <> EcbMap
+R2959:2965 CertiOS.framework.auxlibs.Maps <> PermMap class
+R2992:3001 CertiOS.framework.model.language <> map def
+R2972:2975 Coq.Init.Datatypes <> prod ind
+R2983:2989 CertiOS.framework.model.language <> waitset def
+R2977:2981 CertiOS.framework.model.language <> edata ind
+R2967:2969 CertiOS.framework.auxlibs.Modules <> tid def
+R3314:3318 CertiOS.framework.auxlibs.Maps <> minus meth
+R3287:3291 CertiOS.framework.auxlibs.Maps <> merge meth
+R3170:3173 CertiOS.framework.auxlibs.Maps <> join meth
+R3264:3266 CertiOS.framework.auxlibs.Maps <> sig meth
+R3195:3197 CertiOS.framework.auxlibs.Maps <> del meth
+R3241:3243 CertiOS.framework.auxlibs.Maps <> set meth
+R3218:3220 CertiOS.framework.auxlibs.Maps <> get meth
+R3147:3149 CertiOS.framework.auxlibs.Maps <> emp meth
+R3122:3125 CertiOS.framework.auxlibs.Maps <> same meth
+R3095:3099 CertiOS.framework.auxlibs.Maps <> sameV meth
+R3070:3073 CertiOS.framework.auxlibs.Maps <> flip meth
+R3045:3048 CertiOS.framework.auxlibs.Maps <> isRw meth
+R3014:3020 CertiOS.framework.auxlibs.Maps <> usePerm meth
+R3025:3038 CertiOS.framework.model.language <> usePerm def
+R3053:3063 CertiOS.framework.model.language <> isRw def
+R3078:3088 CertiOS.framework.model.language <> flip def
+R3104:3115 CertiOS.framework.model.language <> sameV def
+R3130:3140 CertiOS.framework.model.language <> same def
+R3154:3163 CertiOS.framework.model.language <> emp def
+R3225:3234 CertiOS.framework.model.language <> get def
+R3248:3257 CertiOS.framework.model.language <> set def
+R3202:3211 CertiOS.framework.model.language <> del def
+R3271:3280 CertiOS.framework.model.language <> sig def
+R3178:3188 CertiOS.framework.model.language <> join def
+R3296:3307 CertiOS.framework.model.language <> merge def
+R3323:3334 CertiOS.framework.model.language <> minus def
+R3356:3371 CertiOS.framework.model.language <> map_dec_a thm
+R3356:3371 CertiOS.framework.model.language <> map_dec_a thm
+R3422:3440 CertiOS.framework.model.language <> map_join_emp thm
+R3422:3440 CertiOS.framework.model.language <> map_join_emp thm
+R3451:3469 CertiOS.framework.model.language <> map_join_pos thm
+R3451:3469 CertiOS.framework.model.language <> map_join_pos thm
+R3480:3499 CertiOS.framework.model.language <> map_join_comm thm
+R3480:3499 CertiOS.framework.model.language <> map_join_comm thm
+R3510:3530 CertiOS.framework.model.language <> map_join_assoc thm
+R3510:3530 CertiOS.framework.model.language <> map_join_assoc thm
+R3541:3562 CertiOS.framework.model.language <> map_join_cancel thm
+R3541:3562 CertiOS.framework.model.language <> map_join_cancel thm
+R3573:3593 CertiOS.framework.model.language <> map_join_deter thm
+R3573:3593 CertiOS.framework.model.language <> map_join_deter thm
+R3604:3620 CertiOS.framework.model.language <> map_sv_ref thm
+R3604:3620 CertiOS.framework.model.language <> map_sv_ref thm
+R3631:3648 CertiOS.framework.model.language <> map_sv_comm thm
+R3631:3648 CertiOS.framework.model.language <> map_sv_comm thm
+R3659:3677 CertiOS.framework.model.language <> map_sv_assoc thm
+R3659:3677 CertiOS.framework.model.language <> map_sv_assoc thm
+R3688:3706 CertiOS.framework.model.language <> map_perm_eql thm
+R3688:3706 CertiOS.framework.model.language <> map_perm_eql thm
+R3717:3736 CertiOS.framework.model.language <> map_flip_isRw thm
+R3717:3736 CertiOS.framework.model.language <> map_flip_isRw thm
+R3747:3764 CertiOS.framework.model.language <> map_flip_sv thm
+R3747:3764 CertiOS.framework.model.language <> map_flip_sv thm
+R3775:3792 CertiOS.framework.model.language <> map_emp_get thm
+R3775:3792 CertiOS.framework.model.language <> map_emp_get thm
+R3803:3816 CertiOS.framework.model.language <> map_eql thm
+R3803:3816 CertiOS.framework.model.language <> map_eql thm
+R3827:3845 CertiOS.framework.model.language <> map_disjoint thm
+R3827:3845 CertiOS.framework.model.language <> map_disjoint thm
+R3856:3876 CertiOS.framework.model.language <> map_get_unique thm
+R3856:3876 CertiOS.framework.model.language <> map_get_unique thm
+R3887:3904 CertiOS.framework.model.language <> map_get_sig thm
+R3887:3904 CertiOS.framework.model.language <> map_get_sig thm
+R3915:3933 CertiOS.framework.model.language <> map_get_sig' thm
+R3915:3933 CertiOS.framework.model.language <> map_get_sig' thm
+R3944:3961 CertiOS.framework.model.language <> map_get_set thm
+R3944:3961 CertiOS.framework.model.language <> map_get_set thm
+R3972:3990 CertiOS.framework.model.language <> map_get_set' thm
+R3972:3990 CertiOS.framework.model.language <> map_get_set' thm
+R4001:4024 CertiOS.framework.model.language <> map_join_get_none thm
+R4001:4024 CertiOS.framework.model.language <> map_join_get_none thm
+R4035:4058 CertiOS.framework.model.language <> map_join_get_some thm
+R4035:4058 CertiOS.framework.model.language <> map_join_get_some thm
+R4069:4093 CertiOS.framework.model.language <> map_join_getp_some thm
+R4069:4093 CertiOS.framework.model.language <> map_join_getp_some thm
+R4104:4121 CertiOS.framework.model.language <> map_set_emp thm
+R4104:4121 CertiOS.framework.model.language <> map_set_emp thm
+R4132:4149 CertiOS.framework.model.language <> map_set_sig thm
+R4132:4149 CertiOS.framework.model.language <> map_set_sig thm
+R4160:4183 CertiOS.framework.model.language <> map_join_set_none thm
+R4160:4183 CertiOS.framework.model.language <> map_join_set_none thm
+R4194:4217 CertiOS.framework.model.language <> map_join_set_perm thm
+R4194:4217 CertiOS.framework.model.language <> map_join_set_perm thm
+R4228:4250 CertiOS.framework.model.language <> map_join_get_sig thm
+R4228:4250 CertiOS.framework.model.language <> map_join_get_sig thm
+R4261:4288 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R4261:4288 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R4299:4318 CertiOS.framework.model.language <> map_merge_sem thm
+R4299:4318 CertiOS.framework.model.language <> map_merge_sem thm
+R4349:4369 CertiOS.framework.model.language <> map_join_merge thm
+R4349:4369 CertiOS.framework.model.language <> map_join_merge thm
+R4380:4400 CertiOS.framework.model.language <> map_merge_comm thm
+R4380:4400 CertiOS.framework.model.language <> map_merge_comm thm
+R4451:4470 CertiOS.framework.model.language <> map_minus_sem thm
+R4451:4470 CertiOS.framework.model.language <> map_minus_sem thm
+R4501:4521 CertiOS.framework.model.language <> map_join_minus thm
+R4501:4521 CertiOS.framework.model.language <> map_join_minus thm
+R4532:4549 CertiOS.framework.model.language <> map_del_sem thm
+R4532:4549 CertiOS.framework.model.language <> map_del_sem thm
+ind 4573:4581 <> absdataid
+constr 4587:4596 <> abstcblsid
+constr 4612:4621 <> absecblsid
+constr 4636:4641 <> ostmid
+constr 4657:4662 <> curtid
+R4600:4608 CertiOS.framework.model.language <> absdataid ind
+R4624:4632 CertiOS.framework.model.language <> absdataid ind
+R4645:4653 CertiOS.framework.model.language <> absdataid ind
+R4664:4672 CertiOS.framework.model.language <> absdataid ind
+def 4688:4699 <> absdataid_eq
+R4710:4718 CertiOS.framework.model.language <> absdataid ind
+R4736:4738 CertiOS.framework.model.language <> id2 var
+R4731:4733 CertiOS.framework.model.language <> id1 var
+R4751:4760 CertiOS.framework.model.language <> abstcblsid constr
+R4763:4772 CertiOS.framework.model.language <> abstcblsid constr
+R4777:4780 Coq.Init.Datatypes <> true constr
+R4788:4797 CertiOS.framework.model.language <> absecblsid constr
+R4799:4808 CertiOS.framework.model.language <> absecblsid constr
+R4813:4816 Coq.Init.Datatypes <> true constr
+R4824:4829 CertiOS.framework.model.language <> ostmid constr
+R4832:4837 CertiOS.framework.model.language <> ostmid constr
+R4842:4845 Coq.Init.Datatypes <> true constr
+R4853:4858 CertiOS.framework.model.language <> curtid constr
+R4860:4865 CertiOS.framework.model.language <> curtid constr
+R4870:4873 Coq.Init.Datatypes <> true constr
+R4888:4892 Coq.Init.Datatypes <> false constr
+def 4913:4924 <> absdataid_lt
+R4935:4943 CertiOS.framework.model.language <> absdataid ind
+R4961:4963 CertiOS.framework.model.language <> id2 var
+R4956:4958 CertiOS.framework.model.language <> id1 var
+R4976:4985 CertiOS.framework.model.language <> abstcblsid constr
+R4988:4997 CertiOS.framework.model.language <> abstcblsid constr
+R5002:5006 Coq.Init.Datatypes <> false constr
+R5014:5023 CertiOS.framework.model.language <> abstcblsid constr
+R5031:5034 Coq.Init.Datatypes <> true constr
+R5042:5051 CertiOS.framework.model.language <> absecblsid constr
+R5054:5063 CertiOS.framework.model.language <> abstcblsid constr
+R5068:5072 Coq.Init.Datatypes <> false constr
+R5080:5089 CertiOS.framework.model.language <> absecblsid constr
+R5092:5101 CertiOS.framework.model.language <> absecblsid constr
+R5106:5110 Coq.Init.Datatypes <> false constr
+R5118:5127 CertiOS.framework.model.language <> absecblsid constr
+R5134:5137 Coq.Init.Datatypes <> true constr
+R5145:5150 CertiOS.framework.model.language <> ostmid constr
+R5153:5162 CertiOS.framework.model.language <> abstcblsid constr
+R5166:5170 Coq.Init.Datatypes <> false constr
+R5178:5183 CertiOS.framework.model.language <> ostmid constr
+R5186:5195 CertiOS.framework.model.language <> absecblsid constr
+R5200:5204 Coq.Init.Datatypes <> false constr
+R5212:5217 CertiOS.framework.model.language <> ostmid constr
+R5220:5225 CertiOS.framework.model.language <> ostmid constr
+R5230:5234 Coq.Init.Datatypes <> false constr
+R5242:5247 CertiOS.framework.model.language <> ostmid constr
+R5255:5258 Coq.Init.Datatypes <> true constr
+R5266:5271 CertiOS.framework.model.language <> curtid constr
+R5279:5283 Coq.Init.Datatypes <> false constr
+mod 5301:5313 <> absdataidspec
+def 5329:5329 absdataidspec A
+R5334:5342 CertiOS.framework.model.language <> absdataid ind
+def 5358:5360 absdataidspec beq
+R5365:5376 CertiOS.framework.model.language <> absdataid_eq def
+def 5392:5394 absdataidspec blt
+R5399:5410 CertiOS.framework.model.language <> absdataid_lt def
+prf 5421:5431 absdataidspec beq_true_eq
+R5449:5449 CertiOS.framework.model.language absdataidspec A def
+R5471:5474 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5476:5478 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5475:5475 CertiOS.framework.model.language <> a var
+R5479:5480 CertiOS.framework.model.language <> a' var
+R5464:5466 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5456:5458 CertiOS.framework.model.language absdataidspec beq def
+R5462:5463 CertiOS.framework.model.language <> a' var
+R5460:5460 CertiOS.framework.model.language <> a var
+R5467:5470 Coq.Init.Datatypes <> true constr
+prf 5559:5571 absdataidspec beq_false_neq
+R5589:5589 CertiOS.framework.model.language absdataidspec A def
+R5612:5615 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5617:5620 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R5616:5616 CertiOS.framework.model.language <> a var
+R5621:5622 CertiOS.framework.model.language <> a' var
+R5604:5606 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5596:5598 CertiOS.framework.model.language absdataidspec beq def
+R5602:5603 CertiOS.framework.model.language <> a' var
+R5600:5600 CertiOS.framework.model.language <> a var
+R5607:5611 Coq.Init.Datatypes <> false constr
+prf 5711:5721 absdataidspec eq_beq_true
+R5739:5739 CertiOS.framework.model.language absdataidspec A def
+R5752:5755 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5764:5766 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5756:5758 CertiOS.framework.model.language absdataidspec beq def
+R5762:5763 CertiOS.framework.model.language <> a' var
+R5760:5760 CertiOS.framework.model.language <> a var
+R5767:5770 Coq.Init.Datatypes <> true constr
+R5747:5749 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5746:5746 CertiOS.framework.model.language <> a var
+R5750:5751 CertiOS.framework.model.language <> a' var
+prf 5844:5856 absdataidspec neq_beq_false
+R5874:5874 CertiOS.framework.model.language absdataidspec A def
+R5888:5891 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5900:5902 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5892:5894 CertiOS.framework.model.language absdataidspec beq def
+R5898:5899 CertiOS.framework.model.language <> a' var
+R5896:5896 CertiOS.framework.model.language <> a var
+R5903:5907 Coq.Init.Datatypes <> false constr
+R5882:5885 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R5881:5881 CertiOS.framework.model.language <> a var
+R5886:5887 CertiOS.framework.model.language <> a' var
+prf 5978:5986 absdataidspec blt_trans
+R6011:6011 CertiOS.framework.model.language absdataidspec A def
+R6033:6036 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6054:6057 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6067:6069 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6058:6060 CertiOS.framework.model.language absdataidspec blt def
+R6064:6066 CertiOS.framework.model.language <> a'' var
+R6062:6062 CertiOS.framework.model.language <> a var
+R6070:6073 Coq.Init.Datatypes <> true constr
+R6047:6049 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6037:6039 CertiOS.framework.model.language absdataidspec blt def
+R6044:6046 CertiOS.framework.model.language <> a'' var
+R6041:6042 CertiOS.framework.model.language <> a' var
+R6050:6053 Coq.Init.Datatypes <> true constr
+R6026:6028 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6018:6020 CertiOS.framework.model.language absdataidspec blt def
+R6024:6025 CertiOS.framework.model.language <> a' var
+R6022:6022 CertiOS.framework.model.language <> a var
+R6029:6032 Coq.Init.Datatypes <> true constr
+R6092:6094 CertiOS.framework.model.language absdataidspec blt def
+prf 6167:6176 absdataidspec blt_irrefl
+R6193:6193 CertiOS.framework.model.language absdataidspec A def
+R6207:6209 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6200:6202 CertiOS.framework.model.language absdataidspec blt def
+R6206:6206 CertiOS.framework.model.language <> a var
+R6204:6204 CertiOS.framework.model.language <> a var
+R6210:6214 Coq.Init.Datatypes <> false constr
+R6235:6237 CertiOS.framework.model.language absdataidspec blt def
+prf 6285:6292 absdataidspec blt_asym
+R6312:6312 CertiOS.framework.model.language absdataidspec A def
+R6334:6337 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6345:6347 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6338:6340 CertiOS.framework.model.language absdataidspec blt def
+R6344:6344 CertiOS.framework.model.language <> a var
+R6342:6342 CertiOS.framework.model.language <> b var
+R6348:6352 Coq.Init.Datatypes <> false constr
+R6327:6329 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6320:6322 CertiOS.framework.model.language absdataidspec blt def
+R6326:6326 CertiOS.framework.model.language <> b var
+R6324:6324 CertiOS.framework.model.language <> a var
+R6330:6333 Coq.Init.Datatypes <> true constr
+R6373:6375 CertiOS.framework.model.language absdataidspec blt def
+prf 6439:6449 absdataidspec blt_beq_dec
+R6468:6468 CertiOS.framework.model.language absdataidspec A def
+R6510:6513 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R6528:6528 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R6475:6475 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6490:6494 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6509:6509 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6483:6485 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6476:6478 CertiOS.framework.model.language absdataidspec blt def
+R6482:6482 CertiOS.framework.model.language <> b var
+R6480:6480 CertiOS.framework.model.language <> a var
+R6486:6489 Coq.Init.Datatypes <> true constr
+R6502:6504 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6495:6497 CertiOS.framework.model.language absdataidspec beq def
+R6501:6501 CertiOS.framework.model.language <> b var
+R6499:6499 CertiOS.framework.model.language <> a var
+R6505:6508 Coq.Init.Datatypes <> true constr
+R6521:6523 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6514:6516 CertiOS.framework.model.language absdataidspec blt def
+R6520:6520 CertiOS.framework.model.language <> a var
+R6518:6518 CertiOS.framework.model.language <> b var
+R6524:6527 Coq.Init.Datatypes <> true constr
+R6547:6549 CertiOS.framework.model.language absdataidspec blt def
+R6559:6561 CertiOS.framework.model.language absdataidspec beq def
+R6584:6595 CertiOS.framework.model.language <> absdataid_lt def
+R6584:6595 CertiOS.framework.model.language <> absdataid_lt def
+R6660:6671 CertiOS.framework.model.language <> absdataid_eq def
+R6660:6671 CertiOS.framework.model.language <> absdataid_eq def
+R6779:6791 CertiOS.framework.model.language absdataidspec <> mod
+ind 6805:6811 <> absdata
+constr 6818:6827 <> abstcblist
+constr 6854:6863 <> absecblist
+constr 6891:6894 <> ostm
+constr 6917:6922 <> oscurt
+R6840:6843 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6844:6850 CertiOS.framework.model.language <> absdata ind
+R6830:6839 CertiOS.framework.model.language <> map def
+R6877:6880 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6881:6887 CertiOS.framework.model.language <> absdata ind
+R6867:6876 CertiOS.framework.model.language <> map def
+R6903:6906 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6907:6913 CertiOS.framework.model.language <> absdata ind
+R6897:6902 CertiOS.framework.model.language <> ostime def
+R6932:6935 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6936:6942 CertiOS.framework.model.language <> absdata ind
+R6925:6931 CertiOS.framework.auxlibs.Modules <> addrval def
+mod 6953:6963 <> absdatastru
+def 6980:6980 absdatastru B
+R6985:6991 CertiOS.framework.model.language <> absdata ind
+def 7007:7012 absdatastru holder
+R7016:7016 CertiOS.framework.model.language absdatastru B def
+R7022:7031 CertiOS.framework.model.language <> abstcblist constr
+R7033:7035 CertiOS.framework.auxlibs.Maps <> emp meth
+R7045:7055 CertiOS.framework.model.language absdatastru <> mod
+R7079:7091 CertiOS.framework.auxlibs.MapLib MapFun <> modtype
+R7093:7105 CertiOS.framework.model.language absdataidspec <> modtype
+R7107:7117 CertiOS.framework.model.language absdatastru <> modtype
+mod 7066:7074 <> OSAbstMod
+def 7132:7137 <> osabst
+R7141:7153 CertiOS.framework.model.language <> map def
+inst 7277:7280 <> AMap
+R7283:7289 CertiOS.framework.auxlibs.Maps <> PermMap class
+R7309:7314 CertiOS.framework.model.language <> osabst def
+R7301:7307 CertiOS.framework.model.language <> absdata ind
+R7291:7299 CertiOS.framework.model.language <> absdataid ind
+R7663:7667 CertiOS.framework.auxlibs.Maps <> minus meth
+R7633:7637 CertiOS.framework.auxlibs.Maps <> merge meth
+R7501:7504 CertiOS.framework.auxlibs.Maps <> join meth
+R7607:7609 CertiOS.framework.auxlibs.Maps <> sig meth
+R7529:7531 CertiOS.framework.auxlibs.Maps <> del meth
+R7581:7583 CertiOS.framework.auxlibs.Maps <> set meth
+R7555:7557 CertiOS.framework.auxlibs.Maps <> get meth
+R7475:7477 CertiOS.framework.auxlibs.Maps <> emp meth
+R7447:7450 CertiOS.framework.auxlibs.Maps <> same meth
+R7417:7421 CertiOS.framework.auxlibs.Maps <> sameV meth
+R7389:7392 CertiOS.framework.auxlibs.Maps <> flip meth
+R7361:7364 CertiOS.framework.auxlibs.Maps <> isRw meth
+R7327:7333 CertiOS.framework.auxlibs.Maps <> usePerm meth
+R7338:7354 CertiOS.framework.model.language <> usePerm def
+R7369:7382 CertiOS.framework.model.language <> isRw def
+R7397:7410 CertiOS.framework.model.language <> flip def
+R7426:7440 CertiOS.framework.model.language <> sameV def
+R7455:7468 CertiOS.framework.model.language <> same def
+R7482:7494 CertiOS.framework.model.language <> emp def
+R7562:7574 CertiOS.framework.model.language <> get def
+R7588:7600 CertiOS.framework.model.language <> set def
+R7536:7548 CertiOS.framework.model.language <> del def
+R7614:7626 CertiOS.framework.model.language <> sig def
+R7509:7522 CertiOS.framework.model.language <> join def
+R7642:7656 CertiOS.framework.model.language <> merge def
+R7672:7686 CertiOS.framework.model.language <> minus def
+R7708:7726 CertiOS.framework.model.language <> map_dec_a thm
+R7708:7726 CertiOS.framework.model.language <> map_dec_a thm
+R7777:7798 CertiOS.framework.model.language <> map_join_emp thm
+R7777:7798 CertiOS.framework.model.language <> map_join_emp thm
+R7809:7830 CertiOS.framework.model.language <> map_join_pos thm
+R7809:7830 CertiOS.framework.model.language <> map_join_pos thm
+R7841:7863 CertiOS.framework.model.language <> map_join_comm thm
+R7841:7863 CertiOS.framework.model.language <> map_join_comm thm
+R7874:7897 CertiOS.framework.model.language <> map_join_assoc thm
+R7874:7897 CertiOS.framework.model.language <> map_join_assoc thm
+R7908:7932 CertiOS.framework.model.language <> map_join_cancel thm
+R7908:7932 CertiOS.framework.model.language <> map_join_cancel thm
+R7943:7966 CertiOS.framework.model.language <> map_join_deter thm
+R7943:7966 CertiOS.framework.model.language <> map_join_deter thm
+R7977:7996 CertiOS.framework.model.language <> map_sv_ref thm
+R7977:7996 CertiOS.framework.model.language <> map_sv_ref thm
+R8007:8027 CertiOS.framework.model.language <> map_sv_comm thm
+R8007:8027 CertiOS.framework.model.language <> map_sv_comm thm
+R8038:8059 CertiOS.framework.model.language <> map_sv_assoc thm
+R8038:8059 CertiOS.framework.model.language <> map_sv_assoc thm
+R8070:8091 CertiOS.framework.model.language <> map_perm_eql thm
+R8070:8091 CertiOS.framework.model.language <> map_perm_eql thm
+R8102:8124 CertiOS.framework.model.language <> map_flip_isRw thm
+R8102:8124 CertiOS.framework.model.language <> map_flip_isRw thm
+R8135:8155 CertiOS.framework.model.language <> map_flip_sv thm
+R8135:8155 CertiOS.framework.model.language <> map_flip_sv thm
+R8166:8186 CertiOS.framework.model.language <> map_emp_get thm
+R8166:8186 CertiOS.framework.model.language <> map_emp_get thm
+R8197:8213 CertiOS.framework.model.language <> map_eql thm
+R8197:8213 CertiOS.framework.model.language <> map_eql thm
+R8224:8245 CertiOS.framework.model.language <> map_disjoint thm
+R8224:8245 CertiOS.framework.model.language <> map_disjoint thm
+R8256:8279 CertiOS.framework.model.language <> map_get_unique thm
+R8256:8279 CertiOS.framework.model.language <> map_get_unique thm
+R8290:8310 CertiOS.framework.model.language <> map_get_sig thm
+R8290:8310 CertiOS.framework.model.language <> map_get_sig thm
+R8321:8342 CertiOS.framework.model.language <> map_get_sig' thm
+R8321:8342 CertiOS.framework.model.language <> map_get_sig' thm
+R8353:8373 CertiOS.framework.model.language <> map_get_set thm
+R8353:8373 CertiOS.framework.model.language <> map_get_set thm
+R8384:8405 CertiOS.framework.model.language <> map_get_set' thm
+R8384:8405 CertiOS.framework.model.language <> map_get_set' thm
+R8416:8442 CertiOS.framework.model.language <> map_join_get_none thm
+R8416:8442 CertiOS.framework.model.language <> map_join_get_none thm
+R8453:8479 CertiOS.framework.model.language <> map_join_get_some thm
+R8453:8479 CertiOS.framework.model.language <> map_join_get_some thm
+R8490:8517 CertiOS.framework.model.language <> map_join_getp_some thm
+R8490:8517 CertiOS.framework.model.language <> map_join_getp_some thm
+R8528:8548 CertiOS.framework.model.language <> map_set_emp thm
+R8528:8548 CertiOS.framework.model.language <> map_set_emp thm
+R8559:8579 CertiOS.framework.model.language <> map_set_sig thm
+R8559:8579 CertiOS.framework.model.language <> map_set_sig thm
+R8590:8616 CertiOS.framework.model.language <> map_join_set_none thm
+R8590:8616 CertiOS.framework.model.language <> map_join_set_none thm
+R8627:8653 CertiOS.framework.model.language <> map_join_set_perm thm
+R8627:8653 CertiOS.framework.model.language <> map_join_set_perm thm
+R8664:8689 CertiOS.framework.model.language <> map_join_get_sig thm
+R8664:8689 CertiOS.framework.model.language <> map_join_get_sig thm
+R8700:8730 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R8700:8730 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R8741:8763 CertiOS.framework.model.language <> map_merge_sem thm
+R8741:8763 CertiOS.framework.model.language <> map_merge_sem thm
+R8794:8817 CertiOS.framework.model.language <> map_join_merge thm
+R8794:8817 CertiOS.framework.model.language <> map_join_merge thm
+R8828:8851 CertiOS.framework.model.language <> map_merge_comm thm
+R8828:8851 CertiOS.framework.model.language <> map_merge_comm thm
+R8902:8924 CertiOS.framework.model.language <> map_minus_sem thm
+R8902:8924 CertiOS.framework.model.language <> map_minus_sem thm
+R8955:8978 CertiOS.framework.model.language <> map_join_minus thm
+R8955:8978 CertiOS.framework.model.language <> map_join_minus thm
+R8989:9009 CertiOS.framework.model.language <> map_del_sem thm
+R8989:9009 CertiOS.framework.model.language <> map_del_sem thm
+def 9033:9040 <> osabstep
+R9052:9055 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9062:9065 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9066:9066 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9086:9090 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9077:9079 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R9067:9072 Coq.Init.Datatypes <> option ind
+R9074:9076 CertiOS.framework.model.memory <> val ind
+R9080:9085 CertiOS.framework.model.language <> osabst def
+R9056:9061 CertiOS.framework.model.language <> osabst def
+R9045:9051 CertiOS.framework.model.memory <> vallist def
+def 9109:9115 <> absexpr
+R9126:9129 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9120:9125 CertiOS.framework.model.language <> osabst def
+ind 9147:9155 <> spec_code
+constr 9161:9169 <> spec_prim
+constr 9208:9212 <> sched
+constr 9228:9235 <> spec_crt
+constr 9272:9279 <> spec_del
+constr 9302:9310 <> spec_done
+constr 9340:9347 <> spec_seq
+constr 9389:9399 <> spec_choice
+constr 9441:9451 <> spec_assume
+R9181:9183 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9192:9195 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9196:9204 CertiOS.framework.model.language <> spec_code ind
+R9184:9191 CertiOS.framework.model.language <> osabstep def
+R9174:9180 CertiOS.framework.model.memory <> vallist def
+R9216:9224 CertiOS.framework.model.language <> spec_code ind
+R9242:9245 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9249:9252 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9256:9259 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9260:9268 CertiOS.framework.model.language <> spec_code ind
+R9253:9255 CertiOS.framework.model.memory <> val ind
+R9246:9248 CertiOS.framework.model.memory <> val ind
+R9239:9241 CertiOS.framework.model.memory <> val ind
+R9286:9289 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9290:9298 CertiOS.framework.model.language <> spec_code ind
+R9283:9285 CertiOS.framework.model.memory <> val ind
+R9324:9327 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9328:9336 CertiOS.framework.model.language <> spec_code ind
+R9314:9319 Coq.Init.Datatypes <> option ind
+R9321:9323 CertiOS.framework.model.memory <> val ind
+R9360:9363 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9373:9376 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9377:9385 CertiOS.framework.model.language <> spec_code ind
+R9364:9372 CertiOS.framework.model.language <> spec_code ind
+R9351:9359 CertiOS.framework.model.language <> spec_code ind
+R9412:9415 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9425:9428 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9429:9437 CertiOS.framework.model.language <> spec_code ind
+R9416:9424 CertiOS.framework.model.language <> spec_code ind
+R9403:9411 CertiOS.framework.model.language <> spec_code ind
+R9462:9465 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9466:9474 CertiOS.framework.model.language <> spec_code ind
+R9455:9461 CertiOS.framework.model.language <> absexpr def
+R9510:9518 CertiOS.framework.model.language <> spec_prim constr
+not 9487:9487 <> ::x_'(|'_x_'|)'
+R9567:9575 CertiOS.framework.model.language <> spec_done constr
+not 9551:9551 <> ::'END'_x
+R9621:9628 CertiOS.framework.model.language <> spec_seq constr
+not 9604:9604 <> ::x_';;'_x
+R9699:9709 CertiOS.framework.model.language <> spec_choice constr
+not 9682:9682 <> ::x_'??'_x
+R9781:9791 CertiOS.framework.model.language <> spec_assume constr
+not 9762:9762 <> ::'ASSUME'_x
+def 9920:9922 <> fid
+R9928:9932 CertiOS.framework.model.memory <> ident def
+def 9990:9993 <> INUM
+def 10018:10020 <> hid
+R10025:10027 Coq.Init.Datatypes <> nat ind
+ind 10041:10044 <> expr
+constr 10051:10055 <> enull
+constr 10067:10070 <> evar
+constr 10089:10096 <> econst32
+constr 10117:10121 <> eunop
+constr 10148:10153 <> ebinop
+constr 10188:10193 <> ederef
+constr 10213:10219 <> eaddrof
+constr 10240:10245 <> efield
+constr 10274:10278 <> ecast
+constr 10306:10315 <> earrayelem
+R10059:10062 CertiOS.framework.model.language <> expr ind
+R10077:10080 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10081:10084 CertiOS.framework.model.language <> expr ind
+R10074:10076 CertiOS.framework.model.memory <> var def
+R10105:10108 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10109:10112 CertiOS.framework.model.language <> expr ind
+R10100:10104 CertiOS.framework.auxlibs.Integers <> int32 syndef
+R10128:10131 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10136:10139 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10140:10143 CertiOS.framework.model.language <> expr ind
+R10132:10135 CertiOS.framework.model.language <> expr ind
+R10125:10127 CertiOS.framework.model.memory <> uop ind
+R10160:10163 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10168:10171 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10176:10179 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10180:10183 CertiOS.framework.model.language <> expr ind
+R10172:10175 CertiOS.framework.model.language <> expr ind
+R10164:10167 CertiOS.framework.model.language <> expr ind
+R10157:10159 CertiOS.framework.model.memory <> bop ind
+R10201:10204 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10205:10208 CertiOS.framework.model.language <> expr ind
+R10197:10200 CertiOS.framework.model.language <> expr ind
+R10227:10230 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10231:10234 CertiOS.framework.model.language <> expr ind
+R10223:10226 CertiOS.framework.model.language <> expr ind
+R10253:10256 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10262:10265 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10266:10269 CertiOS.framework.model.language <> expr ind
+R10257:10261 CertiOS.framework.model.memory <> ident def
+R10249:10252 CertiOS.framework.model.language <> expr ind
+R10286:10289 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10294:10297 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10298:10301 CertiOS.framework.model.language <> expr ind
+R10290:10293 CertiOS.framework.model.memory <> type ind
+R10282:10285 CertiOS.framework.model.language <> expr ind
+R10323:10326 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10331:10334 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10335:10338 CertiOS.framework.model.language <> expr ind
+R10327:10330 CertiOS.framework.model.language <> expr ind
+R10319:10322 CertiOS.framework.model.language <> expr ind
+def 10376:10383 <> exprlist
+R10394:10397 Coq.Init.Datatypes <> list ind
+R10399:10402 CertiOS.framework.model.language <> expr ind
+ind 10416:10419 <> prim
+constr 10427:10431 <> exint
+constr 10443:10448 <> switch
+constr 10467:10469 <> eoi
+constr 10490:10495 <> excrit
+constr 10507:10512 <> encrit
+constr 10524:10526 <> cli
+constr 10538:10540 <> sti
+constr 10552:10558 <> checkis
+constr 10578:10584 <> stkinit
+constr 10620:10626 <> stkfree
+R10435:10438 CertiOS.framework.model.language <> prim ind
+R10455:10458 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10459:10462 CertiOS.framework.model.language <> prim ind
+R10452:10454 CertiOS.framework.model.memory <> var def
+R10478:10481 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10482:10485 CertiOS.framework.model.language <> prim ind
+R10473:10477 CertiOS.framework.auxlibs.Integers <> int32 syndef
+R10499:10502 CertiOS.framework.model.language <> prim ind
+R10516:10519 CertiOS.framework.model.language <> prim ind
+R10530:10533 CertiOS.framework.model.language <> prim ind
+R10544:10547 CertiOS.framework.model.language <> prim ind
+R10565:10568 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10569:10572 CertiOS.framework.model.language <> prim ind
+R10562:10564 CertiOS.framework.model.memory <> var def
+R10592:10595 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10600:10603 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10608:10611 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10612:10615 CertiOS.framework.model.language <> prim ind
+R10604:10607 CertiOS.framework.model.language <> expr ind
+R10596:10599 CertiOS.framework.model.language <> expr ind
+R10588:10591 CertiOS.framework.model.language <> expr ind
+R10634:10637 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10638:10641 CertiOS.framework.model.language <> prim ind
+R10630:10633 CertiOS.framework.model.language <> expr ind
+ind 10655:10659 <> stmts
+constr 10667:10671 <> sskip
+constr 10698:10704 <> sassign
+constr 10753:10755 <> sif
+constr 10831:10837 <> sifthen
+constr 10861:10866 <> swhile
+constr 10896:10899 <> sret
+constr 10912:10916 <> srete
+constr 10937:10941 <> scall
+constr 10973:10978 <> scalle
+constr 11018:11021 <> sseq
+constr 11076:11081 <> sprint
+constr 11102:11107 <> sfexec
+constr 11150:11154 <> sfree
+constr 11237:11242 <> salloc
+constr 11278:11282 <> sprim
+constr 11304:11312 <> hapi_code
+R10685:10688 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10689:10693 CertiOS.framework.model.language <> stmts ind
+R10675:10680 Coq.Init.Datatypes <> option ind
+R10682:10684 CertiOS.framework.model.memory <> val ind
+R10712:10715 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10720:10723 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10724:10728 CertiOS.framework.model.language <> stmts ind
+R10716:10719 CertiOS.framework.model.language <> expr ind
+R10708:10711 CertiOS.framework.model.language <> expr ind
+R10763:10766 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10772:10775 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10781:10784 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10785:10789 CertiOS.framework.model.language <> stmts ind
+R10776:10780 CertiOS.framework.model.language <> stmts ind
+R10767:10771 CertiOS.framework.model.language <> stmts ind
+R10759:10762 CertiOS.framework.model.language <> expr ind
+R10843:10844 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10850:10851 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10852:10856 CertiOS.framework.model.language <> stmts ind
+R10845:10849 CertiOS.framework.model.language <> stmts ind
+R10839:10842 CertiOS.framework.model.language <> expr ind
+R10874:10877 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10883:10886 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10887:10891 CertiOS.framework.model.language <> stmts ind
+R10878:10882 CertiOS.framework.model.language <> stmts ind
+R10870:10873 CertiOS.framework.model.language <> expr ind
+R10903:10907 CertiOS.framework.model.language <> stmts ind
+R10924:10927 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10928:10932 CertiOS.framework.model.language <> stmts ind
+R10920:10923 CertiOS.framework.model.language <> expr ind
+R10948:10951 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10960:10963 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10964:10968 CertiOS.framework.model.language <> stmts ind
+R10952:10959 CertiOS.framework.model.language <> exprlist def
+R10945:10947 CertiOS.framework.model.language <> fid def
+R10986:10989 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10993:10996 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11005:11008 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11009:11013 CertiOS.framework.model.language <> stmts ind
+R10997:11004 CertiOS.framework.model.language <> exprlist def
+R10990:10992 CertiOS.framework.model.language <> fid def
+R10982:10985 CertiOS.framework.model.language <> expr ind
+R11030:11033 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11039:11042 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11043:11047 CertiOS.framework.model.language <> stmts ind
+R11034:11038 CertiOS.framework.model.language <> stmts ind
+R11025:11029 CertiOS.framework.model.language <> stmts ind
+R11089:11092 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11093:11097 CertiOS.framework.model.language <> stmts ind
+R11085:11088 CertiOS.framework.model.language <> expr ind
+R11114:11117 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11125:11128 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11137:11140 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11141:11145 CertiOS.framework.model.language <> stmts ind
+R11129:11136 CertiOS.framework.model.memory <> typelist def
+R11118:11124 CertiOS.framework.model.memory <> vallist def
+R11111:11113 CertiOS.framework.model.language <> fid def
+R11166:11169 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11180:11184 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11185:11189 CertiOS.framework.model.language <> stmts ind
+R11170:11175 Coq.Init.Datatypes <> option ind
+R11177:11179 CertiOS.framework.model.memory <> val ind
+R11158:11165 CertiOS.framework.model.memory <> freelist def
+R11253:11256 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11265:11268 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11269:11273 CertiOS.framework.model.language <> stmts ind
+R11257:11264 CertiOS.framework.model.memory <> decllist ind
+R11246:11252 CertiOS.framework.model.memory <> vallist def
+R11290:11293 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11294:11298 CertiOS.framework.model.language <> stmts ind
+R11286:11289 CertiOS.framework.model.language <> prim ind
+R11323:11326 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11327:11331 CertiOS.framework.model.language <> stmts ind
+R11314:11322 CertiOS.framework.model.language <> spec_code ind
+def 11371:11378 <> function
+R11414:11417 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R11403:11405 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R11390:11394 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R11386:11389 CertiOS.framework.model.memory <> type ind
+R11395:11402 CertiOS.framework.model.memory <> decllist ind
+R11406:11413 CertiOS.framework.model.memory <> decllist ind
+R11418:11422 CertiOS.framework.model.language <> stmts ind
+def 11438:11445 <> progunit
+R11454:11457 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11458:11463 Coq.Init.Datatypes <> option ind
+R11465:11472 CertiOS.framework.model.language <> function def
+R11451:11453 CertiOS.framework.model.language <> fid def
+def 11487:11493 <> intunit
+R11502:11505 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11506:11511 Coq.Init.Datatypes <> option ind
+R11513:11517 CertiOS.framework.model.language <> stmts ind
+R11499:11501 CertiOS.framework.model.language <> hid def
+def 11532:11537 <> oscode
+R11562:11564 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R11551:11553 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R11543:11550 CertiOS.framework.model.language <> progunit def
+R11554:11561 CertiOS.framework.model.language <> progunit def
+R11565:11571 CertiOS.framework.model.language <> intunit def
+def 11587:11591 <> lprog
+R11606:11608 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R11598:11605 CertiOS.framework.model.language <> progunit def
+R11609:11614 CertiOS.framework.model.language <> oscode def
+ind 11630:11636 <> cureval
+constr 11641:11644 <> cure
+constr 11693:11696 <> curs
+R11652:11655 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11656:11662 CertiOS.framework.model.language <> cureval ind
+R11648:11651 CertiOS.framework.model.language <> expr ind
+R11705:11708 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11709:11715 CertiOS.framework.model.language <> cureval ind
+R11700:11704 CertiOS.framework.model.language <> stmts ind
+R11742:11745 CertiOS.framework.model.language <> curs constr
+R11748:11752 CertiOS.framework.model.language <> sskip constr
+R11754:11757 Coq.Init.Datatypes <> None constr
+not 11727:11727 <> ::'SKIP'
+R11802:11805 CertiOS.framework.model.language <> curs constr
+R11808:11812 CertiOS.framework.model.language <> sskip constr
+R11815:11818 Coq.Init.Datatypes <> Some constr
+not 11786:11786 <> ::'['_x_']'
+ind 11952:11959 <> exprcont
+constr 11965:11969 <> kenil
+constr 11984:11988 <> keop1
+constr 12030:12035 <> keop2r
+constr 12093:12098 <> keop2l
+constr 12153:12159 <> kederef
+constr 12195:12202 <> keoffset
+constr 12237:12245 <> kearrbase
+constr 12287:12296 <> kearrindex
+constr 12337:12342 <> kecast
+R11973:11980 CertiOS.framework.model.language <> exprcont ind
+R11995:11998 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12003:12006 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12015:12018 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12019:12026 CertiOS.framework.model.language <> exprcont ind
+R12007:12014 CertiOS.framework.model.language <> exprcont ind
+R11999:12002 CertiOS.framework.model.memory <> type ind
+R11992:11994 CertiOS.framework.model.memory <> uop ind
+R12042:12045 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12050:12053 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12058:12061 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12066:12069 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12078:12081 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12082:12089 CertiOS.framework.model.language <> exprcont ind
+R12070:12077 CertiOS.framework.model.language <> exprcont ind
+R12062:12065 CertiOS.framework.model.memory <> type ind
+R12054:12057 CertiOS.framework.model.memory <> type ind
+R12046:12049 CertiOS.framework.model.language <> expr ind
+R12039:12041 CertiOS.framework.model.memory <> bop ind
+R12104:12107 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12111:12114 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12119:12122 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12127:12129 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12138:12141 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12142:12149 CertiOS.framework.model.language <> exprcont ind
+R12130:12137 CertiOS.framework.model.language <> exprcont ind
+R12123:12126 CertiOS.framework.model.memory <> type ind
+R12115:12118 CertiOS.framework.model.memory <> type ind
+R12108:12110 CertiOS.framework.model.memory <> val ind
+R12101:12103 CertiOS.framework.model.memory <> bop ind
+R12167:12170 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12179:12182 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12183:12190 CertiOS.framework.model.language <> exprcont ind
+R12171:12178 CertiOS.framework.model.language <> exprcont ind
+R12163:12166 CertiOS.framework.model.memory <> type ind
+R12210:12213 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12222:12225 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12226:12233 CertiOS.framework.model.language <> exprcont ind
+R12214:12221 CertiOS.framework.model.language <> exprcont ind
+R12205:12209 CertiOS.framework.auxlibs.Integers <> int32 syndef
+R12252:12255 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12260:12263 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12272:12275 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12276:12283 CertiOS.framework.model.language <> exprcont ind
+R12264:12271 CertiOS.framework.model.language <> exprcont ind
+R12256:12259 CertiOS.framework.model.memory <> type ind
+R12248:12251 CertiOS.framework.model.language <> expr ind
+R12302:12305 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12310:12313 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12322:12325 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12326:12333 CertiOS.framework.model.language <> exprcont ind
+R12314:12321 CertiOS.framework.model.language <> exprcont ind
+R12306:12309 CertiOS.framework.model.memory <> type ind
+R12299:12301 CertiOS.framework.model.memory <> val ind
+R12349:12352 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12357:12360 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12369:12372 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12373:12380 CertiOS.framework.model.language <> exprcont ind
+R12361:12368 CertiOS.framework.model.language <> exprcont ind
+R12353:12356 CertiOS.framework.model.memory <> type ind
+R12345:12348 CertiOS.framework.model.memory <> type ind
+ind 12394:12401 <> stmtcont
+constr 12407:12411 <> kstop
+constr 12426:12429 <> kseq
+constr 12465:12469 <> kcall
+constr 12520:12523 <> kint
+constr 12580:12587 <> kassignr
+constr 12629:12636 <> kassignl
+constr 12743:12750 <> kfuneval
+constr 12819:12821 <> kif
+constr 12866:12871 <> kwhile
+constr 12915:12918 <> kret
+constr 12948:12953 <> kevent
+R12415:12422 CertiOS.framework.model.language <> stmtcont ind
+R12438:12441 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12450:12453 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12454:12461 CertiOS.framework.model.language <> stmtcont ind
+R12442:12449 CertiOS.framework.model.language <> stmtcont ind
+R12433:12437 CertiOS.framework.model.language <> stmts ind
+R12476:12480 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12486:12489 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12493:12496 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12505:12508 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12509:12516 CertiOS.framework.model.language <> stmtcont ind
+R12497:12504 CertiOS.framework.model.language <> stmtcont ind
+R12490:12492 CertiOS.framework.model.memory <> env def
+R12481:12485 CertiOS.framework.model.language <> stmts ind
+R12473:12475 CertiOS.framework.model.language <> fid def
+R12534:12537 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12546:12549 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12553:12556 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12565:12568 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12569:12576 CertiOS.framework.model.language <> stmtcont ind
+R12557:12564 CertiOS.framework.model.language <> stmtcont ind
+R12550:12552 CertiOS.framework.model.memory <> env def
+R12538:12545 CertiOS.framework.model.language <> exprcont ind
+R12527:12533 CertiOS.framework.model.language <> cureval ind
+R12594:12597 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12602:12605 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12614:12617 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12618:12625 CertiOS.framework.model.language <> stmtcont ind
+R12606:12613 CertiOS.framework.model.language <> stmtcont ind
+R12598:12601 CertiOS.framework.model.memory <> type ind
+R12590:12593 CertiOS.framework.model.language <> expr ind
+R12643:12646 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12651:12654 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12663:12666 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12667:12674 CertiOS.framework.model.language <> stmtcont ind
+R12655:12662 CertiOS.framework.model.language <> stmtcont ind
+R12647:12650 CertiOS.framework.model.memory <> type ind
+R12640:12642 CertiOS.framework.model.memory <> val ind
+R12757:12760 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12768:12771 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12780:12783 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12792:12795 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12804:12807 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12808:12815 CertiOS.framework.model.language <> stmtcont ind
+R12796:12803 CertiOS.framework.model.language <> stmtcont ind
+R12784:12791 CertiOS.framework.model.language <> exprlist def
+R12772:12779 CertiOS.framework.model.memory <> typelist def
+R12761:12767 CertiOS.framework.model.memory <> vallist def
+R12754:12756 CertiOS.framework.model.language <> fid def
+R12830:12833 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12839:12842 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12851:12854 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12855:12862 CertiOS.framework.model.language <> stmtcont ind
+R12843:12850 CertiOS.framework.model.language <> stmtcont ind
+R12834:12838 CertiOS.framework.model.language <> stmts ind
+R12825:12829 CertiOS.framework.model.language <> stmts ind
+R12879:12882 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12888:12891 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12900:12903 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12904:12911 CertiOS.framework.model.language <> stmtcont ind
+R12892:12899 CertiOS.framework.model.language <> stmtcont ind
+R12883:12887 CertiOS.framework.model.language <> stmts ind
+R12875:12878 CertiOS.framework.model.language <> expr ind
+R12932:12935 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12936:12943 CertiOS.framework.model.language <> stmtcont ind
+R12924:12931 CertiOS.framework.model.language <> stmtcont ind
+R12964:12967 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12976:12979 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12988:12991 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12992:12999 CertiOS.framework.model.language <> stmtcont ind
+R12980:12987 CertiOS.framework.model.language <> stmtcont ind
+R12968:12975 CertiOS.framework.model.language <> exprcont ind
+R12957:12963 CertiOS.framework.model.language <> cureval ind
+def 13016:13019 <> cont
+R13033:13035 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R13025:13032 CertiOS.framework.model.language <> exprcont ind
+R13036:13043 CertiOS.framework.model.language <> stmtcont ind
+def 13059:13062 <> code
+R13076:13078 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R13069:13075 CertiOS.framework.model.language <> cureval ind
+R13079:13082 CertiOS.framework.model.language <> cont def
+mod 13094:13101 <> CodeSpec
+def 13117:13117 CodeSpec B
+R13121:13124 CertiOS.framework.model.language <> code def
+def 13140:13145 CodeSpec holder
+R13149:13149 CertiOS.framework.model.language CodeSpec B def
+R13154:13154 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13172:13173 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13188:13188 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13155:13158 CertiOS.framework.model.language <> curs constr
+R13161:13165 CertiOS.framework.model.language <> sskip constr
+R13167:13170 Coq.Init.Datatypes <> None constr
+R13174:13174 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13180:13181 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13187:13187 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13175:13179 CertiOS.framework.model.language <> kenil constr
+R13182:13186 CertiOS.framework.model.language <> kstop constr
+R13195:13202 CertiOS.framework.model.language CodeSpec <> mod
+R13225:13237 CertiOS.framework.auxlibs.MapLib MapFun <> modtype
+R13239:13245 CertiOS.framework.auxlibs.Modules tidspec <> modtype
+R13247:13254 CertiOS.framework.model.language CodeSpec <> modtype
+mod 13213:13220 <> TasksMod
+def 13269:13273 <> tasks
+R13277:13288 CertiOS.framework.model.language <> map def
+inst 13419:13426 <> TasksMap
+R13429:13435 CertiOS.framework.auxlibs.Maps <> PermMap class
+R13446:13450 CertiOS.framework.model.language <> tasks def
+R13441:13444 CertiOS.framework.model.language <> code def
+R13437:13439 CertiOS.framework.auxlibs.Modules <> tid def
+R13787:13791 CertiOS.framework.auxlibs.Maps <> minus meth
+R13758:13762 CertiOS.framework.auxlibs.Maps <> merge meth
+R13631:13634 CertiOS.framework.auxlibs.Maps <> join meth
+R13733:13735 CertiOS.framework.auxlibs.Maps <> sig meth
+R13658:13660 CertiOS.framework.auxlibs.Maps <> del meth
+R13708:13710 CertiOS.framework.auxlibs.Maps <> set meth
+R13683:13685 CertiOS.framework.auxlibs.Maps <> get meth
+R13606:13608 CertiOS.framework.auxlibs.Maps <> emp meth
+R13579:13582 CertiOS.framework.auxlibs.Maps <> same meth
+R13550:13554 CertiOS.framework.auxlibs.Maps <> sameV meth
+R13523:13526 CertiOS.framework.auxlibs.Maps <> flip meth
+R13496:13499 CertiOS.framework.auxlibs.Maps <> isRw meth
+R13463:13469 CertiOS.framework.auxlibs.Maps <> usePerm meth
+R13474:13489 CertiOS.framework.model.language <> usePerm def
+R13504:13516 CertiOS.framework.model.language <> isRw def
+R13531:13543 CertiOS.framework.model.language <> flip def
+R13559:13572 CertiOS.framework.model.language <> sameV def
+R13587:13599 CertiOS.framework.model.language <> same def
+R13613:13624 CertiOS.framework.model.language <> emp def
+R13690:13701 CertiOS.framework.model.language <> get def
+R13715:13726 CertiOS.framework.model.language <> set def
+R13665:13676 CertiOS.framework.model.language <> del def
+R13740:13751 CertiOS.framework.model.language <> sig def
+R13639:13651 CertiOS.framework.model.language <> join def
+R13767:13780 CertiOS.framework.model.language <> merge def
+R13796:13809 CertiOS.framework.model.language <> minus def
+R13831:13848 CertiOS.framework.model.language <> map_dec_a thm
+R13831:13848 CertiOS.framework.model.language <> map_dec_a thm
+R13899:13919 CertiOS.framework.model.language <> map_join_emp thm
+R13899:13919 CertiOS.framework.model.language <> map_join_emp thm
+R13930:13950 CertiOS.framework.model.language <> map_join_pos thm
+R13930:13950 CertiOS.framework.model.language <> map_join_pos thm
+R13961:13982 CertiOS.framework.model.language <> map_join_comm thm
+R13961:13982 CertiOS.framework.model.language <> map_join_comm thm
+R13993:14015 CertiOS.framework.model.language <> map_join_assoc thm
+R13993:14015 CertiOS.framework.model.language <> map_join_assoc thm
+R14026:14049 CertiOS.framework.model.language <> map_join_cancel thm
+R14026:14049 CertiOS.framework.model.language <> map_join_cancel thm
+R14060:14082 CertiOS.framework.model.language <> map_join_deter thm
+R14060:14082 CertiOS.framework.model.language <> map_join_deter thm
+R14093:14111 CertiOS.framework.model.language <> map_sv_ref thm
+R14093:14111 CertiOS.framework.model.language <> map_sv_ref thm
+R14122:14141 CertiOS.framework.model.language <> map_sv_comm thm
+R14122:14141 CertiOS.framework.model.language <> map_sv_comm thm
+R14152:14172 CertiOS.framework.model.language <> map_sv_assoc thm
+R14152:14172 CertiOS.framework.model.language <> map_sv_assoc thm
+R14183:14203 CertiOS.framework.model.language <> map_perm_eql thm
+R14183:14203 CertiOS.framework.model.language <> map_perm_eql thm
+R14214:14235 CertiOS.framework.model.language <> map_flip_isRw thm
+R14214:14235 CertiOS.framework.model.language <> map_flip_isRw thm
+R14246:14265 CertiOS.framework.model.language <> map_flip_sv thm
+R14246:14265 CertiOS.framework.model.language <> map_flip_sv thm
+R14276:14295 CertiOS.framework.model.language <> map_emp_get thm
+R14276:14295 CertiOS.framework.model.language <> map_emp_get thm
+R14306:14321 CertiOS.framework.model.language <> map_eql thm
+R14306:14321 CertiOS.framework.model.language <> map_eql thm
+R14332:14352 CertiOS.framework.model.language <> map_disjoint thm
+R14332:14352 CertiOS.framework.model.language <> map_disjoint thm
+R14363:14385 CertiOS.framework.model.language <> map_get_unique thm
+R14363:14385 CertiOS.framework.model.language <> map_get_unique thm
+R14396:14415 CertiOS.framework.model.language <> map_get_sig thm
+R14396:14415 CertiOS.framework.model.language <> map_get_sig thm
+R14426:14446 CertiOS.framework.model.language <> map_get_sig' thm
+R14426:14446 CertiOS.framework.model.language <> map_get_sig' thm
+R14457:14476 CertiOS.framework.model.language <> map_get_set thm
+R14457:14476 CertiOS.framework.model.language <> map_get_set thm
+R14487:14507 CertiOS.framework.model.language <> map_get_set' thm
+R14487:14507 CertiOS.framework.model.language <> map_get_set' thm
+R14518:14543 CertiOS.framework.model.language <> map_join_get_none thm
+R14518:14543 CertiOS.framework.model.language <> map_join_get_none thm
+R14554:14579 CertiOS.framework.model.language <> map_join_get_some thm
+R14554:14579 CertiOS.framework.model.language <> map_join_get_some thm
+R14590:14616 CertiOS.framework.model.language <> map_join_getp_some thm
+R14590:14616 CertiOS.framework.model.language <> map_join_getp_some thm
+R14627:14646 CertiOS.framework.model.language <> map_set_emp thm
+R14627:14646 CertiOS.framework.model.language <> map_set_emp thm
+R14657:14676 CertiOS.framework.model.language <> map_set_sig thm
+R14657:14676 CertiOS.framework.model.language <> map_set_sig thm
+R14687:14712 CertiOS.framework.model.language <> map_join_set_none thm
+R14687:14712 CertiOS.framework.model.language <> map_join_set_none thm
+R14723:14748 CertiOS.framework.model.language <> map_join_set_perm thm
+R14723:14748 CertiOS.framework.model.language <> map_join_set_perm thm
+R14759:14783 CertiOS.framework.model.language <> map_join_get_sig thm
+R14759:14783 CertiOS.framework.model.language <> map_join_get_sig thm
+R14794:14823 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R14794:14823 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R14834:14855 CertiOS.framework.model.language <> map_merge_sem thm
+R14834:14855 CertiOS.framework.model.language <> map_merge_sem thm
+R14886:14908 CertiOS.framework.model.language <> map_join_merge thm
+R14886:14908 CertiOS.framework.model.language <> map_join_merge thm
+R14919:14941 CertiOS.framework.model.language <> map_merge_comm thm
+R14919:14941 CertiOS.framework.model.language <> map_merge_comm thm
+R14992:15013 CertiOS.framework.model.language <> map_minus_sem thm
+R14992:15013 CertiOS.framework.model.language <> map_minus_sem thm
+R15044:15066 CertiOS.framework.model.language <> map_join_minus thm
+R15044:15066 CertiOS.framework.model.language <> map_join_minus thm
+R15077:15096 CertiOS.framework.model.language <> map_del_sem thm
+R15077:15096 CertiOS.framework.model.language <> map_del_sem thm
+mod 15116:15122 <> EnvSpec
+def 15138:15138 EnvSpec B
+R15142:15144 CertiOS.framework.model.memory <> env def
+def 15160:15165 EnvSpec holder
+R15169:15169 CertiOS.framework.model.language EnvSpec B def
+R15174:15176 CertiOS.framework.auxlibs.Maps <> emp meth
+R15183:15189 CertiOS.framework.model.language EnvSpec <> mod
+R15212:15217 CertiOS.framework.auxlibs.MapLib MapFun <> modtype
+R15219:15225 CertiOS.framework.auxlibs.Modules tidspec <> modtype
+R15227:15233 CertiOS.framework.model.language EnvSpec <> modtype
+mod 15200:15208 <> CltEnvMod
+def 15248:15254 <> cltenvs
+R15259:15271 CertiOS.framework.model.language <> map def
+inst 15382:15385 <> CMap
+R15388:15394 CertiOS.framework.auxlibs.Maps <> PermMap class
+R15404:15410 CertiOS.framework.model.language <> cltenvs def
+R15400:15402 CertiOS.framework.model.memory <> env def
+R15396:15398 CertiOS.framework.auxlibs.Modules <> tid def
+R15759:15763 CertiOS.framework.auxlibs.Maps <> minus meth
+R15729:15733 CertiOS.framework.auxlibs.Maps <> merge meth
+R15597:15600 CertiOS.framework.auxlibs.Maps <> join meth
+R15703:15705 CertiOS.framework.auxlibs.Maps <> sig meth
+R15625:15627 CertiOS.framework.auxlibs.Maps <> del meth
+R15677:15679 CertiOS.framework.auxlibs.Maps <> set meth
+R15651:15653 CertiOS.framework.auxlibs.Maps <> get meth
+R15571:15573 CertiOS.framework.auxlibs.Maps <> emp meth
+R15543:15546 CertiOS.framework.auxlibs.Maps <> same meth
+R15513:15517 CertiOS.framework.auxlibs.Maps <> sameV meth
+R15485:15488 CertiOS.framework.auxlibs.Maps <> flip meth
+R15457:15460 CertiOS.framework.auxlibs.Maps <> isRw meth
+R15423:15429 CertiOS.framework.auxlibs.Maps <> usePerm meth
+R15434:15450 CertiOS.framework.model.language <> usePerm def
+R15465:15478 CertiOS.framework.model.language <> isRw def
+R15493:15506 CertiOS.framework.model.language <> flip def
+R15522:15536 CertiOS.framework.model.language <> sameV def
+R15551:15564 CertiOS.framework.model.language <> same def
+R15578:15590 CertiOS.framework.model.language <> emp def
+R15658:15670 CertiOS.framework.model.language <> get def
+R15684:15696 CertiOS.framework.model.language <> set def
+R15632:15644 CertiOS.framework.model.language <> del def
+R15710:15722 CertiOS.framework.model.language <> sig def
+R15605:15618 CertiOS.framework.model.language <> join def
+R15738:15752 CertiOS.framework.model.language <> merge def
+R15768:15782 CertiOS.framework.model.language <> minus def
+R15804:15822 CertiOS.framework.model.language <> map_dec_a thm
+R15804:15822 CertiOS.framework.model.language <> map_dec_a thm
+R15873:15894 CertiOS.framework.model.language <> map_join_emp thm
+R15873:15894 CertiOS.framework.model.language <> map_join_emp thm
+R15905:15926 CertiOS.framework.model.language <> map_join_pos thm
+R15905:15926 CertiOS.framework.model.language <> map_join_pos thm
+R15937:15959 CertiOS.framework.model.language <> map_join_comm thm
+R15937:15959 CertiOS.framework.model.language <> map_join_comm thm
+R15970:15993 CertiOS.framework.model.language <> map_join_assoc thm
+R15970:15993 CertiOS.framework.model.language <> map_join_assoc thm
+R16004:16028 CertiOS.framework.model.language <> map_join_cancel thm
+R16004:16028 CertiOS.framework.model.language <> map_join_cancel thm
+R16039:16062 CertiOS.framework.model.language <> map_join_deter thm
+R16039:16062 CertiOS.framework.model.language <> map_join_deter thm
+R16073:16092 CertiOS.framework.model.language <> map_sv_ref thm
+R16073:16092 CertiOS.framework.model.language <> map_sv_ref thm
+R16103:16123 CertiOS.framework.model.language <> map_sv_comm thm
+R16103:16123 CertiOS.framework.model.language <> map_sv_comm thm
+R16134:16155 CertiOS.framework.model.language <> map_sv_assoc thm
+R16134:16155 CertiOS.framework.model.language <> map_sv_assoc thm
+R16166:16187 CertiOS.framework.model.language <> map_perm_eql thm
+R16166:16187 CertiOS.framework.model.language <> map_perm_eql thm
+R16198:16220 CertiOS.framework.model.language <> map_flip_isRw thm
+R16198:16220 CertiOS.framework.model.language <> map_flip_isRw thm
+R16231:16251 CertiOS.framework.model.language <> map_flip_sv thm
+R16231:16251 CertiOS.framework.model.language <> map_flip_sv thm
+R16262:16282 CertiOS.framework.model.language <> map_emp_get thm
+R16262:16282 CertiOS.framework.model.language <> map_emp_get thm
+R16293:16309 CertiOS.framework.model.language <> map_eql thm
+R16293:16309 CertiOS.framework.model.language <> map_eql thm
+R16320:16341 CertiOS.framework.model.language <> map_disjoint thm
+R16320:16341 CertiOS.framework.model.language <> map_disjoint thm
+R16352:16375 CertiOS.framework.model.language <> map_get_unique thm
+R16352:16375 CertiOS.framework.model.language <> map_get_unique thm
+R16386:16406 CertiOS.framework.model.language <> map_get_sig thm
+R16386:16406 CertiOS.framework.model.language <> map_get_sig thm
+R16417:16438 CertiOS.framework.model.language <> map_get_sig' thm
+R16417:16438 CertiOS.framework.model.language <> map_get_sig' thm
+R16449:16469 CertiOS.framework.model.language <> map_get_set thm
+R16449:16469 CertiOS.framework.model.language <> map_get_set thm
+R16480:16501 CertiOS.framework.model.language <> map_get_set' thm
+R16480:16501 CertiOS.framework.model.language <> map_get_set' thm
+R16512:16538 CertiOS.framework.model.language <> map_join_get_none thm
+R16512:16538 CertiOS.framework.model.language <> map_join_get_none thm
+R16549:16575 CertiOS.framework.model.language <> map_join_get_some thm
+R16549:16575 CertiOS.framework.model.language <> map_join_get_some thm
+R16586:16613 CertiOS.framework.model.language <> map_join_getp_some thm
+R16586:16613 CertiOS.framework.model.language <> map_join_getp_some thm
+R16624:16644 CertiOS.framework.model.language <> map_set_emp thm
+R16624:16644 CertiOS.framework.model.language <> map_set_emp thm
+R16655:16675 CertiOS.framework.model.language <> map_set_sig thm
+R16655:16675 CertiOS.framework.model.language <> map_set_sig thm
+R16686:16712 CertiOS.framework.model.language <> map_join_set_none thm
+R16686:16712 CertiOS.framework.model.language <> map_join_set_none thm
+R16723:16749 CertiOS.framework.model.language <> map_join_set_perm thm
+R16723:16749 CertiOS.framework.model.language <> map_join_set_perm thm
+R16760:16785 CertiOS.framework.model.language <> map_join_get_sig thm
+R16760:16785 CertiOS.framework.model.language <> map_join_get_sig thm
+R16796:16826 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R16796:16826 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R16837:16859 CertiOS.framework.model.language <> map_merge_sem thm
+R16837:16859 CertiOS.framework.model.language <> map_merge_sem thm
+R16890:16913 CertiOS.framework.model.language <> map_join_merge thm
+R16890:16913 CertiOS.framework.model.language <> map_join_merge thm
+R16924:16947 CertiOS.framework.model.language <> map_merge_comm thm
+R16924:16947 CertiOS.framework.model.language <> map_merge_comm thm
+R16998:17020 CertiOS.framework.model.language <> map_minus_sem thm
+R16998:17020 CertiOS.framework.model.language <> map_minus_sem thm
+R17051:17074 CertiOS.framework.model.language <> map_join_minus thm
+R17051:17074 CertiOS.framework.model.language <> map_join_minus thm
+R17085:17105 CertiOS.framework.model.language <> map_del_sem thm
+R17085:17105 CertiOS.framework.model.language <> map_del_sem thm
+def 17156:17163 <> clientst
+R17183:17185 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R17173:17175 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R17170:17172 CertiOS.framework.model.memory <> env def
+R17176:17182 CertiOS.framework.model.language <> cltenvs def
+R17186:17188 CertiOS.framework.model.memory <> mem def
+def 17229:17230 <> ie
+R17235:17238 Coq.Init.Datatypes <> bool ind
+def 17274:17275 <> is
+R17280:17283 Coq.Init.Datatypes <> list ind
+R17285:17287 CertiOS.framework.model.language <> hid def
+def 17331:17332 <> cs
+R17337:17340 Coq.Init.Datatypes <> list ind
+R17342:17343 CertiOS.framework.model.language <> ie def
+def 17358:17364 <> localst
+R17377:17379 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R17372:17374 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R17370:17371 CertiOS.framework.model.language <> ie def
+R17375:17376 CertiOS.framework.model.language <> is def
+R17380:17381 CertiOS.framework.model.language <> cs def
+mod 17398:17408 <> LocalStSpec
+def 17424:17424 LocalStSpec B
+R17428:17434 CertiOS.framework.model.language <> localst def
+def 17450:17455 LocalStSpec holder
+R17459:17459 CertiOS.framework.model.language LocalStSpec B def
+R17464:17464 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17469:17470 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17474:17475 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17479:17479 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17465:17468 Coq.Init.Datatypes <> true constr
+R17471:17473 Coq.Init.Datatypes <> nil constr
+R17476:17478 Coq.Init.Datatypes <> nil constr
+R17486:17496 CertiOS.framework.model.language LocalStSpec <> mod
+R17520:17525 CertiOS.framework.auxlibs.MapLib MapFun <> modtype
+R17527:17533 CertiOS.framework.auxlibs.Modules tidspec <> modtype
+R17535:17545 CertiOS.framework.model.language LocalStSpec <> modtype
+mod 17507:17516 <> TaskLStMod
+def 17560:17569 <> ltaskstset
+R17573:17586 CertiOS.framework.model.language <> map def
+inst 17709:17718 <> TaskLStMap
+R17721:17727 CertiOS.framework.auxlibs.Maps <> PermMap class
+R17741:17750 CertiOS.framework.model.language <> ltaskstset def
+R17733:17739 CertiOS.framework.model.language <> localst def
+R17729:17731 CertiOS.framework.auxlibs.Modules <> tid def
+R18111:18115 CertiOS.framework.auxlibs.Maps <> minus meth
+R18080:18084 CertiOS.framework.auxlibs.Maps <> merge meth
+R17943:17946 CertiOS.framework.auxlibs.Maps <> join meth
+R18053:18055 CertiOS.framework.auxlibs.Maps <> sig meth
+R17972:17974 CertiOS.framework.auxlibs.Maps <> del meth
+R18026:18028 CertiOS.framework.auxlibs.Maps <> set meth
+R17999:18001 CertiOS.framework.auxlibs.Maps <> get meth
+R17916:17918 CertiOS.framework.auxlibs.Maps <> emp meth
+R17887:17890 CertiOS.framework.auxlibs.Maps <> same meth
+R17856:17860 CertiOS.framework.auxlibs.Maps <> sameV meth
+R17827:17830 CertiOS.framework.auxlibs.Maps <> flip meth
+R17798:17801 CertiOS.framework.auxlibs.Maps <> isRw meth
+R17763:17769 CertiOS.framework.auxlibs.Maps <> usePerm meth
+R17774:17791 CertiOS.framework.model.language <> usePerm def
+R17806:17820 CertiOS.framework.model.language <> isRw def
+R17835:17849 CertiOS.framework.model.language <> flip def
+R17865:17880 CertiOS.framework.model.language <> sameV def
+R17895:17909 CertiOS.framework.model.language <> same def
+R17923:17936 CertiOS.framework.model.language <> emp def
+R18006:18019 CertiOS.framework.model.language <> get def
+R18033:18046 CertiOS.framework.model.language <> set def
+R17979:17992 CertiOS.framework.model.language <> del def
+R18060:18073 CertiOS.framework.model.language <> sig def
+R17951:17965 CertiOS.framework.model.language <> join def
+R18089:18104 CertiOS.framework.model.language <> merge def
+R18120:18135 CertiOS.framework.model.language <> minus def
+R18157:18176 CertiOS.framework.model.language <> map_dec_a thm
+R18157:18176 CertiOS.framework.model.language <> map_dec_a thm
+R18227:18249 CertiOS.framework.model.language <> map_join_emp thm
+R18227:18249 CertiOS.framework.model.language <> map_join_emp thm
+R18260:18282 CertiOS.framework.model.language <> map_join_pos thm
+R18260:18282 CertiOS.framework.model.language <> map_join_pos thm
+R18293:18316 CertiOS.framework.model.language <> map_join_comm thm
+R18293:18316 CertiOS.framework.model.language <> map_join_comm thm
+R18327:18351 CertiOS.framework.model.language <> map_join_assoc thm
+R18327:18351 CertiOS.framework.model.language <> map_join_assoc thm
+R18362:18387 CertiOS.framework.model.language <> map_join_cancel thm
+R18362:18387 CertiOS.framework.model.language <> map_join_cancel thm
+R18398:18422 CertiOS.framework.model.language <> map_join_deter thm
+R18398:18422 CertiOS.framework.model.language <> map_join_deter thm
+R18433:18453 CertiOS.framework.model.language <> map_sv_ref thm
+R18433:18453 CertiOS.framework.model.language <> map_sv_ref thm
+R18464:18485 CertiOS.framework.model.language <> map_sv_comm thm
+R18464:18485 CertiOS.framework.model.language <> map_sv_comm thm
+R18496:18518 CertiOS.framework.model.language <> map_sv_assoc thm
+R18496:18518 CertiOS.framework.model.language <> map_sv_assoc thm
+R18529:18551 CertiOS.framework.model.language <> map_perm_eql thm
+R18529:18551 CertiOS.framework.model.language <> map_perm_eql thm
+R18562:18585 CertiOS.framework.model.language <> map_flip_isRw thm
+R18562:18585 CertiOS.framework.model.language <> map_flip_isRw thm
+R18596:18617 CertiOS.framework.model.language <> map_flip_sv thm
+R18596:18617 CertiOS.framework.model.language <> map_flip_sv thm
+R18628:18649 CertiOS.framework.model.language <> map_emp_get thm
+R18628:18649 CertiOS.framework.model.language <> map_emp_get thm
+R18660:18677 CertiOS.framework.model.language <> map_eql thm
+R18660:18677 CertiOS.framework.model.language <> map_eql thm
+R18688:18710 CertiOS.framework.model.language <> map_disjoint thm
+R18688:18710 CertiOS.framework.model.language <> map_disjoint thm
+R18721:18745 CertiOS.framework.model.language <> map_get_unique thm
+R18721:18745 CertiOS.framework.model.language <> map_get_unique thm
+R18756:18777 CertiOS.framework.model.language <> map_get_sig thm
+R18756:18777 CertiOS.framework.model.language <> map_get_sig thm
+R18788:18810 CertiOS.framework.model.language <> map_get_sig' thm
+R18788:18810 CertiOS.framework.model.language <> map_get_sig' thm
+R18821:18842 CertiOS.framework.model.language <> map_get_set thm
+R18821:18842 CertiOS.framework.model.language <> map_get_set thm
+R18853:18875 CertiOS.framework.model.language <> map_get_set' thm
+R18853:18875 CertiOS.framework.model.language <> map_get_set' thm
+R18886:18913 CertiOS.framework.model.language <> map_join_get_none thm
+R18886:18913 CertiOS.framework.model.language <> map_join_get_none thm
+R18924:18951 CertiOS.framework.model.language <> map_join_get_some thm
+R18924:18951 CertiOS.framework.model.language <> map_join_get_some thm
+R18962:18990 CertiOS.framework.model.language <> map_join_getp_some thm
+R18962:18990 CertiOS.framework.model.language <> map_join_getp_some thm
+R19001:19022 CertiOS.framework.model.language <> map_set_emp thm
+R19001:19022 CertiOS.framework.model.language <> map_set_emp thm
+R19033:19054 CertiOS.framework.model.language <> map_set_sig thm
+R19033:19054 CertiOS.framework.model.language <> map_set_sig thm
+R19065:19092 CertiOS.framework.model.language <> map_join_set_none thm
+R19065:19092 CertiOS.framework.model.language <> map_join_set_none thm
+R19103:19130 CertiOS.framework.model.language <> map_join_set_perm thm
+R19103:19130 CertiOS.framework.model.language <> map_join_set_perm thm
+R19141:19167 CertiOS.framework.model.language <> map_join_get_sig thm
+R19141:19167 CertiOS.framework.model.language <> map_join_get_sig thm
+R19178:19209 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R19178:19209 CertiOS.framework.model.language <> map_join_get_sig_perm thm
+R19220:19243 CertiOS.framework.model.language <> map_merge_sem thm
+R19220:19243 CertiOS.framework.model.language <> map_merge_sem thm
+R19274:19298 CertiOS.framework.model.language <> map_join_merge thm
+R19274:19298 CertiOS.framework.model.language <> map_join_merge thm
+R19309:19333 CertiOS.framework.model.language <> map_merge_comm thm
+R19309:19333 CertiOS.framework.model.language <> map_merge_comm thm
+R19384:19407 CertiOS.framework.model.language <> map_minus_sem thm
+R19384:19407 CertiOS.framework.model.language <> map_minus_sem thm
+R19438:19462 CertiOS.framework.model.language <> map_join_minus thm
+R19438:19462 CertiOS.framework.model.language <> map_join_minus thm
+R19473:19494 CertiOS.framework.model.language <> map_del_sem thm
+R19473:19494 CertiOS.framework.model.language <> map_del_sem thm
+def 19546:19548 <> isr
+R19557:19560 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R19561:19564 Coq.Init.Datatypes <> bool ind
+R19554:19556 CertiOS.framework.model.language <> hid def
+def 19579:19584 <> isrupd
+R19591:19593 CertiOS.framework.model.language <> isr def
+R19601:19603 CertiOS.framework.model.language <> hid def
+R19611:19614 Coq.Init.Datatypes <> bool ind
+R19635:19637 CertiOS.framework.model.language <> hid def
+R19646:19652 Coq.Arith.EqNat <> beq_nat syndef
+R19656:19656 CertiOS.framework.model.language <> y var
+R19654:19654 CertiOS.framework.model.language <> x var
+R19670:19670 CertiOS.framework.model.language <> r var
+R19672:19672 CertiOS.framework.model.language <> y var
+R19663:19663 CertiOS.framework.model.language <> b var
+def 19686:19692 <> leb_nat
+R19699:19701 Coq.Init.Datatypes <> nat ind
+R19709:19712 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R19713:19716 Coq.Init.Datatypes <> bool ind
+R19706:19708 Coq.Init.Datatypes <> nat ind
+R19729:19729 CertiOS.framework.model.language <> m var
+R19740:19740 Coq.Init.Datatypes <> O constr
+R19753:19755 Coq.Init.Datatypes <> nat ind
+R19760:19763 Coq.Init.Datatypes <> true constr
+R19769:19769 Coq.Init.Datatypes <> S constr
+R19785:19787 Coq.Init.Datatypes <> nat ind
+R19798:19798 CertiOS.framework.model.language <> n var
+R19834:19834 Coq.Init.Datatypes <> O constr
+R19840:19844 Coq.Init.Datatypes <> false constr
+R19875:19875 Coq.Init.Datatypes <> S constr
+R19884:19890 CertiOS.framework.model.language <> leb_nat def
+def 19947:19954 <> highpri'
+R19961:19963 CertiOS.framework.model.language <> isr def
+R19971:19973 Coq.Init.Datatypes <> nat ind
+R19978:19980 CertiOS.framework.model.language <> hid def
+R19993:19993 CertiOS.framework.model.language <> n var
+R20005:20005 Coq.Init.Datatypes <> O constr
+R20010:20013 CertiOS.framework.model.language <> INUM def
+R20020:20020 Coq.Init.Datatypes <> S constr
+R20037:20044 CertiOS.framework.model.language <> highpri' def
+R20046:20046 CertiOS.framework.model.language <> r var
+R20075:20075 CertiOS.framework.model.language <> r var
+R20162:20162 CertiOS.framework.model.language <> y var
+R20109:20115 CertiOS.framework.model.language <> leb_nat def
+R20121:20121 CertiOS.framework.model.language <> y var
+R20137:20137 CertiOS.framework.model.language <> y var
+def 20182:20188 <> highpri
+R20193:20195 CertiOS.framework.model.language <> isr def
+R20201:20208 CertiOS.framework.model.language <> highpri' def
+R20212:20215 CertiOS.framework.model.language <> INUM def
+R20210:20210 CertiOS.framework.model.language <> r var
+def 20230:20238 <> higherint
+R20243:20245 CertiOS.framework.model.language <> isr def
+R20251:20253 CertiOS.framework.model.language <> hid def
+R20277:20280 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20285:20287 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20281:20281 CertiOS.framework.model.language <> r var
+R20283:20284 CertiOS.framework.model.language <> i' var
+R20288:20292 Coq.Init.Datatypes <> false constr
+R20273:20275 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R20271:20272 CertiOS.framework.model.language <> i' var
+R20276:20276 CertiOS.framework.model.language <> i var
+def 20308:20313 <> empisr
+R20327:20329 CertiOS.framework.model.language <> hid def
+R20335:20339 Coq.Init.Datatypes <> false constr
+def 20356:20362 <> osstate
+R20383:20385 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R20377:20379 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R20369:20376 CertiOS.framework.model.language <> clientst def
+R20380:20382 CertiOS.framework.model.language <> isr def
+R20386:20395 CertiOS.framework.model.language <> ltaskstset def
+def 20412:20415 <> smem
+R20432:20434 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R20426:20428 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R20423:20425 CertiOS.framework.model.memory <> env def
+R20429:20431 CertiOS.framework.model.memory <> env def
+R20435:20437 CertiOS.framework.model.memory <> mem def
+def 20454:20459 <> taskst
+R20476:20478 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R20469:20472 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R20465:20468 CertiOS.framework.model.language <> smem def
+R20473:20475 CertiOS.framework.model.language <> isr def
+R20479:20485 CertiOS.framework.model.language <> localst def
+def 20501:20508 <> get_smem
+R20516:20521 CertiOS.framework.model.language <> taskst def
+R20539:20540 CertiOS.framework.model.language <> ts var
+R20553:20553 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20555:20556 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20558:20559 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20561:20561 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 20591:20596 <> lworld
+R20637:20639 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R20627:20629 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R20616:20618 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R20608:20610 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R20603:20607 CertiOS.framework.model.language <> lprog def
+R20611:20615 CertiOS.framework.model.language <> tasks def
+R20619:20626 CertiOS.framework.model.language <> clientst def
+R20630:20636 CertiOS.framework.model.language <> osstate def
+R20640:20642 CertiOS.framework.auxlibs.Modules <> tid def
+def 20687:20693 <> funtype
+R20704:20707 Coq.Init.Datatypes <> prod ind
+R20714:20721 CertiOS.framework.model.memory <> typelist def
+R20709:20712 CertiOS.framework.model.memory <> type ind
+def 20736:20743 <> api_code
+R20755:20758 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20759:20767 CertiOS.framework.model.language <> spec_code ind
+R20748:20754 CertiOS.framework.model.memory <> vallist def
+def 20782:20786 <> osapi
+R20791:20794 Coq.Init.Datatypes <> prod ind
+R20806:20812 CertiOS.framework.model.language <> funtype def
+R20796:20803 CertiOS.framework.model.language <> api_code def
+def 20829:20837 <> osapispec
+R20846:20849 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20850:20855 Coq.Init.Datatypes <> option ind
+R20857:20861 CertiOS.framework.model.language <> osapi def
+R20843:20845 CertiOS.framework.model.language <> fid def
+def 20876:20883 <> int_code
+R20888:20896 CertiOS.framework.model.language <> spec_code ind
+def 20911:20919 <> osintspec
+R20927:20930 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20931:20936 Coq.Init.Datatypes <> option ind
+R20938:20945 CertiOS.framework.model.language <> int_code def
+R20924:20926 CertiOS.framework.model.language <> hid def
+def 20960:20966 <> ossched
+R20977:20980 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20984:20987 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20981:20983 CertiOS.framework.auxlibs.Modules <> tid def
+R20971:20976 CertiOS.framework.model.language <> osabst def
+def 21006:21011 <> osspec
+R21038:21040 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R21026:21028 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R21017:21025 CertiOS.framework.model.language <> osapispec def
+R21029:21037 CertiOS.framework.model.language <> osintspec def
+R21041:21047 CertiOS.framework.model.language <> ossched def
+def 21063:21067 <> hprog
+R21081:21083 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R21073:21080 CertiOS.framework.model.language <> progunit def
+R21084:21089 CertiOS.framework.model.language <> osspec def
+def 21106:21111 <> hworld
+R21141:21143 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R21130:21132 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R21122:21124 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R21117:21121 CertiOS.framework.model.language <> hprog def
+R21125:21129 CertiOS.framework.model.language <> tasks def
+R21133:21140 CertiOS.framework.model.language <> clientst def
+R21144:21149 CertiOS.framework.model.language <> osabst def
+def 21167:21171 <> isrdy
+R21177:21186 CertiOS.framework.model.language <> taskstatus ind
+R21199:21200 CertiOS.framework.model.language <> st var
+R21213:21215 CertiOS.framework.model.language <> rdy constr
+R21220:21223 Coq.Init.Logic <> True ind
+R21236:21240 Coq.Init.Logic <> False ind
+def 21261:21265 <> eqenv
+R21274:21279 CertiOS.framework.model.language <> taskst def
+R21306:21307 CertiOS.framework.model.language <> o' var
+R21303:21303 CertiOS.framework.model.language <> o var
+R21326:21326 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21328:21328 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21330:21330 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21332:21332 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21336:21336 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21340:21340 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21342:21342 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21345:21345 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21348:21348 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21351:21351 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21356:21356 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21361:21361 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21371:21374 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R21367:21368 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21376:21378 Coq.Init.Logic <> :type_scope:x_'='_x not

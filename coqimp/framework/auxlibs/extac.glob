@@ -1,0 +1,10 @@
+DIGEST efbca99d11477f6204db8190eeaa6763
+FCertiOS.framework.auxlibs.extac
+R580:583 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R580:583 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1117:1120 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R1117:1120 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R1186:1189 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1186:1189 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1226:1230 Coq.Init.Logic <> False ind
+R1226:1230 Coq.Init.Logic <> False ind

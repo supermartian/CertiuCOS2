@@ -1,0 +1,384 @@
+DIGEST 30f2d1a90faadee6c85e406f6c981ff2
+FCertiOS.framework.model.code_notations
+R15:22 CertiOS.framework.model.language <> <> lib
+R40:45 CertiOS.framework.model.memory <> <> lib
+R63:67 CertiOS.framework.model.opsem <> <> lib
+R110:114 CertiOS.framework.model.language <> enull constr
+not 97:97 <> :code_scope:'NULL'
+R165:172 CertiOS.framework.model.language <> econst32 constr
+R175:182 CertiOS.framework.auxlibs.Integers Int repr def
+not 153:153 <> :code_scope:'′'_x
+R238:241 CertiOS.framework.model.language <> evar constr
+not 226:226 <> :code_scope:x_'′'
+R294:299 CertiOS.framework.model.language <> ederef constr
+not 282:282 <> :code_scope:'∗'_x
+R358:364 CertiOS.framework.model.language <> eaddrof constr
+not 342:342 <> :code_scope:'&ₐ'_x
+R429:433 CertiOS.framework.model.language <> ecast constr
+not 406:406 <> :code_scope:'〈'_x_'〉'_x
+R497:506 CertiOS.framework.model.language <> earrayelem constr
+not 478:478 <> :code_scope:x_'['_x_']'
+R568:573 CertiOS.framework.model.language <> efield constr
+R576:581 CertiOS.framework.model.language <> ederef constr
+not 552:552 <> :code_scope:x_'→'_x
+R642:646 CertiOS.framework.model.language <> eunop constr
+R648:655 CertiOS.framework.model.memory <> negation constr
+not 627:627 <> :code_scope:'∼'_x
+R714:719 CertiOS.framework.model.language <> ebinop constr
+R721:726 CertiOS.framework.model.memory <> ominus constr
+not 698:698 <> :code_scope:x_'−'_x
+R807:812 CertiOS.framework.model.language <> ebinop constr
+R814:818 CertiOS.framework.model.memory <> oplus constr
+not 790:790 <> :code_scope:x_'+ₑ'_x
+R897:903 CertiOS.framework.model.language <> sassign constr
+R908:913 CertiOS.framework.model.language <> ebinop constr
+R924:931 CertiOS.framework.model.language <> econst32 constr
+R934:941 CertiOS.framework.auxlibs.Integers Int repr def
+R915:919 CertiOS.framework.model.memory <> oplus constr
+not 883:883 <> :code_scope:'++'_x
+R1025:1031 CertiOS.framework.model.language <> sassign constr
+R1036:1041 CertiOS.framework.model.language <> ebinop constr
+R1053:1060 CertiOS.framework.model.language <> econst32 constr
+R1063:1070 CertiOS.framework.auxlibs.Integers Int repr def
+R1043:1048 CertiOS.framework.model.memory <> ominus constr
+not 1010:1010 <> :code_scope:'−−'_x
+R1154:1159 CertiOS.framework.model.language <> ebinop constr
+R1161:1166 CertiOS.framework.model.memory <> omulti constr
+not 1139:1139 <> :code_scope:x_'×'_x
+R1246:1251 CertiOS.framework.model.language <> ebinop constr
+R1253:1256 CertiOS.framework.model.memory <> odiv constr
+not 1231:1231 <> :code_scope:x_'÷'_x
+R1337:1342 CertiOS.framework.model.language <> ebinop constr
+R1344:1350 CertiOS.framework.model.memory <> olshift constr
+not 1321:1321 <> :code_scope:x_'≪'_x
+R1431:1436 CertiOS.framework.model.language <> ebinop constr
+R1438:1444 CertiOS.framework.model.memory <> orshift constr
+not 1415:1415 <> :code_scope:x_'≫'_x
+R1527:1532 CertiOS.framework.model.language <> ebinop constr
+R1534:1537 CertiOS.framework.model.memory <> oand constr
+not 1509:1509 <> :code_scope:x_'&&ₑ'_x
+R1622:1627 CertiOS.framework.model.language <> ebinop constr
+R1629:1631 CertiOS.framework.model.memory <> oor constr
+not 1602:1602 <> :code_scope:x_'||ₑ'_x
+R1713:1718 CertiOS.framework.model.language <> ebinop constr
+R1720:1726 CertiOS.framework.model.memory <> obitand constr
+not 1696:1696 <> :code_scope:x_'&ₑ'_x
+R1809:1814 CertiOS.framework.model.language <> ebinop constr
+R1816:1821 CertiOS.framework.model.memory <> obitor constr
+not 1791:1791 <> :code_scope:x_'|ₑ'_x
+R1904:1909 CertiOS.framework.model.language <> ebinop constr
+R1911:1913 CertiOS.framework.model.memory <> oeq constr
+not 1886:1886 <> :code_scope:x_'==ₑ'_x
+R1996:2000 CertiOS.framework.model.language <> eunop constr
+R2011:2016 CertiOS.framework.model.language <> ebinop constr
+R2018:2020 CertiOS.framework.model.memory <> oeq constr
+R2002:2008 CertiOS.framework.model.memory <> oppsite constr
+not 1978:1978 <> :code_scope:x_'!=ₑ'_x
+R2130:2135 CertiOS.framework.model.language <> ebinop constr
+R2137:2139 CertiOS.framework.model.memory <> olt constr
+not 2113:2113 <> :code_scope:x_'<ₑ'_x
+R2238:2243 CertiOS.framework.model.language <> ebinop constr
+R2245:2247 CertiOS.framework.model.memory <> olt constr
+not 2221:2221 <> :code_scope:x_'>ₑ'_x
+R2329:2334 CertiOS.framework.model.language <> ebinop constr
+R2358:2363 CertiOS.framework.model.language <> ebinop constr
+R2365:2367 CertiOS.framework.model.memory <> oeq constr
+R2341:2346 CertiOS.framework.model.language <> ebinop constr
+R2348:2350 CertiOS.framework.model.memory <> olt constr
+R2336:2338 CertiOS.framework.model.memory <> oor constr
+not 2313:2313 <> :code_scope:x_'≥'_x
+R2468:2474 CertiOS.framework.model.language <> sassign constr
+not 2451:2451 <> :code_scope:x_'=ₑ'_x
+R2616:2622 CertiOS.framework.model.language <> sassign constr
+R2627:2632 CertiOS.framework.model.language <> ebinop constr
+R2634:2640 CertiOS.framework.model.memory <> obitand constr
+not 2601:2601 <> :code_scope:x_'&='_x
+R2745:2747 CertiOS.framework.model.language <> sif constr
+not 2707:2707 <> :code_scope:'IF'_'('_x_')'_'{'_x_'}'_'ELSE'_'{'_x_'}'
+R2917:2923 CertiOS.framework.model.language <> sifthen constr
+not 2894:2894 <> :code_scope:'If'_'('_x_')'_'{'_x_'}'
+R3038:3043 CertiOS.framework.model.language <> swhile constr
+not 3012:3012 <> :code_scope:'WHILE'_'('_x_')'_'{'_x_'}'
+R3150:3153 CertiOS.framework.model.language <> sret constr
+not 3135:3135 <> :code_scope:'RETURN'
+R3211:3215 CertiOS.framework.model.language <> srete constr
+not 3193:3193 <> :code_scope:'RETURN'_x
+R3272:3276 CertiOS.framework.model.language <> scall constr
+R3280:3282 Coq.Init.Datatypes <> nil constr
+not 3257:3257 <> :code_scope:x_'(­)'
+R3349:3353 CertiOS.framework.model.language <> scall constr
+R3360:3361 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3362:3364 Coq.Init.Datatypes <> nil constr
+not 3324:3324 <> :code_scope:x_'(­'_x_'­)'
+R3438:3442 CertiOS.framework.model.language <> scall constr
+R3449:3450 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3453:3454 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3455:3457 Coq.Init.Datatypes <> nil constr
+not 3412:3412 <> :code_scope:x_'(-'_x_','_x_'-)'
+R3538:3542 CertiOS.framework.model.language <> scall constr
+R3549:3550 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3553:3554 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3557:3558 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3559:3561 Coq.Init.Datatypes <> nil constr
+not 3505:3505 <> :code_scope:x_'(­'_x_','_x_','_x_'­)'
+R3647:3651 CertiOS.framework.model.language <> scall constr
+R3658:3659 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3662:3663 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3666:3667 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3670:3671 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3672:3674 Coq.Init.Datatypes <> nil constr
+not 3609:3609 <> :code_scope:x_'(­'_x_','_x_','_x_','_x_'­)'
+R3765:3769 CertiOS.framework.model.language <> scall constr
+R3776:3777 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3780:3781 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3784:3785 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3788:3789 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3792:3793 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3794:3796 Coq.Init.Datatypes <> nil constr
+not 3722:3722 <> :code_scope:x_'(­'_x_','_x_','_x_','_x_','_x_'­)'
+R3895:3899 CertiOS.framework.model.language <> scall constr
+R3906:3907 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3910:3911 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3914:3915 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3918:3919 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3922:3923 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3926:3927 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3928:3930 Coq.Init.Datatypes <> nil constr
+not 3844:3844 <> :code_scope:x_'(­'_x_','_x_','_x_','_x_','_x_','_x_'­)'
+R4003:4008 CertiOS.framework.model.language <> scalle constr
+R4014:4016 Coq.Init.Datatypes <> nil constr
+not 3978:3978 <> :code_scope:x_'=ᶠ'_x_'(·)'
+R4089:4094 CertiOS.framework.model.language <> scalle constr
+R4103:4104 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4105:4107 Coq.Init.Datatypes <> nil constr
+not 4056:4056 <> :code_scope:x_'=ᶠ'_x_'(·'_x_'·)'
+R4191:4196 CertiOS.framework.model.language <> scalle constr
+R4205:4206 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4209:4210 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4211:4213 Coq.Init.Datatypes <> nil constr
+not 4153:4153 <> :code_scope:x_'=ᶠ'_x_'(·'_x_','_x_'·)'
+R4302:4307 CertiOS.framework.model.language <> scalle constr
+R4316:4317 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4320:4321 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4324:4325 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4326:4328 Coq.Init.Datatypes <> nil constr
+not 4259:4259 <> :code_scope:x_'=ᶠ'_x_'(·'_x_','_x_','_x_'·)'
+R4423:4428 CertiOS.framework.model.language <> scalle constr
+R4437:4438 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4441:4442 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4445:4446 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4449:4450 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4451:4453 Coq.Init.Datatypes <> nil constr
+not 4374:4374 <> :code_scope:x_'=ᶠ'_x_'(·'_x_','_x_','_x_','_x_'·)'
+R4553:4558 CertiOS.framework.model.language <> scalle constr
+R4567:4568 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4571:4572 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4575:4576 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4579:4580 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4583:4584 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4585:4587 Coq.Init.Datatypes <> nil constr
+not 4499:4499 <> :code_scope:x_'=ᶠ'_x_'(·'_x_','_x_','_x_','_x_','_x_'·)'
+R4692:4697 CertiOS.framework.model.language <> scalle constr
+R4706:4707 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4710:4711 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4714:4715 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4718:4720 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4723:4726 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4730:4732 Coq.Init.Datatypes <> nil constr
+not 4633:4633 <> :code_scope:x_'=ᶠ'_x_'(·'_x_','_x_','_x_','_x_','_x_','_x_'·)'
+R4797:4800 CertiOS.framework.model.language <> sseq constr
+not 4778:4778 <> :code_scope:x_';ₛ'_x
+R4911:4916 CertiOS.framework.model.language <> sprint constr
+not 4894:4894 <> :code_scope:'printf'_x
+R4971:4975 CertiOS.framework.model.language <> sprim constr
+R4977:4981 CertiOS.framework.model.language <> exint constr
+not 4958:4958 <> :code_scope:'IRET'
+R5036:5040 CertiOS.framework.model.language <> sprim constr
+R5043:5048 CertiOS.framework.model.language <> switch constr
+R5050:5061 CertiOS.framework.model.opsem <> OSTCBHighRdy def
+not 5021:5021 <> :code_scope:'SWITCH'
+R5121:5125 CertiOS.framework.model.language <> sprim constr
+R5128:5130 CertiOS.framework.model.language <> eoi constr
+R5133:5140 CertiOS.framework.auxlibs.Integers Int repr def
+not 5103:5103 <> :code_scope:'EOI'_'('_x_')'
+R5208:5212 CertiOS.framework.model.language <> sprim constr
+R5214:5219 CertiOS.framework.model.language <> excrit constr
+not 5186:5186 <> :code_scope:'EXIT_CRITICAL'
+R5282:5286 CertiOS.framework.model.language <> sprim constr
+R5288:5293 CertiOS.framework.model.language <> encrit constr
+not 5259:5259 <> :code_scope:'ENTER_CRITICAL'
+R5345:5349 CertiOS.framework.model.language <> sprim constr
+R5351:5353 CertiOS.framework.model.language <> cli constr
+not 5333:5333 <> :code_scope:'CLI'
+R5405:5409 CertiOS.framework.model.language <> sprim constr
+R5411:5413 CertiOS.framework.model.language <> sti constr
+not 5393:5393 <> :code_scope:'STI'
+R5478:5482 CertiOS.framework.model.language <> sprim constr
+R5485:5491 CertiOS.framework.model.language <> checkis constr
+not 5453:5453 <> :code_scope:x_'<-'_'CHECKIS'
+R5560:5564 CertiOS.framework.model.memory <> Tvoid constr
+not 5547:5547 <> :code_scope:'Void'
+R5618:5622 CertiOS.framework.model.memory <> Tint8 constr
+not 5604:5604 <> :code_scope:'Int8u'
+R5677:5682 CertiOS.framework.model.memory <> Tint16 constr
+not 5662:5662 <> :code_scope:'Int16u'
+R5735:5740 CertiOS.framework.model.memory <> Tint32 constr
+not 5721:5721 <> :code_scope:'Int32'
+R5795:5800 CertiOS.framework.model.memory <> Tint32 constr
+not 5780:5780 <> :code_scope:'Int32u'
+R5851:5854 CertiOS.framework.model.memory <> Tptr constr
+not 5839:5839 <> :code_scope:'Ptr'
+R5905:5908 CertiOS.framework.model.memory <> Tptr constr
+not 5893:5893 <> :code_scope:x_'∗'
+R5982:5988 CertiOS.framework.model.memory <> Tstruct constr
+not 5949:5949 <> :code_scope:'STRUCT'_x_'­{'_x_'}­'
+R6057:6064 CertiOS.framework.model.memory <> Tcom_ptr constr
+not 6033:6033 <> :code_scope:'STRUCT'_x_'⋆'
+R6278:6281 CertiOS.framework.model.memory <> dnil constr
+not 6259:6259 <> :code_scope:'⌞'_'⌟'
+R6365:6369 CertiOS.framework.model.memory <> dcons constr
+R6375:6378 CertiOS.framework.model.memory <> dnil constr
+not 6341:6341 <> :code_scope:'⌞'_x_'@'_x_'⌟'
+R6480:6484 CertiOS.framework.model.memory <> dcons constr
+R6493:6497 CertiOS.framework.model.memory <> dcons constr
+R6505:6508 CertiOS.framework.model.memory <> dnil constr
+not 6438:6438 <> :code_scope:'⌞'_x_'@'_x_';'_x_'@'_x_'⌟'
+R6627:6631 CertiOS.framework.model.memory <> dcons constr
+R6640:6644 CertiOS.framework.model.memory <> dcons constr
+R6653:6657 CertiOS.framework.model.memory <> dcons constr
+R6665:6668 CertiOS.framework.model.memory <> dnil constr
+not 6570:6570 <> :code_scope:'⌞'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_'⌟'
+R6800:6804 CertiOS.framework.model.memory <> dcons constr
+R6813:6817 CertiOS.framework.model.memory <> dcons constr
+R6826:6830 CertiOS.framework.model.memory <> dcons constr
+R6839:6843 CertiOS.framework.model.memory <> dcons constr
+R6851:6854 CertiOS.framework.model.memory <> dnil constr
+not 6732:6732 <> :code_scope:'⌞'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_'⌟'
+R7003:7007 CertiOS.framework.model.memory <> dcons constr
+R7016:7020 CertiOS.framework.model.memory <> dcons constr
+R7029:7033 CertiOS.framework.model.memory <> dcons constr
+R7042:7046 CertiOS.framework.model.memory <> dcons constr
+R7055:7059 CertiOS.framework.model.memory <> dcons constr
+R7067:7070 CertiOS.framework.model.memory <> dnil constr
+not 6924:6924 <> :code_scope:'⌞'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_'⌟'
+R7233:7237 CertiOS.framework.model.memory <> dcons constr
+R7246:7250 CertiOS.framework.model.memory <> dcons constr
+R7259:7263 CertiOS.framework.model.memory <> dcons constr
+R7272:7276 CertiOS.framework.model.memory <> dcons constr
+R7286:7290 CertiOS.framework.model.memory <> dcons constr
+R7299:7303 CertiOS.framework.model.memory <> dcons constr
+R7311:7314 CertiOS.framework.model.memory <> dnil constr
+not 7140:7140 <> :code_scope:'⌞'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_'⌟'
+R7488:7492 CertiOS.framework.model.memory <> dcons constr
+R7501:7505 CertiOS.framework.model.memory <> dcons constr
+R7514:7518 CertiOS.framework.model.memory <> dcons constr
+R7527:7531 CertiOS.framework.model.memory <> dcons constr
+R7540:7544 CertiOS.framework.model.memory <> dcons constr
+R7554:7558 CertiOS.framework.model.memory <> dcons constr
+R7567:7571 CertiOS.framework.model.memory <> dcons constr
+R7579:7582 CertiOS.framework.model.memory <> dnil constr
+not 7385:7385 <> :code_scope:'⌞'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_'⌟'
+R7771:7775 CertiOS.framework.model.memory <> dcons constr
+R7784:7788 CertiOS.framework.model.memory <> dcons constr
+R7797:7801 CertiOS.framework.model.memory <> dcons constr
+R7810:7814 CertiOS.framework.model.memory <> dcons constr
+R7823:7827 CertiOS.framework.model.memory <> dcons constr
+R7836:7840 CertiOS.framework.model.memory <> dcons constr
+R7850:7854 CertiOS.framework.model.memory <> dcons constr
+R7863:7867 CertiOS.framework.model.memory <> dcons constr
+R7875:7878 CertiOS.framework.model.memory <> dnil constr
+not 7654:7654 <> :code_scope:'⌞'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_'⌟'
+R8081:8085 CertiOS.framework.model.memory <> dcons constr
+R8094:8098 CertiOS.framework.model.memory <> dcons constr
+R8107:8111 CertiOS.framework.model.memory <> dcons constr
+R8120:8124 CertiOS.framework.model.memory <> dcons constr
+R8133:8137 CertiOS.framework.model.memory <> dcons constr
+R8146:8150 CertiOS.framework.model.memory <> dcons constr
+R8159:8163 CertiOS.framework.model.memory <> dcons constr
+R8172:8176 CertiOS.framework.model.memory <> dcons constr
+R8185:8189 CertiOS.framework.model.memory <> dcons constr
+R8197:8200 CertiOS.framework.model.memory <> dnil constr
+not 7952:7952 <> :code_scope:'⌞'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_'⌟'
+R8417:8421 CertiOS.framework.model.memory <> dcons constr
+R8430:8434 CertiOS.framework.model.memory <> dcons constr
+R8443:8447 CertiOS.framework.model.memory <> dcons constr
+R8456:8460 CertiOS.framework.model.memory <> dcons constr
+R8469:8473 CertiOS.framework.model.memory <> dcons constr
+R8482:8486 CertiOS.framework.model.memory <> dcons constr
+R8495:8499 CertiOS.framework.model.memory <> dcons constr
+R8508:8512 CertiOS.framework.model.memory <> dcons constr
+R8521:8525 CertiOS.framework.model.memory <> dcons constr
+R8534:8538 CertiOS.framework.model.memory <> dcons constr
+R8548:8551 CertiOS.framework.model.memory <> dnil constr
+not 8274:8274 <> :code_scope:'⌞'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_'⌟'
+R8783:8787 CertiOS.framework.model.memory <> dcons constr
+R8796:8800 CertiOS.framework.model.memory <> dcons constr
+R8809:8813 CertiOS.framework.model.memory <> dcons constr
+R8822:8826 CertiOS.framework.model.memory <> dcons constr
+R8835:8839 CertiOS.framework.model.memory <> dcons constr
+R8848:8852 CertiOS.framework.model.memory <> dcons constr
+R8861:8865 CertiOS.framework.model.memory <> dcons constr
+R8874:8878 CertiOS.framework.model.memory <> dcons constr
+R8887:8891 CertiOS.framework.model.memory <> dcons constr
+R8900:8904 CertiOS.framework.model.memory <> dcons constr
+R8915:8919 CertiOS.framework.model.memory <> dcons constr
+R8929:8932 CertiOS.framework.model.memory <> dnil constr
+not 8627:8627 <> :code_scope:'⌞'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_'⌟'
+R9178:9182 CertiOS.framework.model.memory <> dcons constr
+R9191:9195 CertiOS.framework.model.memory <> dcons constr
+R9204:9208 CertiOS.framework.model.memory <> dcons constr
+R9217:9221 CertiOS.framework.model.memory <> dcons constr
+R9230:9234 CertiOS.framework.model.memory <> dcons constr
+R9243:9247 CertiOS.framework.model.memory <> dcons constr
+R9256:9260 CertiOS.framework.model.memory <> dcons constr
+R9269:9273 CertiOS.framework.model.memory <> dcons constr
+R9282:9286 CertiOS.framework.model.memory <> dcons constr
+R9295:9299 CertiOS.framework.model.memory <> dcons constr
+R9310:9314 CertiOS.framework.model.memory <> dcons constr
+R9325:9329 CertiOS.framework.model.memory <> dcons constr
+R9339:9342 CertiOS.framework.model.memory <> dnil constr
+not 9008:9008 <> :code_scope:'⌞'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_';'_x_'@'_x_'⌟'
+R9449:9456 CertiOS.framework.model.language <> econst32 constr
+R9458:9465 CertiOS.framework.auxlibs.Integers Int zero def
+not 9434:9434 <> :code_scope:'CFalse'
+R9519:9526 CertiOS.framework.model.language <> econst32 constr
+R9528:9534 CertiOS.framework.auxlibs.Integers Int one def
+not 9505:9505 <> :code_scope:'CTrue'
+R9587:9591 CertiOS.framework.model.language <> sskip constr
+R9593:9596 Coq.Init.Datatypes <> None constr
+not 9574:9574 <> :code_scope:'Skip'
+R9649:9663 CertiOS.framework.auxlibs.Coqlib <> nat_of_Z def
+not 9637:9637 <> :code_scope:'∘'_x
+def 9711:9714 <> cfun
+R9725:9727 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R9720:9724 CertiOS.framework.model.memory <> ident def
+R9728:9735 CertiOS.framework.model.language <> function def
+def 9756:9768 <> convert_cfuns
+R9776:9779 Coq.Init.Datatypes <> list ind
+R9781:9784 CertiOS.framework.model.code_notations <> cfun def
+R9793:9796 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9797:9802 Coq.Init.Datatypes <> option ind
+R9804:9811 CertiOS.framework.model.language <> function def
+R9790:9792 CertiOS.framework.model.language <> fid def
+R9824:9825 CertiOS.framework.model.code_notations <> ls var
+R9838:9840 Coq.Init.Datatypes <> nil constr
+R9854:9857 Coq.Init.Datatypes <> None constr
+R9867:9870 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R9926:9926 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9929:9930 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9934:9934 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9980:9982 CertiOS.framework.model.language <> fid def
+R10023:10036 Coq.ZArith.Zbool <> Zeq_bool def
+R10041:10043 CertiOS.framework.model.code_notations <> id' var
+R10096:10108 CertiOS.framework.model.code_notations <> convert_cfuns def
+R10115:10117 CertiOS.framework.model.code_notations <> id' var
+R10050:10053 Coq.Init.Datatypes <> Some constr
+R10238:10238 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10242:10243 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10269:10269 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10244:10244 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10246:10247 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10255:10256 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10262:10263 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10268:10268 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+not 10171:10171 <> :code_scope:x_'·'_x_'·('_x_')·'_'·{'_x_';'_x_'}·'

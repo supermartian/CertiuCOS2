@@ -1,0 +1,538 @@
+DIGEST 9b390d1b051c7095d62f21e4c576bd8d
+FCertiOS.tactics.ucostac.ucos_frmaop
+R15:25 CertiOS.framework.include_frm <> <> lib
+R43:52 CertiOS.tactics.pure.frmaop_sol <> <> lib
+R70:75 CertiOS.certiucos.spec.os_inv <> <> lib
+R93:104 CertiOS.certiucos.code.os_code_defs <> <> lib
+R122:130 CertiOS.certiucos.code.os_ucos_h <> <> lib
+R148:161 CertiOS.framework.model.code_notations <> <> lib
+prf 195:212 <> good_frm_tcbdllseg
+R252:258 CertiOS.framework.logic.inferules <> GoodFrm def
+R260:268 CertiOS.certiucos.spec.os_inv <> tcbdllseg def
+R286:287 CertiOS.tactics.ucostac.ucos_frmaop <> vl var
+R283:284 CertiOS.tactics.ucostac.ucos_frmaop <> tn var
+R278:281 CertiOS.tactics.ucostac.ucos_frmaop <> tail var
+R275:276 CertiOS.tactics.ucostac.ucos_frmaop <> hp var
+R270:273 CertiOS.tactics.ucostac.ucos_frmaop <> head var
+R317:325 CertiOS.certiucos.spec.os_inv <> tcbdllseg def
+R336:350 CertiOS.tactics.pure.frmaop_sol <> good_frm_dllseg thm
+R336:350 CertiOS.tactics.pure.frmaop_sol <> good_frm_dllseg thm
+prf 417:436 <> good_frm_AOSEventTbl
+R457:463 CertiOS.framework.logic.inferules <> GoodFrm def
+R466:476 CertiOS.certiucos.spec.os_inv <> AOSEventTbl def
+R481:482 CertiOS.tactics.ucostac.ucos_frmaop <> v0 var
+R478:479 CertiOS.tactics.ucostac.ucos_frmaop <> x0 var
+R512:522 CertiOS.certiucos.spec.os_inv <> AOSEventTbl def
+prf 610:622 <> good_frm_node
+R645:651 CertiOS.framework.logic.inferules <> GoodFrm def
+R654:657 CertiOS.framework.logic.assertion <> node def
+R664:664 CertiOS.tactics.ucostac.ucos_frmaop <> t var
+R661:662 CertiOS.tactics.ucostac.ucos_frmaop <> vl var
+R659:659 CertiOS.tactics.ucostac.ucos_frmaop <> v var
+R695:698 CertiOS.framework.logic.assertion <> node def
+prf 780:796 <> good_frm_AOSEvent
+R818:824 CertiOS.framework.logic.inferules <> GoodFrm def
+R828:835 CertiOS.certiucos.spec.os_inv <> AOSEvent def
+R842:842 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R840:840 CertiOS.tactics.ucostac.ucos_frmaop <> v var
+R837:838 CertiOS.tactics.ucostac.ucos_frmaop <> a0 var
+R872:879 CertiOS.certiucos.spec.os_inv <> AOSEvent def
+prf 966:981 <> good_frm_AOSQBlk
+R1005:1011 CertiOS.framework.logic.inferules <> GoodFrm def
+R1014:1020 CertiOS.certiucos.spec.os_inv <> AOSQBlk def
+R1028:1029 CertiOS.tactics.ucostac.ucos_frmaop <> x2 var
+R1025:1026 CertiOS.tactics.ucostac.ucos_frmaop <> v2 var
+R1022:1023 CertiOS.tactics.ucostac.ucos_frmaop <> x1 var
+R1059:1065 CertiOS.certiucos.spec.os_inv <> AOSQBlk def
+prf 1149:1164 <> good_frm_AOSQCtr
+R1184:1190 CertiOS.framework.logic.inferules <> GoodFrm def
+R1193:1199 CertiOS.certiucos.spec.os_inv <> AOSQCtr def
+R1204:1205 CertiOS.tactics.ucostac.ucos_frmaop <> v2 var
+R1201:1202 CertiOS.tactics.ucostac.ucos_frmaop <> x1 var
+R1235:1241 CertiOS.certiucos.spec.os_inv <> AOSQCtr def
+prf 1325:1341 <> good_frm_AMsgData
+R1368:1374 CertiOS.framework.logic.inferules <> GoodFrm def
+R1378:1385 CertiOS.certiucos.spec.os_inv <> AMsgData def
+R1395:1396 CertiOS.tactics.ucostac.ucos_frmaop <> x2 var
+R1392:1393 CertiOS.tactics.ucostac.ucos_frmaop <> x1 var
+R1389:1390 CertiOS.tactics.ucostac.ucos_frmaop <> v1 var
+R1387:1387 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R1426:1433 CertiOS.certiucos.spec.os_inv <> AMsgData def
+prf 1521:1537 <> good_frm_amsgnode
+R1576:1582 CertiOS.framework.logic.inferules <> GoodFrm def
+R1585:1594 CertiOS.certiucos.spec.os_inv <> AEventNode def
+R1603:1607 CertiOS.framework.logic.assertion <> DMsgQ constr
+R1617:1618 CertiOS.tactics.ucostac.ucos_frmaop <> v3 var
+R1614:1615 CertiOS.tactics.ucostac.ucos_frmaop <> v2 var
+R1611:1612 CertiOS.tactics.ucostac.ucos_frmaop <> v1 var
+R1609:1609 CertiOS.tactics.ucostac.ucos_frmaop <> l var
+R1600:1600 CertiOS.tactics.ucostac.ucos_frmaop <> b var
+R1598:1598 CertiOS.tactics.ucostac.ucos_frmaop <> a var
+R1596:1596 CertiOS.tactics.ucostac.ucos_frmaop <> p var
+R1649:1658 CertiOS.certiucos.spec.os_inv <> AEventNode def
+R1670:1679 CertiOS.certiucos.spec.os_inv <> AEventData def
+prf 1764:1780 <> good_frm_mqsllseg
+R1807:1813 CertiOS.framework.logic.inferules <> GoodFrm def
+R1816:1823 CertiOS.certiucos.spec.os_inv <> evsllseg def
+R1831:1836 CertiOS.tactics.ucostac.ucos_frmaop <> msgqls var
+R1829:1829 CertiOS.tactics.ucostac.ucos_frmaop <> l var
+R1827:1827 CertiOS.tactics.ucostac.ucos_frmaop <> n var
+R1825:1825 CertiOS.tactics.ucostac.ucos_frmaop <> p var
+R2006:2015 CertiOS.certiucos.spec.os_inv <> AEventNode def
+R2046:2055 CertiOS.certiucos.spec.os_inv <> AEventData def
+prf 2154:2171 <> good_frm_ecbfslleg
+R2198:2204 CertiOS.framework.logic.inferules <> GoodFrm def
+R2207:2217 CertiOS.certiucos.spec.os_inv <> ecbf_sllseg def
+R2236:2251 CertiOS.certiucos.spec.os_inv <> V_OSEventListPtr def
+R2227:2234 CertiOS.certiucos.code.os_ucos_h <> OS_EVENT def
+R2224:2225 CertiOS.tactics.ucostac.ucos_frmaop <> ls var
+R2222:2222 CertiOS.tactics.ucostac.ucos_frmaop <> y var
+R2219:2219 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R2319:2329 CertiOS.certiucos.spec.os_inv <> ecbf_sllseg def
+R2337:2347 CertiOS.certiucos.spec.os_inv <> ecbf_sllseg def
+R2337:2347 CertiOS.certiucos.spec.os_inv <> ecbf_sllseg def
+prf 2437:2452 <> good_frm_ecbfsll
+R2500:2506 CertiOS.framework.logic.inferules <> GoodFrm def
+R2509:2516 CertiOS.certiucos.spec.os_inv <> ecbf_sll def
+R2532:2547 CertiOS.certiucos.spec.os_inv <> V_OSEventListPtr def
+R2523:2530 CertiOS.certiucos.code.os_ucos_h <> OS_EVENT def
+R2520:2521 CertiOS.tactics.ucostac.ucos_frmaop <> ls var
+R2518:2518 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R2568:2575 CertiOS.certiucos.spec.os_inv <> ecbf_sll def
+prf 2675:2699 <> good_frm_AOSEventFreeList
+R2720:2726 CertiOS.framework.logic.inferules <> GoodFrm def
+R2729:2744 CertiOS.certiucos.spec.os_inv <> AOSEventFreeList def
+R2746:2746 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R2766:2781 CertiOS.certiucos.spec.os_inv <> AOSEventFreeList def
+prf 2886:2906 <> good_frm_qblkf_sllseg
+R2931:2937 CertiOS.framework.logic.inferules <> GoodFrm def
+R2940:2951 CertiOS.certiucos.spec.os_inv <> qblkf_sllseg def
+R2976:2984 CertiOS.certiucos.spec.os_inv <> V_nextblk def
+R2963:2974 CertiOS.certiucos.code.os_ucos_h <> OS_Q_FREEBLK def
+R2957:2961 CertiOS.tactics.ucostac.ucos_frmaop <> qblkl var
+R2955:2955 CertiOS.tactics.ucostac.ucos_frmaop <> y var
+R2953:2953 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R3055:3066 CertiOS.certiucos.spec.os_inv <> qblkf_sllseg def
+R3107:3118 CertiOS.certiucos.spec.os_inv <> qblkf_sllseg def
+R3128:3139 CertiOS.certiucos.spec.os_inv <> qblkf_sllseg def
+R3128:3139 CertiOS.certiucos.spec.os_inv <> qblkf_sllseg def
+prf 3234:3251 <> good_frm_qblkf_sll
+R3274:3280 CertiOS.framework.logic.inferules <> GoodFrm def
+R3283:3291 CertiOS.certiucos.spec.os_inv <> qblkf_sll def
+R3314:3322 CertiOS.certiucos.spec.os_inv <> V_nextblk def
+R3301:3312 CertiOS.certiucos.code.os_ucos_h <> OS_Q_FREEBLK def
+R3295:3299 CertiOS.tactics.ucostac.ucos_frmaop <> qblkl var
+R3293:3293 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R3352:3360 CertiOS.certiucos.spec.os_inv <> qblkf_sll def
+prf 3447:3467 <> good_frm_AOSQFreeList
+R3512:3518 CertiOS.framework.logic.inferules <> GoodFrm def
+R3521:3532 CertiOS.certiucos.spec.os_inv <> AOSQFreeList def
+R3534:3534 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R3555:3566 CertiOS.certiucos.spec.os_inv <> AOSQFreeList def
+prf 3665:3684 <> good_frm_AOSQFreeBlk
+R3702:3708 CertiOS.framework.logic.inferules <> GoodFrm def
+R3711:3721 CertiOS.certiucos.spec.os_inv <> AOSQFreeBlk def
+R3723:3727 CertiOS.tactics.ucostac.ucos_frmaop <> qblkl var
+R3757:3767 CertiOS.certiucos.spec.os_inv <> AOSQFreeBlk def
+prf 3856:3874 <> good_frm_EventList'
+R3931:3937 CertiOS.framework.logic.inferules <> GoodFrm def
+R3941:3943 CertiOS.framework.logic.assertion <> ::'EX'_x_'..'_x_','_x not
+R3951:3959 CertiOS.framework.logic.assertion <> ::'EX'_x_'..'_x_','_x not
+R3948:3950 CertiOS.framework.model.memory <> val ind
+R3994:3997 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R3960:3962 CertiOS.framework.logic.assertion <> ::'GV'_x_'@'_x_'|->'_x not
+R3974:3976 CertiOS.framework.logic.assertion <> ::'GV'_x_'@'_x_'|->'_x not
+R3988:3992 CertiOS.framework.logic.assertion <> ::'GV'_x_'@'_x_'|->'_x not
+R3963:3973 CertiOS.certiucos.code.os_code_defs <> OSEventList def
+R3985:3987 CertiOS.framework.model.code_notations <> :code_scope:x_'∗' not
+R3977:3984 CertiOS.certiucos.code.os_ucos_h <> OS_EVENT def
+R3993:3993 CertiOS.tactics.ucostac.ucos_frmaop <> p var
+R3998:4005 CertiOS.certiucos.spec.os_inv <> evsllseg def
+R4021:4025 CertiOS.tactics.ucostac.ucos_frmaop <> msgql var
+R4015:4019 CertiOS.tactics.ucostac.ucos_frmaop <> qptrl var
+R4009:4013 CertiOS.framework.model.memory <> Vnull constr
+R4007:4007 CertiOS.tactics.ucostac.ucos_frmaop <> p var
+prf 4134:4151 <> good_frm_AMsgQList
+R4215:4221 CertiOS.framework.logic.inferules <> GoodFrm def
+R4224:4231 CertiOS.certiucos.spec.os_inv <> AECBList def
+R4250:4254 CertiOS.tactics.ucostac.ucos_frmaop <> tcbls var
+R4245:4248 CertiOS.tactics.ucostac.ucos_frmaop <> mqls var
+R4239:4243 CertiOS.tactics.ucostac.ucos_frmaop <> msgql var
+R4233:4237 CertiOS.tactics.ucostac.ucos_frmaop <> qptrl var
+R4285:4292 CertiOS.certiucos.spec.os_inv <> AECBList def
+prf 4380:4397 <> good_frm_AOSMapTbl
+R4401:4407 CertiOS.framework.logic.inferules <> GoodFrm def
+R4409:4417 CertiOS.certiucos.spec.os_inv <> AOSMapTbl def
+R4437:4445 CertiOS.certiucos.spec.os_inv <> AOSMapTbl def
+prf 4533:4552 <> good_frm_AOSUnMapTbl
+R4556:4562 CertiOS.framework.logic.inferules <> GoodFrm def
+R4564:4574 CertiOS.certiucos.spec.os_inv <> AOSUnMapTbl def
+R4594:4604 CertiOS.certiucos.spec.os_inv <> AOSUnMapTbl def
+prf 4695:4716 <> good_frm_AOSTCBPrioTbl
+R4783:4789 CertiOS.framework.logic.inferules <> GoodFrm def
+R4792:4804 CertiOS.certiucos.spec.os_inv <> AOSTCBPrioTbl def
+R4822:4826 CertiOS.tactics.ucostac.ucos_frmaop <> vhold var
+R4816:4820 CertiOS.tactics.ucostac.ucos_frmaop <> tcbls var
+R4811:4814 CertiOS.tactics.ucostac.ucos_frmaop <> rtbl var
+R4806:4809 CertiOS.tactics.ucostac.ucos_frmaop <> ptbl var
+R4846:4858 CertiOS.certiucos.spec.os_inv <> AOSTCBPrioTbl def
+prf 4961:4982 <> good_frm_AOSIntNesting
+R4986:4992 CertiOS.framework.logic.inferules <> GoodFrm def
+R4994:5006 CertiOS.certiucos.spec.os_inv <> AOSIntNesting def
+R5025:5037 CertiOS.certiucos.spec.os_inv <> AOSIntNesting def
+prf 5129:5144 <> good_frm_AOSTime
+R5157:5163 CertiOS.framework.logic.inferules <> GoodFrm def
+R5166:5172 CertiOS.certiucos.spec.os_inv <> AOSTime def
+R5174:5174 CertiOS.tactics.ucostac.ucos_frmaop <> t var
+R5194:5200 CertiOS.certiucos.spec.os_inv <> AOSTime def
+prf 5294:5308 <> good_frm_AGVars
+R5312:5318 CertiOS.framework.logic.inferules <> GoodFrm def
+R5320:5325 CertiOS.certiucos.spec.os_inv <> AGVars def
+R5344:5349 CertiOS.certiucos.spec.os_inv <> AGVars def
+prf 5447:5465 <> good_frm_AOSTCBList
+R5526:5532 CertiOS.framework.logic.inferules <> GoodFrm def
+R5535:5544 CertiOS.certiucos.spec.os_inv <> AOSTCBList def
+R5564:5565 CertiOS.tactics.ucostac.ucos_frmaop <> x7 var
+R5561:5562 CertiOS.tactics.ucostac.ucos_frmaop <> x6 var
+R5558:5559 CertiOS.tactics.ucostac.ucos_frmaop <> x5 var
+R5555:5556 CertiOS.tactics.ucostac.ucos_frmaop <> x4 var
+R5552:5553 CertiOS.tactics.ucostac.ucos_frmaop <> x3 var
+R5549:5550 CertiOS.tactics.ucostac.ucos_frmaop <> x2 var
+R5546:5547 CertiOS.tactics.ucostac.ucos_frmaop <> x1 var
+R5595:5604 CertiOS.certiucos.spec.os_inv <> AOSTCBList def
+prf 5693:5711 <> good_frm_tcbdllflsg
+R5733:5739 CertiOS.framework.logic.inferules <> GoodFrm def
+R5742:5751 CertiOS.certiucos.spec.os_inv <> tcbdllflag def
+R5756:5757 CertiOS.tactics.ucostac.ucos_frmaop <> x2 var
+R5753:5754 CertiOS.tactics.ucostac.ucos_frmaop <> x1 var
+R5846:5855 CertiOS.certiucos.spec.os_inv <> tcbdllflag def
+prf 5965:5984 <> good_frm_AOSTCBList'
+R6025:6031 CertiOS.framework.logic.inferules <> GoodFrm def
+R6034:6044 CertiOS.certiucos.spec.os_inv <> AOSTCBList' def
+R6067:6068 CertiOS.tactics.ucostac.ucos_frmaop <> x8 var
+R6064:6065 CertiOS.tactics.ucostac.ucos_frmaop <> x7 var
+R6061:6062 CertiOS.tactics.ucostac.ucos_frmaop <> x6 var
+R6058:6059 CertiOS.tactics.ucostac.ucos_frmaop <> x5 var
+R6055:6056 CertiOS.tactics.ucostac.ucos_frmaop <> x4 var
+R6052:6053 CertiOS.tactics.ucostac.ucos_frmaop <> x3 var
+R6049:6050 CertiOS.tactics.ucostac.ucos_frmaop <> x2 var
+R6046:6047 CertiOS.tactics.ucostac.ucos_frmaop <> x1 var
+R6098:6108 CertiOS.certiucos.spec.os_inv <> AOSTCBList' def
+R6120:6126 CertiOS.framework.logic.inferules <> GoodFrm def
+R6136:6142 CertiOS.framework.logic.inferules <> GoodFrm def
+R6136:6142 CertiOS.framework.logic.inferules <> GoodFrm def
+R6288:6294 CertiOS.certiucos.spec.os_inv <> tcblist def
+prf 6385:6404 <> good_frm_sllfreeflag
+R6428:6434 CertiOS.framework.logic.inferules <> GoodFrm def
+R6437:6447 CertiOS.certiucos.spec.os_inv <> sllfreeflag def
+R6452:6453 CertiOS.tactics.ucostac.ucos_frmaop <> x2 var
+R6449:6450 CertiOS.tactics.ucostac.ucos_frmaop <> x1 var
+R6483:6493 CertiOS.certiucos.spec.os_inv <> sllfreeflag def
+prf 6659:6681 <> good_frm_AOSTCBFreeList
+R6727:6733 CertiOS.framework.logic.inferules <> GoodFrm def
+R6736:6749 CertiOS.certiucos.spec.os_inv <> AOSTCBFreeList def
+R6754:6755 CertiOS.tactics.ucostac.ucos_frmaop <> x2 var
+R6751:6752 CertiOS.tactics.ucostac.ucos_frmaop <> x1 var
+R6785:6798 CertiOS.certiucos.spec.os_inv <> AOSTCBFreeList def
+prf 6892:6915 <> good_frm_AOSTCBFreeList'
+R6945:6951 CertiOS.framework.logic.inferules <> GoodFrm def
+R6954:6968 CertiOS.certiucos.spec.os_inv <> AOSTCBFreeList' def
+R6979:6980 CertiOS.tactics.ucostac.ucos_frmaop <> x4 var
+R6976:6977 CertiOS.tactics.ucostac.ucos_frmaop <> x3 var
+R6973:6974 CertiOS.tactics.ucostac.ucos_frmaop <> x2 var
+R6970:6971 CertiOS.tactics.ucostac.ucos_frmaop <> x1 var
+R7010:7024 CertiOS.certiucos.spec.os_inv <> AOSTCBFreeList' def
+R7055:7061 CertiOS.framework.logic.inferules <> GoodFrm def
+R7069:7075 CertiOS.framework.logic.inferules <> GoodFrm def
+R7069:7075 CertiOS.framework.logic.inferules <> GoodFrm def
+R7097:7110 CertiOS.certiucos.spec.os_inv <> TCBFree_Not_Eq def
+R7141:7150 CertiOS.certiucos.spec.os_inv <> TCBFree_Eq def
+prf 7245:7262 <> good_frm_AOSRdyTbl
+R7310:7316 CertiOS.framework.logic.inferules <> GoodFrm def
+R7319:7327 CertiOS.certiucos.spec.os_inv <> AOSRdyTbl def
+R7329:7330 CertiOS.tactics.ucostac.ucos_frmaop <> vl var
+R7360:7368 CertiOS.certiucos.spec.os_inv <> AOSRdyTbl def
+prf 7458:7475 <> good_frm_AOSRdyGrp
+R7523:7529 CertiOS.framework.logic.inferules <> GoodFrm def
+R7532:7540 CertiOS.certiucos.spec.os_inv <> AOSRdyGrp def
+R7542:7543 CertiOS.tactics.ucostac.ucos_frmaop <> vl var
+R7573:7581 CertiOS.certiucos.spec.os_inv <> AOSRdyGrp def
+prf 7669:7689 <> good_frm_AOSRdyTblGrp
+R7745:7751 CertiOS.framework.logic.inferules <> GoodFrm def
+R7754:7765 CertiOS.certiucos.spec.os_inv <> AOSRdyTblGrp def
+R7772:7775 CertiOS.tactics.ucostac.ucos_frmaop <> rgrp var
+R7767:7770 CertiOS.tactics.ucostac.ucos_frmaop <> rtbl var
+R7807:7818 CertiOS.certiucos.spec.os_inv <> AOSRdyTblGrp def
+prf 8507:8527 <> can_change_aop_osqctr
+R8547:8560 CertiOS.framework.logic.assertion <> can_change_aop def
+R8563:8569 CertiOS.certiucos.spec.os_inv <> AOSQCtr def
+R8573:8573 CertiOS.tactics.ucostac.ucos_frmaop <> d var
+R8571:8571 CertiOS.tactics.ucostac.ucos_frmaop <> c var
+R8593:8599 CertiOS.certiucos.spec.os_inv <> AOSQCtr def
+prf 8705:8726 <> can_change_aop_aosqblk
+R8748:8761 CertiOS.framework.logic.assertion <> can_change_aop def
+R8764:8770 CertiOS.certiucos.spec.os_inv <> AOSQBlk def
+R8776:8776 CertiOS.tactics.ucostac.ucos_frmaop <> f var
+R8774:8774 CertiOS.tactics.ucostac.ucos_frmaop <> e var
+R8772:8772 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R8796:8802 CertiOS.certiucos.spec.os_inv <> AOSQBlk def
+prf 8911:8929 <> can_change_aop_msgq
+R8955:8968 CertiOS.framework.logic.assertion <> can_change_aop def
+R8971:8978 CertiOS.certiucos.spec.os_inv <> AMsgData def
+R8986:8986 CertiOS.tactics.ucostac.ucos_frmaop <> f var
+R8984:8984 CertiOS.tactics.ucostac.ucos_frmaop <> e var
+R8982:8982 CertiOS.tactics.ucostac.ucos_frmaop <> d var
+R8980:8980 CertiOS.tactics.ucostac.ucos_frmaop <> c var
+R9017:9024 CertiOS.certiucos.spec.os_inv <> AMsgData def
+prf 9118:9140 <> can_change_aop_aevtdata
+R9159:9172 CertiOS.framework.logic.assertion <> can_change_aop def
+R9175:9184 CertiOS.certiucos.spec.os_inv <> AEventData def
+R9189:9189 CertiOS.tactics.ucostac.ucos_frmaop <> d var
+R9186:9187 CertiOS.tactics.ucostac.ucos_frmaop <> vl var
+R9219:9228 CertiOS.certiucos.spec.os_inv <> AEventData def
+prf 9336:9361 <> can_change_aop_aoseventtbl
+R9380:9393 CertiOS.framework.logic.assertion <> can_change_aop def
+R9396:9406 CertiOS.certiucos.spec.os_inv <> AOSEventTbl def
+R9410:9410 CertiOS.tactics.ucostac.ucos_frmaop <> d var
+R9408:9408 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R9440:9450 CertiOS.certiucos.spec.os_inv <> AOSEventTbl def
+prf 9551:9573 <> can_change_aop_aosevent
+R9596:9609 CertiOS.framework.logic.assertion <> can_change_aop def
+R9612:9619 CertiOS.certiucos.spec.os_inv <> AOSEvent def
+R9626:9626 CertiOS.tactics.ucostac.ucos_frmaop <> d var
+R9623:9624 CertiOS.tactics.ucostac.ucos_frmaop <> vl var
+R9621:9621 CertiOS.tactics.ucostac.ucos_frmaop <> l var
+R9656:9663 CertiOS.certiucos.spec.os_inv <> AOSEvent def
+prf 9761:9783 <> can_change_aop_msgqnode
+R9810:9823 CertiOS.framework.logic.assertion <> can_change_aop def
+R9826:9835 CertiOS.certiucos.spec.os_inv <> AEventNode def
+R9844:9844 CertiOS.tactics.ucostac.ucos_frmaop <> c var
+R9842:9842 CertiOS.tactics.ucostac.ucos_frmaop <> d var
+R9839:9840 CertiOS.tactics.ucostac.ucos_frmaop <> vl var
+R9837:9837 CertiOS.tactics.ucostac.ucos_frmaop <> l var
+R9874:9883 CertiOS.certiucos.spec.os_inv <> AEventNode def
+prf 9981:10004 <> can_change_aop_msgqllseg
+R10036:10049 CertiOS.framework.logic.assertion <> can_change_aop def
+R10052:10059 CertiOS.certiucos.spec.os_inv <> evsllseg def
+R10068:10073 CertiOS.tactics.ucostac.ucos_frmaop <> msgqls var
+R10066:10066 CertiOS.tactics.ucostac.ucos_frmaop <> l var
+R10063:10064 CertiOS.tactics.ucostac.ucos_frmaop <> tn var
+R10061:10061 CertiOS.tactics.ucostac.ucos_frmaop <> h var
+prf 10311:10334 <> can_change_aop_tcbdllseg
+R10364:10377 CertiOS.framework.logic.assertion <> can_change_aop def
+R10380:10388 CertiOS.certiucos.spec.os_inv <> tcbdllseg def
+R10400:10400 CertiOS.tactics.ucostac.ucos_frmaop <> l var
+R10397:10398 CertiOS.tactics.ucostac.ucos_frmaop <> tn var
+R10395:10395 CertiOS.tactics.ucostac.ucos_frmaop <> t var
+R10392:10393 CertiOS.tactics.ucostac.ucos_frmaop <> hp var
+R10390:10390 CertiOS.tactics.ucostac.ucos_frmaop <> h var
+R10430:10438 CertiOS.certiucos.spec.os_inv <> tcbdllseg def
+prf 10541:10565 <> can_change_aop_ecbfsllseg
+R10590:10603 CertiOS.framework.logic.assertion <> can_change_aop def
+R10606:10616 CertiOS.certiucos.spec.os_inv <> ecbf_sllseg def
+R10634:10649 CertiOS.certiucos.spec.os_inv <> V_OSEventListPtr def
+R10625:10632 CertiOS.certiucos.code.os_ucos_h <> OS_EVENT def
+R10622:10623 CertiOS.tactics.ucostac.ucos_frmaop <> ls var
+R10620:10620 CertiOS.tactics.ucostac.ucos_frmaop <> y var
+R10618:10618 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R10720:10730 CertiOS.certiucos.spec.os_inv <> ecbf_sllseg def
+R10738:10748 CertiOS.certiucos.spec.os_inv <> ecbf_sllseg def
+R10738:10748 CertiOS.certiucos.spec.os_inv <> ecbf_sllseg def
+R10760:10765 CertiOS.framework.logic.assertion <> dllseg def
+R10773:10778 CertiOS.framework.logic.assertion <> dllseg def
+R10773:10778 CertiOS.framework.logic.assertion <> dllseg def
+prf 10892:10913 <> can_change_aop_ecbfsll
+R10933:10946 CertiOS.framework.logic.assertion <> can_change_aop def
+R10949:10956 CertiOS.certiucos.spec.os_inv <> ecbf_sll def
+R10972:10987 CertiOS.certiucos.spec.os_inv <> V_OSEventListPtr def
+R10963:10970 CertiOS.certiucos.code.os_ucos_h <> OS_EVENT def
+R10960:10961 CertiOS.tactics.ucostac.ucos_frmaop <> ls var
+R10958:10958 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R11016:11023 CertiOS.certiucos.spec.os_inv <> ecbf_sll def
+prf 11123:11145 <> can_change_aop_qblkfseg
+R11164:11177 CertiOS.framework.logic.assertion <> can_change_aop def
+R11180:11191 CertiOS.certiucos.spec.os_inv <> qblkf_sllseg def
+R11213:11221 CertiOS.certiucos.spec.os_inv <> V_nextblk def
+R11200:11211 CertiOS.certiucos.code.os_ucos_h <> OS_Q_FREEBLK def
+R11197:11198 CertiOS.tactics.ucostac.ucos_frmaop <> ls var
+R11195:11195 CertiOS.tactics.ucostac.ucos_frmaop <> y var
+R11193:11193 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R11293:11304 CertiOS.certiucos.spec.os_inv <> qblkf_sllseg def
+R11363:11374 CertiOS.certiucos.spec.os_inv <> qblkf_sllseg def
+R11384:11395 CertiOS.certiucos.spec.os_inv <> qblkf_sllseg def
+R11384:11395 CertiOS.certiucos.spec.os_inv <> qblkf_sllseg def
+prf 11493:11512 <> can_change_aop_qblkf
+R11531:11544 CertiOS.framework.logic.assertion <> can_change_aop def
+R11547:11555 CertiOS.certiucos.spec.os_inv <> qblkf_sll def
+R11576:11584 CertiOS.certiucos.spec.os_inv <> V_nextblk def
+R11563:11574 CertiOS.certiucos.code.os_ucos_h <> OS_Q_FREEBLK def
+R11560:11561 CertiOS.tactics.ucostac.ucos_frmaop <> ls var
+R11557:11557 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R11614:11622 CertiOS.certiucos.spec.os_inv <> qblkf_sll def
+prf 11723:11748 <> can_change_aop_sllfreeflag
+R11770:11783 CertiOS.framework.logic.assertion <> can_change_aop def
+R11786:11796 CertiOS.certiucos.spec.os_inv <> sllfreeflag def
+R11802:11804 CertiOS.tactics.ucostac.ucos_frmaop <> x18 var
+R11798:11800 CertiOS.tactics.ucostac.ucos_frmaop <> x17 var
+R11834:11844 CertiOS.certiucos.spec.os_inv <> sllfreeflag def
+prf 12020:12044 <> can_change_aop_tcbdllflag
+R12063:12076 CertiOS.framework.logic.assertion <> can_change_aop def
+R12079:12088 CertiOS.certiucos.spec.os_inv <> tcbdllflag def
+R12093:12094 CertiOS.tactics.ucostac.ucos_frmaop <> x6 var
+R12090:12091 CertiOS.tactics.ucostac.ucos_frmaop <> x5 var
+R12191:12200 CertiOS.certiucos.spec.os_inv <> tcbdllflag def
+prf 12291:12313 <> can_change_aop_tcbnotin
+R12340:12353 CertiOS.framework.logic.assertion <> can_change_aop def
+R12356:12365 CertiOS.certiucos.spec.os_inv <> TCB_Not_In def
+R12374:12375 CertiOS.tactics.ucostac.ucos_frmaop <> ls var
+R12370:12372 CertiOS.tactics.ucostac.ucos_frmaop <> x19 var
+R12367:12368 CertiOS.tactics.ucostac.ucos_frmaop <> x6 var
+R12408:12417 CertiOS.certiucos.spec.os_inv <> TCB_Not_In def
+R12430:12443 CertiOS.framework.logic.assertion <> can_change_aop def
+R12454:12467 CertiOS.framework.logic.assertion <> can_change_aop def
+R12454:12467 CertiOS.framework.logic.assertion <> can_change_aop def
+prf 12551:12572 <> can_change_aop_tcblist
+R12618:12631 CertiOS.framework.logic.assertion <> can_change_aop def
+R12634:12643 CertiOS.certiucos.spec.os_inv <> AOSTCBList def
+R12669:12673 CertiOS.tactics.ucostac.ucos_frmaop <> tcbls var
+R12666:12667 CertiOS.tactics.ucostac.ucos_frmaop <> ct var
+R12661:12664 CertiOS.tactics.ucostac.ucos_frmaop <> rtbl var
+R12657:12658 CertiOS.tactics.ucostac.ucos_frmaop <> ls var
+R12651:12655 CertiOS.tactics.ucostac.ucos_frmaop <> tcbl1 var
+R12648:12649 CertiOS.tactics.ucostac.ucos_frmaop <> p2 var
+R12645:12646 CertiOS.tactics.ucostac.ucos_frmaop <> p1 var
+R12704:12713 CertiOS.certiucos.spec.os_inv <> AOSTCBList def
+prf 12811:12836 <> can_change_aop_tcblist_new
+R12888:12901 CertiOS.framework.logic.assertion <> can_change_aop def
+R12904:12914 CertiOS.certiucos.spec.os_inv <> AOSTCBList' def
+R12946:12951 CertiOS.tactics.ucostac.ucos_frmaop <> ptfree var
+R12940:12944 CertiOS.tactics.ucostac.ucos_frmaop <> tcbls var
+R12937:12938 CertiOS.tactics.ucostac.ucos_frmaop <> ct var
+R12932:12935 CertiOS.tactics.ucostac.ucos_frmaop <> rtbl var
+R12928:12929 CertiOS.tactics.ucostac.ucos_frmaop <> ls var
+R12922:12926 CertiOS.tactics.ucostac.ucos_frmaop <> tcbl1 var
+R12919:12920 CertiOS.tactics.ucostac.ucos_frmaop <> p2 var
+R12916:12917 CertiOS.tactics.ucostac.ucos_frmaop <> p1 var
+R12982:12992 CertiOS.certiucos.spec.os_inv <> AOSTCBList' def
+R13004:13017 CertiOS.framework.logic.assertion <> can_change_aop def
+R13027:13040 CertiOS.framework.logic.assertion <> can_change_aop def
+R13027:13040 CertiOS.framework.logic.assertion <> can_change_aop def
+prf 13331:13350 <> can_change_aop_noteq
+R13383:13396 CertiOS.framework.logic.assertion <> can_change_aop def
+R13399:13412 CertiOS.certiucos.spec.os_inv <> TCBFree_Not_Eq def
+R13424:13428 CertiOS.tactics.ucostac.ucos_frmaop <> lfree var
+R13421:13422 CertiOS.tactics.ucostac.ucos_frmaop <> ct var
+R13414:13419 CertiOS.tactics.ucostac.ucos_frmaop <> ptfree var
+R13458:13471 CertiOS.certiucos.spec.os_inv <> TCBFree_Not_Eq def
+prf 13563:13579 <> can_change_aop_eq
+R13618:13631 CertiOS.framework.logic.assertion <> can_change_aop def
+R13634:13643 CertiOS.certiucos.spec.os_inv <> TCBFree_Eq def
+R13661:13665 CertiOS.tactics.ucostac.ucos_frmaop <> tcbls var
+R13655:13659 CertiOS.tactics.ucostac.ucos_frmaop <> lfree var
+R13652:13653 CertiOS.tactics.ucostac.ucos_frmaop <> ct var
+R13645:13650 CertiOS.tactics.ucostac.ucos_frmaop <> ptfree var
+R13695:13704 CertiOS.certiucos.spec.os_inv <> TCBFree_Eq def
+prf 13795:13820 <> can_change_aop_tcbfreelist
+R13849:13862 CertiOS.framework.logic.assertion <> can_change_aop def
+R13865:13878 CertiOS.certiucos.spec.os_inv <> AOSTCBFreeList def
+R13887:13891 CertiOS.tactics.ucostac.ucos_frmaop <> lfree var
+R13880:13885 CertiOS.tactics.ucostac.ucos_frmaop <> ptfree var
+R13921:13934 CertiOS.certiucos.spec.os_inv <> AOSTCBFreeList def
+prf 14039:14068 <> can_change_aop_tcbfreelist_new
+R14106:14119 CertiOS.framework.logic.assertion <> can_change_aop def
+R14122:14136 CertiOS.certiucos.spec.os_inv <> AOSTCBFreeList' def
+R14154:14158 CertiOS.tactics.ucostac.ucos_frmaop <> tcbls var
+R14151:14152 CertiOS.tactics.ucostac.ucos_frmaop <> ct var
+R14145:14149 CertiOS.tactics.ucostac.ucos_frmaop <> lfree var
+R14138:14143 CertiOS.tactics.ucostac.ucos_frmaop <> ptfree var
+R14188:14202 CertiOS.certiucos.spec.os_inv <> AOSTCBFreeList' def
+R14214:14227 CertiOS.framework.logic.assertion <> can_change_aop def
+R14237:14250 CertiOS.framework.logic.assertion <> can_change_aop def
+R14237:14250 CertiOS.framework.logic.assertion <> can_change_aop def
+prf 14364:14384 <> can_change_aop_evtfls
+R14401:14414 CertiOS.framework.logic.assertion <> can_change_aop def
+R14417:14432 CertiOS.certiucos.spec.os_inv <> AOSEventFreeList def
+R14434:14434 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R14464:14479 CertiOS.certiucos.spec.os_inv <> AOSEventFreeList def
+prf 14575:14596 <> can_change_aop_qfreels
+R14613:14626 CertiOS.framework.logic.assertion <> can_change_aop def
+R14629:14640 CertiOS.certiucos.spec.os_inv <> AOSQFreeList def
+R14642:14642 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R14672:14683 CertiOS.certiucos.spec.os_inv <> AOSQFreeList def
+prf 14780:14802 <> can_change_aop_qfreeblk
+R14819:14832 CertiOS.framework.logic.assertion <> can_change_aop def
+R14835:14845 CertiOS.certiucos.spec.os_inv <> AOSQFreeBlk def
+R14847:14847 CertiOS.tactics.ucostac.ucos_frmaop <> x var
+R14877:14887 CertiOS.certiucos.spec.os_inv <> AOSQFreeBlk def
+prf 14985:15006 <> can_change_aop_ecblist
+R15035:15048 CertiOS.framework.logic.assertion <> can_change_aop def
+R15051:15058 CertiOS.certiucos.spec.os_inv <> AECBList def
+R15070:15072 CertiOS.tactics.ucostac.ucos_frmaop <> x13 var
+R15066:15068 CertiOS.tactics.ucostac.ucos_frmaop <> x12 var
+R15063:15064 CertiOS.tactics.ucostac.ucos_frmaop <> x2 var
+R15060:15061 CertiOS.tactics.ucostac.ucos_frmaop <> x3 var
+R15102:15109 CertiOS.certiucos.spec.os_inv <> AECBList def
+prf 15206:15224 <> can_change_aop_mtbl
+R15229:15242 CertiOS.framework.logic.assertion <> can_change_aop def
+R15244:15252 CertiOS.certiucos.spec.os_inv <> AOSMapTbl def
+R15281:15289 CertiOS.certiucos.spec.os_inv <> AOSMapTbl def
+prf 15383:15403 <> can_change_aop_unmtbl
+R15408:15421 CertiOS.framework.logic.assertion <> can_change_aop def
+R15423:15433 CertiOS.certiucos.spec.os_inv <> AOSUnMapTbl def
+R15462:15472 CertiOS.certiucos.spec.os_inv <> AOSUnMapTbl def
+prf 15568:15587 <> can_change_aop_prtbl
+R15617:15630 CertiOS.framework.logic.assertion <> can_change_aop def
+R15634:15646 CertiOS.certiucos.spec.os_inv <> AOSTCBPrioTbl def
+R15659:15661 CertiOS.tactics.ucostac.ucos_frmaop <> x16 var
+R15655:15657 CertiOS.tactics.ucostac.ucos_frmaop <> x13 var
+R15651:15653 CertiOS.tactics.ucostac.ucos_frmaop <> x10 var
+R15648:15649 CertiOS.tactics.ucostac.ucos_frmaop <> x4 var
+R15691:15703 CertiOS.certiucos.spec.os_inv <> AOSTCBPrioTbl def
+prf 15799:15820 <> can_change_aop_intnest
+R15825:15838 CertiOS.framework.logic.assertion <> can_change_aop def
+R15840:15852 CertiOS.certiucos.spec.os_inv <> AOSIntNesting def
+R15881:15893 CertiOS.certiucos.spec.os_inv <> AOSIntNesting def
+prf 15990:16010 <> can_change_aop_rdytbl
+R16030:16043 CertiOS.framework.logic.assertion <> can_change_aop def
+R16047:16055 CertiOS.certiucos.spec.os_inv <> AOSRdyTbl def
+R16057:16059 CertiOS.tactics.ucostac.ucos_frmaop <> x10 var
+R16089:16097 CertiOS.certiucos.spec.os_inv <> AOSRdyTbl def
+prf 16192:16212 <> can_change_aop_rdygrp
+R16232:16245 CertiOS.framework.logic.assertion <> can_change_aop def
+R16249:16257 CertiOS.certiucos.spec.os_inv <> AOSRdyGrp def
+R16259:16261 CertiOS.tactics.ucostac.ucos_frmaop <> x10 var
+R16291:16299 CertiOS.certiucos.spec.os_inv <> AOSRdyGrp def
+prf 16395:16417 <> can_change_aop_rdytbgrp
+R16440:16453 CertiOS.framework.logic.assertion <> can_change_aop def
+R16457:16468 CertiOS.certiucos.spec.os_inv <> AOSRdyTblGrp def
+R16474:16476 CertiOS.tactics.ucostac.ucos_frmaop <> x11 var
+R16470:16472 CertiOS.tactics.ucostac.ucos_frmaop <> x10 var
+R16506:16517 CertiOS.certiucos.spec.os_inv <> AOSRdyTblGrp def
+prf 16613:16631 <> can_change_aop_time
+R16651:16664 CertiOS.framework.logic.assertion <> can_change_aop def
+R16668:16674 CertiOS.certiucos.spec.os_inv <> AOSTime def
+R16677:16682 CertiOS.framework.model.memory <> Vint32 constr
+R16684:16686 CertiOS.tactics.ucostac.ucos_frmaop <> x14 var
+R16717:16723 CertiOS.certiucos.spec.os_inv <> AOSTime def
+prf 16817:16836 <> can_change_aop_gvars
+R16841:16854 CertiOS.framework.logic.assertion <> can_change_aop def
+R16856:16861 CertiOS.certiucos.spec.os_inv <> AGVars def
+R16890:16895 CertiOS.certiucos.spec.os_inv <> AGVars def
+prf 16990:17010 <> can_change_aop_plocal
+R17029:17042 CertiOS.framework.logic.assertion <> can_change_aop def
+R17045:17051 CertiOS.framework.logic.inferules <> p_local def
+R17064:17064 CertiOS.tactics.ucostac.ucos_frmaop <> l var
+R17060:17062 CertiOS.tactics.ucostac.ucos_frmaop <> tid var
+R17053:17058 CertiOS.certiucos.spec.os_inv <> OSLInv def
+R17084:17090 CertiOS.framework.logic.inferules <> p_local def
+R17102:17107 CertiOS.framework.logic.inferules <> CurTid def
+R17119:17122 CertiOS.framework.logic.inferules <> LINV def
+R17134:17139 CertiOS.certiucos.spec.os_inv <> OSLInv def
+prf 17244:17263 <> can_change_aop_isris
+R17268:17281 CertiOS.framework.logic.assertion <> can_change_aop def
+R17284:17296 CertiOS.certiucos.spec.os_inv <> A_isr_is_prop def
+R17326:17338 CertiOS.certiucos.spec.os_inv <> A_isr_is_prop def
+prf 17453:17473 <> can_change_aop_OSQInv
+R17479:17492 CertiOS.framework.logic.assertion <> can_change_aop def
+R17494:17498 CertiOS.certiucos.spec.os_inv <> OSInv def
+R17517:17521 CertiOS.certiucos.spec.os_inv <> OSInv def

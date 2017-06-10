@@ -1,0 +1,5 @@
+DIGEST 6bef239e620efeaa3493e78e2e2e18ae
+FCertiOS.tactics.math_auto
+R15:22 CertiOS.tactics.mathauto.int_auto <> <> lib
+R40:47 CertiOS.tactics.mathauto.math_sol <> <> lib
+R65:76 CertiOS.tactics.mathauto.math_rewrite <> <> lib

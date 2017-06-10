@@ -1,0 +1,90 @@
+DIGEST 6b98d6770d506ad59f9d713197687f9a
+FCertiOS.certiucos.inline.inline_definitions
+R15:25 CertiOS.framework.include_frm <> <> lib
+def 40:59 <> inline_function_code
+R64:64 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R74:78 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R79:83 CertiOS.framework.model.language <> stmts ind
+R65:68 Coq.Init.Datatypes <> list ind
+R70:73 CertiOS.framework.model.language <> expr ind
+def 97:116 <> inline_function_asrt
+R121:121 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R126:131 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R132:132 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R146:150 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R151:151 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R161:165 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R166:169 CertiOS.framework.logic.assertion <> asrt ind
+R152:155 Coq.Init.Datatypes <> list ind
+R157:160 CertiOS.framework.model.language <> expr ind
+R133:136 Coq.Init.Datatypes <> list ind
+R138:145 CertiOS.framework.logic.assertion <> logicvar ind
+R122:125 CertiOS.framework.logic.assertion <> asrt ind
+def 183:196 <> make_inl_proof
+R205:224 CertiOS.certiucos.inline.inline_definitions <> inline_function_code def
+R238:257 CertiOS.certiucos.inline.inline_definitions <> inline_function_asrt def
+R305:305 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R361:370 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R371:372 CertiOS.framework.logic.inferules <> ::'{|'_x_','_x_','_x_','_x_','_x_','_x_'|}'_'|-'_x_'{{'_x_'}}'_x_'{{'_x_'}}' not
+R374:375 CertiOS.framework.logic.inferules <> ::'{|'_x_','_x_','_x_','_x_','_x_','_x_'|}'_'|-'_x_'{{'_x_'}}'_x_'{{'_x_'}}' not
+R377:378 CertiOS.framework.logic.inferules <> ::'{|'_x_','_x_','_x_','_x_','_x_','_x_'|}'_'|-'_x_'{{'_x_'}}'_x_'{{'_x_'}}' not
+R381:382 CertiOS.framework.logic.inferules <> ::'{|'_x_','_x_','_x_','_x_','_x_','_x_'|}'_'|-'_x_'{{'_x_'}}'_x_'{{'_x_'}}' not
+R384:385 CertiOS.framework.logic.inferules <> ::'{|'_x_','_x_','_x_','_x_','_x_','_x_'|}'_'|-'_x_'{{'_x_'}}'_x_'{{'_x_'}}' not
+R387:388 CertiOS.framework.logic.inferules <> ::'{|'_x_','_x_','_x_','_x_','_x_','_x_'|}'_'|-'_x_'{{'_x_'}}'_x_'{{'_x_'}}' not
+R390:395 CertiOS.framework.logic.inferules <> ::'{|'_x_','_x_','_x_','_x_','_x_','_x_'|}'_'|-'_x_'{{'_x_'}}'_x_'{{'_x_'}}' not
+R399:401 CertiOS.framework.logic.inferules <> ::'{|'_x_','_x_','_x_','_x_','_x_','_x_'|}'_'|-'_x_'{{'_x_'}}'_x_'{{'_x_'}}' not
+R423:425 CertiOS.framework.logic.inferules <> ::'{|'_x_','_x_','_x_','_x_','_x_','_x_'|}'_'|-'_x_'{{'_x_'}}'_x_'{{'_x_'}}' not
+R436:438 CertiOS.framework.logic.inferules <> ::'{|'_x_','_x_','_x_','_x_','_x_','_x_'|}'_'|-'_x_'{{'_x_'}}'_x_'{{'_x_'}}' not
+R461:462 CertiOS.framework.logic.inferules <> ::'{|'_x_','_x_','_x_','_x_','_x_','_x_'|}'_'|-'_x_'{{'_x_'}}'_x_'{{'_x_'}}' not
+R373:373 CertiOS.certiucos.inline.inline_definitions <> a var
+R376:376 CertiOS.certiucos.inline.inline_definitions <> b var
+R379:380 CertiOS.certiucos.inline.inline_definitions <> li var
+R383:383 CertiOS.certiucos.inline.inline_definitions <> I var
+R386:386 CertiOS.certiucos.inline.inline_definitions <> e var
+R389:389 CertiOS.certiucos.inline.inline_definitions <> d var
+R403:407 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R422:422 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R402:402 CertiOS.certiucos.inline.inline_definitions <> o var
+R408:410 CertiOS.certiucos.inline.inline_definitions <> pre var
+R417:421 CertiOS.certiucos.inline.inline_definitions <> lexpr var
+R414:415 CertiOS.certiucos.inline.inline_definitions <> ll var
+R412:412 CertiOS.certiucos.inline.inline_definitions <> o var
+R426:429 CertiOS.certiucos.inline.inline_definitions <> code var
+R431:435 CertiOS.certiucos.inline.inline_definitions <> lexpr var
+R440:444 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R460:460 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R439:439 CertiOS.certiucos.inline.inline_definitions <> o var
+R445:448 CertiOS.certiucos.inline.inline_definitions <> post var
+R455:459 CertiOS.certiucos.inline.inline_definitions <> lexpr var
+R452:453 CertiOS.certiucos.inline.inline_definitions <> ll var
+R450:450 CertiOS.certiucos.inline.inline_definitions <> o var
+R396:398 CertiOS.certiucos.inline.inline_definitions <> tid var
+R307:311 CertiOS.framework.logic.assertion <> ::x_'==>'_x not
+R312:314 CertiOS.framework.logic.assertion <> ::'EX'_x_'..'_x_','_x not
+R333:334 CertiOS.framework.logic.assertion <> ::'EX'_x_'..'_x_','_x not
+R320:323 Coq.Init.Datatypes <> list ind
+R325:332 CertiOS.framework.logic.assertion <> logicvar ind
+R352:355 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R335:341 CertiOS.framework.logic.inferules <> p_local def
+R350:351 CertiOS.certiucos.inline.inline_definitions <> lg var
+R346:348 CertiOS.certiucos.inline.inline_definitions <> tid var
+R343:344 CertiOS.certiucos.inline.inline_definitions <> li var
+R356:360 CertiOS.framework.logic.assertion <> Atrue constr
+R306:306 CertiOS.certiucos.inline.inline_definitions <> o var
+constr 492:509 <> Inline_record_cons
+rec 473:485 <> Inline_record
+proj 521:528 <> inl_code
+proj 558:564 <> inl_pre
+proj 595:602 <> inl_post
+proj 632:640 <> inl_proof
+R532:551 CertiOS.certiucos.inline.inline_definitions <> inline_function_code def
+R569:588 CertiOS.certiucos.inline.inline_definitions <> inline_function_asrt def
+R606:625 CertiOS.certiucos.inline.inline_definitions <> inline_function_asrt def
+R643:656 CertiOS.certiucos.inline.inline_definitions <> make_inl_proof def
+R675:682 CertiOS.certiucos.inline.inline_definitions <> inl_post meth
+R667:673 CertiOS.certiucos.inline.inline_definitions <> inl_pre meth
+R658:665 CertiOS.certiucos.inline.inline_definitions <> inl_code meth
+def 702:712 <> inline_call
+R749:756 CertiOS.certiucos.inline.inline_definitions <> inl_code proj
+R758:779 CertiOS.certiucos.inline.inline_definitions <> inline_function_record var
+R782:786 CertiOS.certiucos.inline.inline_definitions <> lexpr var

@@ -1,0 +1,2 @@
+certiucos/proofs/oscore/OSEventTaskWait.vo certiucos/proofs/oscore/OSEventTaskWait.glob certiucos/proofs/oscore/OSEventTaskWait.v.beautified: certiucos/proofs/oscore/OSEventTaskWait.v certiucos/proofs/ucos_include.vo certiucos/ucos_lib/OSETWaitPure.vo
+certiucos/proofs/oscore/OSEventTaskWait.vio: certiucos/proofs/oscore/OSEventTaskWait.v certiucos/proofs/ucos_include.vio certiucos/ucos_lib/OSETWaitPure.vio

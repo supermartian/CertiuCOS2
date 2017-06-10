@@ -1,0 +1,2 @@
+certiucos/spec/os_inv.vo certiucos/spec/os_inv.glob certiucos/spec/os_inv.v.beautified: certiucos/spec/os_inv.v framework/include_frm.vo tactics/base_tac.vo tactics/sep_auto.vo certiucos/code/os_code_defs.vo certiucos/code/os_ucos_h.vo tactics/sepauto/sep_join_lemmas.vo framework/proof/mem_join_lemmas.vo
+certiucos/spec/os_inv.vio: certiucos/spec/os_inv.v framework/include_frm.vio tactics/base_tac.vio tactics/sep_auto.vio certiucos/code/os_code_defs.vio certiucos/code/os_ucos_h.vio tactics/sepauto/sep_join_lemmas.vio framework/proof/mem_join_lemmas.vio

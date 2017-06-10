@@ -1,0 +1,2 @@
+certiucos/ucos_lib/OSMutexPendPure1.vo certiucos/ucos_lib/OSMutexPendPure1.glob certiucos/ucos_lib/OSMutexPendPure1.v.beautified: certiucos/ucos_lib/OSMutexPendPure1.v certiucos/ucos_lib/sem_common.vo certiucos/ucos_lib/sempend_pure.vo certiucos/ucos_lib/OSMutex_common.vo certiucos/ucos_lib/OSQPostPure.vo
+certiucos/ucos_lib/OSMutexPendPure1.vio: certiucos/ucos_lib/OSMutexPendPure1.v certiucos/ucos_lib/sem_common.vio certiucos/ucos_lib/sempend_pure.vio certiucos/ucos_lib/OSMutex_common.vio certiucos/ucos_lib/OSQPostPure.vio

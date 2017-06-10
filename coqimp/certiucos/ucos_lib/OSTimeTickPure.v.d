@@ -1,0 +1,2 @@
+certiucos/ucos_lib/OSTimeTickPure.vo certiucos/ucos_lib/OSTimeTickPure.glob certiucos/ucos_lib/OSTimeTickPure.v.beautified: certiucos/ucos_lib/OSTimeTickPure.v certiucos/proofs/ucos_include.vo certiucos/ucos_lib/OSQPostPure.vo certiucos/code/os_ucos_h.vo
+certiucos/ucos_lib/OSTimeTickPure.vio: certiucos/ucos_lib/OSTimeTickPure.v certiucos/proofs/ucos_include.vio certiucos/ucos_lib/OSQPostPure.vio certiucos/code/os_ucos_h.vio

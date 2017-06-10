@@ -1,0 +1,25 @@
+DIGEST 7560bae57259976dfbefd11eb6a06cff
+FCertiOS.tactics.ucostac.linv_solver
+R15:25 CertiOS.framework.include_frm <> <> lib
+R43:50 CertiOS.tactics.sep_auto <> <> lib
+R68:81 CertiOS.tactics.sepauto.sep_lemmas_ext <> <> lib
+R99:104 CertiOS.certiucos.spec.os_inv <> <> lib
+R217:220 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R221:222 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R231:235 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R224:229 CertiOS.framework.logic.assertion <> ::x_'\\//'_x not
+R217:220 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R221:222 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R231:235 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R224:229 CertiOS.framework.logic.assertion <> ::x_'\\//'_x not
+R295:298 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R300:305 CertiOS.framework.logic.assertion <> ::x_'\\//'_x not
+R295:298 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R300:305 CertiOS.framework.logic.assertion <> ::x_'\\//'_x not
+R316:324 CertiOS.tactics.sepauto.sep_lemmas_ext <> DisjPropE thm
+R249:258 CertiOS.certiucos.spec.os_inv <> disj_split thm
+R455:458 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R455:458 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R467:470 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R467:470 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R579:585 CertiOS.framework.logic.inferules <> p_local def

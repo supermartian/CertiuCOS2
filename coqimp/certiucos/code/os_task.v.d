@@ -1,0 +1,2 @@
+certiucos/code/os_task.vo certiucos/code/os_task.glob certiucos/code/os_task.v.beautified: certiucos/code/os_task.v certiucos/code/os_code_defs.vo certiucos/code/os_ucos_h.vo certiucos/inline/inline_definitions.vo certiucos/inline/inline_bittblfunctions.vo
+certiucos/code/os_task.vio: certiucos/code/os_task.v certiucos/code/os_code_defs.vio certiucos/code/os_ucos_h.vio certiucos/inline/inline_definitions.vio certiucos/inline/inline_bittblfunctions.vio

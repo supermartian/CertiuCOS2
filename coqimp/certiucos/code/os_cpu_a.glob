@@ -1,0 +1,66 @@
+DIGEST e19c3998061fb49d91cb09e091a4ce8c
+FCertiOS.certiucos.code.os_cpu_a
+R15:26 CertiOS.certiucos.code.os_code_defs <> <> lib
+R45:58 CertiOS.framework.model.code_notations <> <> lib
+R77:85 CertiOS.certiucos.code.os_ucos_h <> <> lib
+R157:157 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R165:166 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R172:172 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+not 126:126 <> :code_scope:x_'↝'_'{'_x_'}'
+def 216:229 <> OSTickISR_impl
+R246:263 CertiOS.certiucos.code.os_cpu_a <> :code_scope:x_'↝'_'{'_x_'}' not
+R334:337 CertiOS.certiucos.code.os_cpu_a <> :code_scope:x_'↝'_'{'_x_'}' not
+R237:245 CertiOS.certiucos.code.os_code_defs <> OSTickISR def
+R270:280 CertiOS.framework.model.code_notations <> :code_scope:x_';ₛ'_x not
+R264:267 CertiOS.framework.model.code_notations <> :code_scope:'EOI'_'('_x_')' not
+R269:269 CertiOS.framework.model.code_notations <> :code_scope:'EOI'_'('_x_')' not
+R295:305 CertiOS.framework.model.code_notations <> :code_scope:x_';ₛ'_x not
+R291:294 CertiOS.framework.model.code_notations <> :code_scope:x_'(­)' not
+R281:290 CertiOS.certiucos.code.os_code_defs <> OSTimeTick def
+R319:329 CertiOS.framework.model.code_notations <> :code_scope:x_';ₛ'_x not
+R315:318 CertiOS.framework.model.code_notations <> :code_scope:x_'(­)' not
+R306:314 CertiOS.certiucos.code.os_code_defs <> OSIntExit def
+R330:333 CertiOS.framework.model.code_notations <> :code_scope:'IRET' not
+def 356:368 <> OSToyISR_impl
+R384:401 CertiOS.certiucos.code.os_cpu_a <> :code_scope:x_'↝'_'{'_x_'}' not
+R496:499 CertiOS.certiucos.code.os_cpu_a <> :code_scope:x_'↝'_'{'_x_'}' not
+R376:383 CertiOS.certiucos.code.os_code_defs <> OSToyISR def
+R420:430 CertiOS.framework.model.code_notations <> :code_scope:x_';ₛ'_x not
+R402:403 CertiOS.framework.model.code_notations <> :code_scope:'++'_x not
+R417:419 CertiOS.framework.model.code_notations <> :code_scope:x_'′' not
+R404:416 CertiOS.certiucos.code.os_code_defs <> OSIntToyCount def
+R417:419 CertiOS.framework.model.code_notations <> :code_scope:x_'′' not
+R404:416 CertiOS.certiucos.code.os_code_defs <> OSIntToyCount def
+R434:445 CertiOS.framework.model.code_notations <> :code_scope:x_';ₛ'_x not
+R431:433 CertiOS.framework.model.code_notations <> :code_scope:'STI' not
+R452:467 CertiOS.framework.model.code_notations <> :code_scope:x_';ₛ'_x not
+R446:449 CertiOS.framework.model.code_notations <> :code_scope:'EOI'_'('_x_')' not
+R451:451 CertiOS.framework.model.code_notations <> :code_scope:'EOI'_'('_x_')' not
+R481:491 CertiOS.framework.model.code_notations <> :code_scope:x_';ₛ'_x not
+R477:480 CertiOS.framework.model.code_notations <> :code_scope:x_'(­)' not
+R468:476 CertiOS.certiucos.code.os_code_defs <> OSIntExit def
+R492:495 CertiOS.framework.model.code_notations <> :code_scope:'IRET' not
+def 516:519 <> ifun
+R528:530 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R525:527 Coq.Init.Datatypes <> nat ind
+R531:535 CertiOS.framework.model.language <> stmts ind
+def 554:566 <> convert_ifuns
+R574:577 Coq.Init.Datatypes <> list ind
+R579:582 CertiOS.certiucos.code.os_cpu_a <> ifun def
+R591:594 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R595:600 Coq.Init.Datatypes <> option ind
+R602:606 CertiOS.framework.model.language <> stmts ind
+R588:590 CertiOS.framework.model.language <> hid def
+R620:621 CertiOS.certiucos.code.os_cpu_a <> ls var
+R635:637 Coq.Init.Datatypes <> nil constr
+R651:654 Coq.Init.Datatypes <> None constr
+R665:668 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R714:714 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R717:718 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R722:722 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R750:752 CertiOS.framework.model.language <> hid def
+R775:787 Coq.Arith.EqNat <> beq_nat syndef
+R792:794 CertiOS.certiucos.code.os_cpu_a <> id' var
+R829:841 CertiOS.certiucos.code.os_cpu_a <> convert_ifuns def
+R848:850 CertiOS.certiucos.code.os_cpu_a <> id' var
+R801:804 Coq.Init.Datatypes <> Some constr

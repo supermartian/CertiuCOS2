@@ -1,0 +1,379 @@
+DIGEST f5bc7d4c40ad92b62ccc326938b8de26
+FCertiOS.certiucos.code.os_code_defs
+R15:25 CertiOS.framework.include_frm <> <> lib
+def 61:69 <> OSRunning
+R73:77 CertiOS.framework.model.memory <> ident def
+def 99:106 <> OSRdyGrp
+R110:114 CertiOS.framework.model.memory <> ident def
+def 136:145 <> OSUnMapTbl
+R148:152 CertiOS.framework.model.memory <> ident def
+def 174:181 <> OSRdyTbl
+R184:188 CertiOS.framework.model.memory <> ident def
+def 210:222 <> OSPrioHighRdy
+R225:229 CertiOS.framework.model.memory <> ident def
+def 251:259 <> OSPrioCur
+R262:266 CertiOS.framework.model.memory <> ident def
+def 288:301 <> OSStartHighRdy
+R304:308 CertiOS.framework.model.memory <> ident def
+def 330:341 <> OSIntNesting
+R344:348 CertiOS.framework.model.memory <> ident def
+def 370:379 <> OSIntExitY
+R382:386 CertiOS.framework.model.memory <> ident def
+def 408:417 <> OSCtxSwCtr
+R420:424 CertiOS.framework.model.memory <> ident def
+def 446:460 <> OSInitHookBegin
+R463:467 CertiOS.framework.model.memory <> ident def
+def 490:502 <> OSInitHookEnd
+R505:509 CertiOS.framework.model.memory <> ident def
+def 532:542 <> OS_InitMisc
+def 565:578 <> OS_InitRdyList
+def 601:614 <> OS_InitSTKList
+def 637:650 <> OS_InitTCBList
+def 673:688 <> OS_InitEventList
+def 711:718 <> OS_QInit
+def 741:750 <> OS_SemInit
+def 773:787 <> OS_InitTaskIdle
+def 810:819 <> OS_TCBInit
+def 842:850 <> OSStatRdy
+R853:857 CertiOS.framework.model.memory <> ident def
+def 880:887 <> OSMapTbl
+R890:894 CertiOS.framework.model.memory <> ident def
+def 917:926 <> OSEventGrp
+R929:933 CertiOS.framework.model.memory <> ident def
+def 956:965 <> OSEventCnt
+R968:972 CertiOS.framework.model.memory <> ident def
+def 995:1004 <> OSEventTbl
+R1007:1011 CertiOS.framework.model.memory <> ident def
+def 1034:1047 <> OSEventListPtr
+R1050:1054 CertiOS.framework.model.memory <> ident def
+def 1077:1089 <> OSTCBEventPtr
+R1092:1096 CertiOS.framework.model.memory <> ident def
+def 1119:1129 <> OSEventType
+R1132:1136 CertiOS.framework.model.memory <> ident def
+def 1159:1168 <> OSEventPtr
+R1171:1175 CertiOS.framework.model.memory <> ident def
+def 1198:1212 <> OSEventFreeList
+R1215:1219 CertiOS.framework.model.memory <> ident def
+def 1242:1261 <> OS_EventWaitListInit
+def 1284:1293 <> OS_EventTO
+def 1316:1330 <> OS_EventTaskRdy
+def 1353:1368 <> OS_EventTaskWait
+def 1391:1396 <> OSQPtr
+R1399:1403 CertiOS.framework.model.memory <> ident def
+def 1426:1436 <> OSEventList
+R1439:1443 CertiOS.framework.model.memory <> ident def
+def 1466:1478 <> OSIntToyCount
+R1481:1485 CertiOS.framework.model.memory <> ident def
+def 1509:1516 <> OSQStart
+R1519:1523 CertiOS.framework.model.memory <> ident def
+def 1546:1551 <> OSQEnd
+R1554:1558 CertiOS.framework.model.memory <> ident def
+def 1581:1585 <> OSQIn
+R1588:1592 CertiOS.framework.model.memory <> ident def
+def 1615:1620 <> OSQOut
+R1623:1627 CertiOS.framework.model.memory <> ident def
+def 1650:1656 <> OSQSize
+R1659:1663 CertiOS.framework.model.memory <> ident def
+def 1686:1695 <> OSQEntries
+R1698:1702 CertiOS.framework.model.memory <> ident def
+def 1725:1734 <> OSQFreeBlk
+R1737:1741 CertiOS.framework.model.memory <> ident def
+def 1764:1776 <> OSQFreeBlkTbl
+R1779:1783 CertiOS.framework.model.memory <> ident def
+def 1806:1816 <> OSQFreeList
+R1819:1823 CertiOS.framework.model.memory <> ident def
+def 1846:1851 <> OSQTbl
+R1854:1858 CertiOS.framework.model.memory <> ident def
+def 1881:1888 <> qfreeblk
+R1891:1895 CertiOS.framework.model.memory <> ident def
+def 1918:1924 <> nextblk
+R1927:1931 CertiOS.framework.model.memory <> ident def
+def 1954:1961 <> OSTCBDly
+R1964:1968 CertiOS.framework.model.memory <> ident def
+def 1991:1998 <> OSTCBMsg
+R2001:2005 CertiOS.framework.model.memory <> ident def
+def 2028:2036 <> OSTCBStat
+R2039:2043 CertiOS.framework.model.memory <> ident def
+def 2066:2073 <> OSTCBTbl
+R2076:2080 CertiOS.framework.model.memory <> ident def
+def 2103:2111 <> OSTCBNext
+R2114:2118 CertiOS.framework.model.memory <> ident def
+def 2141:2149 <> OSTCBPrev
+R2152:2156 CertiOS.framework.model.memory <> ident def
+def 2179:2191 <> OSTCBFreeList
+R2194:2198 CertiOS.framework.model.memory <> ident def
+def 2221:2232 <> OSTCBPrioTbl
+R2235:2239 CertiOS.framework.model.memory <> ident def
+def 2311:2319 <> OSTCBList
+R2322:2326 CertiOS.framework.model.memory <> ident def
+def 2349:2357 <> OSTCBPrio
+R2360:2364 CertiOS.framework.model.memory <> ident def
+def 2387:2395 <> OSTCBBitY
+R2398:2402 CertiOS.framework.model.memory <> ident def
+def 2425:2430 <> OSTCBY
+R2433:2437 CertiOS.framework.model.memory <> ident def
+def 2460:2465 <> OSTCBX
+R2468:2472 CertiOS.framework.model.memory <> ident def
+def 2495:2503 <> OSTCBBitX
+R2506:2510 CertiOS.framework.model.memory <> ident def
+def 2533:2541 <> OSTCBflag
+R2544:2548 CertiOS.framework.model.memory <> ident def
+def 2572:2579 <> OS_Sched
+def 2602:2614 <> OSLockNesting
+R2617:2621 CertiOS.framework.model.memory <> ident def
+def 2644:2652 <> OSTaskCtr
+R2655:2659 CertiOS.framework.model.memory <> ident def
+def 2682:2693 <> OSTaskCreate
+def 2716:2726 <> OS_TaskIdle
+def 2749:2756 <> OSSTKTbl
+R2759:2763 CertiOS.framework.model.memory <> ident def
+def 2786:2798 <> OSSTKFreeList
+R2801:2805 CertiOS.framework.model.memory <> ident def
+def 2828:2837 <> OSTimeTick
+def 2860:2865 <> OSTime
+R2868:2872 CertiOS.framework.model.memory <> ident def
+def 2895:2903 <> OSIntExit
+def 2926:2934 <> OSIdleCtr
+R2937:2941 CertiOS.framework.model.memory <> ident def
+def 2964:2975 <> OSIdleCtrRun
+R2978:2982 CertiOS.framework.model.memory <> ident def
+def 3005:3016 <> OSIdleCtrMax
+R3019:3023 CertiOS.framework.model.memory <> ident def
+def 3046:3058 <> OSPlaceHolder
+R3061:3065 CertiOS.framework.model.memory <> ident def
+def 3240:3253 <> OS_EventRemove
+def 3276:3289 <> OS_EventSearch
+def 3312:3319 <> os_event
+R3322:3326 CertiOS.framework.model.memory <> ident def
+def 3349:3352 <> os_q
+R3355:3359 CertiOS.framework.model.memory <> ident def
+def 3382:3393 <> os_q_freeblk
+R3396:3400 CertiOS.framework.model.memory <> ident def
+def 3423:3433 <> msgqueuetbl
+R3436:3440 CertiOS.framework.model.memory <> ident def
+def 3463:3468 <> os_tcb
+R3471:3475 CertiOS.framework.model.memory <> ident def
+def 3498:3516 <> OS_IsSomeMutexOwner
+def 3540:3550 <> os_tcb_flag
+R3553:3557 CertiOS.framework.model.memory <> ident def
+def 3583:3592 <> os_stk_blk
+R3595:3599 CertiOS.framework.model.memory <> ident def
+def 3622:3628 <> taskstk
+R3631:3635 CertiOS.framework.model.memory <> ident def
+def 3658:3665 <> os_q_ptr
+R3668:3672 CertiOS.framework.model.memory <> ident def
+def 3695:3704 <> os_sem_ptr
+R3707:3711 CertiOS.framework.model.memory <> ident def
+def 3734:3742 <> qeventptr
+R3745:3749 CertiOS.framework.model.memory <> ident def
+def 3772:3775 <> next
+R3778:3782 CertiOS.framework.model.memory <> ident def
+def 3805:3805 <> x
+R3809:3813 CertiOS.framework.model.memory <> ident def
+def 3836:3836 <> y
+R3840:3844 CertiOS.framework.model.memory <> ident def
+def 3867:3870 <> ptcb
+R3874:3878 CertiOS.framework.model.memory <> ident def
+def 3901:3906 <> pevent
+R3910:3914 CertiOS.framework.model.memory <> ident def
+def 3976:3982 <> message
+R3986:3990 CertiOS.framework.model.memory <> ident def
+def 4014:4016 <> msk
+R4020:4024 CertiOS.framework.model.memory <> ident def
+def 4048:4051 <> bitx
+R4055:4059 CertiOS.framework.model.memory <> ident def
+def 4083:4086 <> bity
+R4090:4094 CertiOS.framework.model.memory <> ident def
+def 4118:4121 <> prio
+R4125:4129 CertiOS.framework.model.memory <> ident def
+def 4153:4156 <> ptbl
+R4160:4164 CertiOS.framework.model.memory <> ident def
+def 4188:4188 <> i
+R4192:4196 CertiOS.framework.model.memory <> ident def
+def 4220:4226 <> pevent1
+R4230:4234 CertiOS.framework.model.memory <> ident def
+def 4258:4264 <> pevent2
+R4268:4272 CertiOS.framework.model.memory <> ident def
+def 4296:4302 <> prdytbl
+R4306:4310 CertiOS.framework.model.memory <> ident def
+def 4334:4338 <> pstk1
+R4342:4346 CertiOS.framework.model.memory <> ident def
+def 4370:4374 <> pstk2
+R4378:4382 CertiOS.framework.model.memory <> ident def
+def 4406:4410 <> ptcb1
+R4414:4418 CertiOS.framework.model.memory <> ident def
+def 4442:4446 <> ptcb2
+R4450:4454 CertiOS.framework.model.memory <> ident def
+def 4478:4481 <> task
+R4485:4489 CertiOS.framework.model.memory <> ident def
+def 4513:4517 <> pdata
+R4521:4525 CertiOS.framework.model.memory <> ident def
+def 4549:4549 <> p
+R4553:4557 CertiOS.framework.model.memory <> ident def
+def 4581:4582 <> p1
+R4586:4590 CertiOS.framework.model.memory <> ident def
+def 4614:4615 <> p2
+R4619:4623 CertiOS.framework.model.memory <> ident def
+def 4647:4648 <> pq
+R4652:4656 CertiOS.framework.model.memory <> ident def
+def 4680:4684 <> pqblk
+R4688:4692 CertiOS.framework.model.memory <> ident def
+def 4716:4720 <> start
+R4724:4728 CertiOS.framework.model.memory <> ident def
+def 4752:4754 <> err
+R4758:4762 CertiOS.framework.model.memory <> ident def
+def 4786:4798 <> tasks_waiting
+R4802:4806 CertiOS.framework.model.memory <> ident def
+def 4830:4836 <> timeout
+R4840:4844 CertiOS.framework.model.memory <> ident def
+def 4868:4871 <> size
+R4875:4879 CertiOS.framework.model.memory <> ident def
+def 4903:4905 <> cnt
+R4909:4913 CertiOS.framework.model.memory <> ident def
+def 4937:4940 <> self
+R4944:4948 CertiOS.framework.model.memory <> ident def
+def 4972:4976 <> ticks
+R4980:4984 CertiOS.framework.model.memory <> ident def
+def 5008:5012 <> legal
+R5016:5020 CertiOS.framework.model.memory <> ident def
+def 5044:5048 <> pqptr
+R5052:5056 CertiOS.framework.model.memory <> ident def
+def 5080:5081 <> p3
+R5085:5089 CertiOS.framework.model.memory <> ident def
+def 5113:5115 <> pip
+R5119:5123 CertiOS.framework.model.memory <> ident def
+def 5147:5151 <> mprio
+R5155:5159 CertiOS.framework.model.memory <> ident def
+def 5183:5187 <> isrdy
+R5191:5195 CertiOS.framework.model.memory <> ident def
+def 5219:5226 <> tcb_flag
+R5229:5233 CertiOS.framework.model.memory <> ident def
+def 5302:5314 <> OS_MAX_EVENTS
+def 5337:5345 <> OS_MAX_QS
+def 5368:5377 <> OS_MAX_SEM
+def 5400:5412 <> OS_MAX_Q_SIZE
+def 5435:5446 <> OS_MAX_TASKS
+def 5469:5482 <> OS_LOWEST_PRIO
+def 5505:5517 <> TASK_STK_SIZE
+def 5573:5584 <> OS_PRIO_SELF
+def 5608:5621 <> OS_N_SYS_TASKS
+def 5643:5654 <> OS_IDLE_PRIO
+R5659:5672 CertiOS.certiucos.code.os_code_defs <> OS_LOWEST_PRIO def
+def 5687:5703 <> OS_EVENT_TBL_SIZE
+def 5753:5767 <> OS_RDY_TBL_SIZE
+def 5820:5830 <> OS_STAT_RDY
+def 5852:5862 <> OS_STAT_SEM
+def 5884:5895 <> OS_STAT_MBOX
+def 5917:5925 <> OS_STAT_Q
+def 5947:5961 <> OS_STAT_SUSPEND
+def 5983:5995 <> OS_STAT_MUTEX
+def 6018:6029 <> OS_STAT_FLAG
+def 6054:6073 <> OS_EVENT_TYPE_UNUSED
+def 6095:6112 <> OS_EVENT_TYPE_MBOX
+def 6134:6148 <> OS_EVENT_TYPE_Q
+def 6170:6186 <> OS_EVENT_TYPE_SEM
+def 6208:6226 <> OS_EVENT_TYPE_MUTEX
+def 6250:6258 <> OS_NO_ERR
+def 6280:6296 <> OS_ERR_EVENT_TYPE
+def 6318:6332 <> OS_ERR_PEND_ISR
+def 6354:6373 <> OS_ERR_POST_NULL_PTR
+def 6394:6411 <> OS_ERR_PEVENT_NULL
+def 6433:6451 <> OS_ERR_TASK_WAITING
+def 6473:6482 <> OS_TIMEOUT
+def 6505:6513 <> OS_Q_FULL
+def 6536:6546 <> OS_STAT_ERR
+def 6569:6590 <> OS_ERR_NOT_MUTEX_OWNER
+def 6614:6630 <> OS_ERR_MUTEX_PRIO
+def 6654:6672 <> OS_ERR_PEVENT_NO_EX
+def 6696:6706 <> OS_ERR_IDLE
+def 6730:6740 <> OS_ERR_STAT
+def 6764:6773 <> OS_ERR_OWN
+def 6797:6821 <> OS_ERR_MUTEXPR_NOT_HOLDER
+def 6845:6870 <> OS_ERR_ORIGINAL_NOT_HOLDER
+def 6894:6921 <> OS_ERR_MUTEX_WL_HIGHEST_PRIO
+def 6945:6957 <> OS_PRIO_EXIST
+def 6980:6990 <> OS_PRIO_ERR
+def 7013:7027 <> OS_PRIO_INVALID
+def 7050:7060 <> OS_ERR_NEST
+def 7084:7104 <> OS_ERR_MUTEX_DEADLOCK
+def 7129:7145 <> OS_ERR_MUTEX_IDLE
+def 7172:7181 <> OS_SEM_OVF
+def 7206:7220 <> OS_TASK_DEL_ERR
+def 7243:7258 <> OS_TASK_DEL_IDLE
+def 7281:7308 <> OS_TASK_DEL_SOME_MUTEX_OWNER
+def 7331:7353 <> OS_TASK_DEL_HAS_NO_NEXT
+def 7377:7391 <> OS_TASK_DEL_ISR
+def 7416:7429 <> OS_NO_MORE_TCB
+def 7452:7465 <> OS_ERR_DEL_ISR
+def 7491:7500 <> OS_VERSION
+def 7526:7546 <> OS_MUTEX_KEEP_LOWER_8
+def 7570:7590 <> OS_MUTEX_KEEP_UPPER_8
+def 7616:7633 <> OS_MUTEX_AVAILABLE
+def 7661:7673 <> OS_PrioChange
+def 7697:7702 <> OSInit
+def 7726:7732 <> OSStart
+def 7756:7765 <> OSIntEnter
+def 7789:7797 <> OSVersion
+def 7821:7829 <> OSQAccept
+def 7853:7861 <> OSQCreate
+def 7885:7890 <> OSQDel
+def 7914:7920 <> OSQPend
+def 7944:7952 <> OSQGetMsg
+def 7976:7982 <> OSQPost
+def 8006:8016 <> OSSemAccept
+def 8040:8050 <> OSSemCreate
+def 8074:8081 <> OSSemDel
+def 8105:8113 <> OSSemPend
+def 8137:8145 <> OSTaskDel
+def 8169:8177 <> OSTimeDly
+def 8201:8209 <> OSTimeGet
+def 8233:8241 <> OSSemPost
+def 8265:8276 <> OSMboxCreate
+def 8300:8308 <> OSMboxDel
+def 8332:8341 <> OSMboxPend
+def 8365:8374 <> OSMboxPost
+def 8398:8409 <> OSMboxAccept
+def 8433:8445 <> OSMutexCreate
+def 8469:8478 <> OSMutexDel
+def 8502:8512 <> OSMutexPend
+def 8536:8546 <> OSMutexPost
+def 8570:8582 <> OSMutexAccept
+def 8606:8614 <> OSTickISR
+def 8634:8641 <> OSToyISR
+def 8692:8711 <> SOME_P_NOT_LEGAL_ERR
+def 8742:8758 <> MBOX_DEL_NULL_ERR
+R8770:8787 CertiOS.certiucos.code.os_code_defs <> OS_ERR_PEVENT_NULL def
+def 8802:8825 <> MBOX_DEL_P_NOT_LEGAL_ERR
+R8830:8849 CertiOS.certiucos.code.os_code_defs <> SOME_P_NOT_LEGAL_ERR def
+def 8864:8886 <> MBOX_DEL_WRONG_TYPE_ERR
+R8892:8908 CertiOS.certiucos.code.os_code_defs <> OS_ERR_EVENT_TYPE def
+def 8923:8947 <> MBOX_DEL_TASK_WAITING_ERR
+R8952:8970 CertiOS.certiucos.code.os_code_defs <> OS_ERR_TASK_WAITING def
+def 8985:8997 <> MBOX_DEL_SUCC
+R9008:9016 CertiOS.certiucos.code.os_code_defs <> OS_NO_ERR def
+def 9033:9050 <> MBOX_POST_NULL_ERR
+R9055:9072 CertiOS.certiucos.code.os_code_defs <> OS_ERR_PEVENT_NULL def
+def 9087:9108 <> MBOX_POST_MSG_NULL_ERR
+R9113:9132 CertiOS.certiucos.code.os_code_defs <> OS_ERR_POST_NULL_PTR def
+def 9147:9171 <> MBOX_POST_P_NOT_LEGAL_ERR
+R9176:9195 CertiOS.certiucos.code.os_code_defs <> SOME_P_NOT_LEGAL_ERR def
+def 9210:9233 <> MBOX_POST_WRONG_TYPE_ERR
+R9238:9254 CertiOS.certiucos.code.os_code_defs <> OS_ERR_EVENT_TYPE def
+def 9269:9289 <> MBOX_POST_TASK_WT_ERR
+R9294:9312 CertiOS.certiucos.code.os_code_defs <> OS_ERR_TASK_WAITING def
+def 9327:9344 <> MBOX_POST_FULL_ERR
+R9349:9357 CertiOS.certiucos.code.os_code_defs <> OS_Q_FULL def
+def 9372:9385 <> MBOX_POST_SUCC
+R9390:9398 CertiOS.certiucos.code.os_code_defs <> OS_NO_ERR def
+def 9415:9432 <> MBOX_PEND_NULL_ERR
+R9437:9454 CertiOS.certiucos.code.os_code_defs <> OS_ERR_PEVENT_NULL def
+def 9469:9493 <> MBOX_PEND_P_NOT_LEGAL_ERR
+R9498:9517 CertiOS.certiucos.code.os_code_defs <> SOME_P_NOT_LEGAL_ERR def
+def 9532:9555 <> MBOX_PEND_WRONG_TYPE_ERR
+R9560:9576 CertiOS.certiucos.code.os_code_defs <> OS_ERR_EVENT_TYPE def
+def 9591:9613 <> MBOX_PEND_FROM_IDLE_ERR
+def 9638:9660 <> MBOX_PEND_NOT_READY_ERR
+def 9685:9705 <> MBOX_PEND_TIMEOUT_ERR
+R9710:9719 CertiOS.certiucos.code.os_code_defs <> OS_TIMEOUT def
+def 9734:9747 <> MBOX_PEND_SUCC
+R9752:9760 CertiOS.certiucos.code.os_code_defs <> OS_NO_ERR def

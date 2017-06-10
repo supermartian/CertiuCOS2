@@ -1,0 +1,2 @@
+certiucos/proofs/oscore/OSEventSearchProof.vo certiucos/proofs/oscore/OSEventSearchProof.glob certiucos/proofs/oscore/OSEventSearchProof.v.beautified: certiucos/proofs/oscore/OSEventSearchProof.v certiucos/proofs/ucos_include.vo tactics/hoareforward/symbolic_lemmas.vo certiucos/ucos_lib/OSESearchPure.vo
+certiucos/proofs/oscore/OSEventSearchProof.vio: certiucos/proofs/oscore/OSEventSearchProof.v certiucos/proofs/ucos_include.vio tactics/hoareforward/symbolic_lemmas.vio certiucos/ucos_lib/OSESearchPure.vio

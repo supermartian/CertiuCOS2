@@ -1,0 +1,2 @@
+certiucos/proofs/oscore/OSIsOwnerProof.vo certiucos/proofs/oscore/OSIsOwnerProof.glob certiucos/proofs/oscore/OSIsOwnerProof.v.beautified: certiucos/proofs/oscore/OSIsOwnerProof.v certiucos/proofs/ucos_include.vo certiucos/code/os_ucos_h.vo tactics/hoareforward/symbolic_lemmas.vo
+certiucos/proofs/oscore/OSIsOwnerProof.vio: certiucos/proofs/oscore/OSIsOwnerProof.v certiucos/proofs/ucos_include.vio certiucos/code/os_ucos_h.vio tactics/hoareforward/symbolic_lemmas.vio

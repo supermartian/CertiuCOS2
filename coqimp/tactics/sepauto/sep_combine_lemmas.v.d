@@ -1,0 +1,2 @@
+tactics/sepauto/sep_combine_lemmas.vo tactics/sepauto/sep_combine_lemmas.glob tactics/sepauto/sep_combine_lemmas.v.beautified: tactics/sepauto/sep_combine_lemmas.v framework/include_frm.vo tactics/base_tac.vo tactics/sepauto/seplog_tactics.vo tactics/sepauto/sep_join_lemmas.vo
+tactics/sepauto/sep_combine_lemmas.vio: tactics/sepauto/sep_combine_lemmas.v framework/include_frm.vio tactics/base_tac.vio tactics/sepauto/seplog_tactics.vio tactics/sepauto/sep_join_lemmas.vio

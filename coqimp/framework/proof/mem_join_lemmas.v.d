@@ -1,0 +1,2 @@
+framework/proof/mem_join_lemmas.vo framework/proof/mem_join_lemmas.glob framework/proof/mem_join_lemmas.v.beautified: framework/proof/mem_join_lemmas.v framework/include_frm.vo tactics/basetac/perm_map_lemmas.vo tactics/basetac/join_lib.vo
+framework/proof/mem_join_lemmas.vio: framework/proof/mem_join_lemmas.v framework/include_frm.vio tactics/basetac/perm_map_lemmas.vio tactics/basetac/join_lib.vio

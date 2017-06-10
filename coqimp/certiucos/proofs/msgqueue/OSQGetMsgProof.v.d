@@ -1,0 +1,2 @@
+certiucos/proofs/msgqueue/OSQGetMsgProof.vo certiucos/proofs/msgqueue/OSQGetMsgProof.glob certiucos/proofs/msgqueue/OSQGetMsgProof.v.beautified: certiucos/proofs/msgqueue/OSQGetMsgProof.v certiucos/proofs/ucos_include.vo certiucos/ucos_lib/OSQGetMsgPure.vo certiucos/spec/absoprules/msgq_absop_rules.vo
+certiucos/proofs/msgqueue/OSQGetMsgProof.vio: certiucos/proofs/msgqueue/OSQGetMsgProof.v certiucos/proofs/ucos_include.vio certiucos/ucos_lib/OSQGetMsgPure.vio certiucos/spec/absoprules/msgq_absop_rules.vio

@@ -1,0 +1,2 @@
+framework/proof/lmachLib.vo framework/proof/lmachLib.glob framework/proof/lmachLib.v.beautified: framework/proof/lmachLib.v framework/include_frm.vo tactics/base_tac.vo tactics/sep_auto.vo framework/proof/memory_prop.vo framework/proof/aux_map_lib.vo framework/proof/mem_join_lemmas.vo
+framework/proof/lmachLib.vio: framework/proof/lmachLib.v framework/include_frm.vio tactics/base_tac.vio tactics/sep_auto.vio framework/proof/memory_prop.vio framework/proof/aux_map_lib.vio framework/proof/mem_join_lemmas.vio

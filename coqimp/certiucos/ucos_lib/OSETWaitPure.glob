@@ -1,0 +1,44 @@
+DIGEST f2e9a3e42aac0bde0a9b52a44cc34553
+FCertiOS.certiucos.ucos_lib.OSETWaitPure
+R46:58 CertiOS.certiucos.ucos_lib.OSTimeDlyPure <> <> lib
+R97:108 CertiOS.certiucos.proofs.ucos_include <> <> lib
+prf 145:156 <> range_ostcby
+R420:427 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R447:451 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R443:445 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R428:439 CertiOS.framework.auxlibs.Integers Int unsigned def
+R441:442 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x9 var
+R468:470 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R452:463 CertiOS.framework.auxlibs.Integers Int unsigned def
+R465:467 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x10 var
+R208:218 CertiOS.certiucos.spec.os_inv <> RL_TCBblk_P def
+R229:241 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R227:228 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x1 var
+R244:256 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R242:243 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x2 var
+R259:271 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R257:258 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x3 var
+R274:286 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R272:273 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x4 var
+R296:308 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R287:292 CertiOS.framework.model.memory <> Vint32 constr
+R294:295 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x5 var
+R318:330 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R309:314 CertiOS.framework.model.memory <> Vint32 constr
+R316:317 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x6 var
+R340:352 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R331:336 CertiOS.framework.model.memory <> Vint32 constr
+R338:339 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x7 var
+R362:374 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R353:358 CertiOS.framework.model.memory <> Vint32 constr
+R360:361 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x8 var
+R384:387 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R375:380 CertiOS.framework.model.memory <> Vint32 constr
+R382:383 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x9 var
+R398:401 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R388:393 CertiOS.framework.model.memory <> Vint32 constr
+R395:397 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x10 var
+R412:415 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R402:407 CertiOS.framework.model.memory <> Vint32 constr
+R409:411 CertiOS.certiucos.ucos_lib.OSETWaitPure <> x11 var
+R416:418 Coq.Init.Datatypes <> nil constr

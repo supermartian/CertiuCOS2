@@ -1,0 +1,2 @@
+tactics/ucostac/ucos_bitsmap.vo tactics/ucostac/ucos_bitsmap.glob tactics/ucostac/ucos_bitsmap.v.beautified: tactics/ucostac/ucos_bitsmap.v framework/include_frm.vo tactics/mathauto/math_sol.vo tactics/pure/tv_match.vo tactics/mathauto/int_auto.vo tactics/pure/pure_lib.vo certiucos/spec/os_inv.vo
+tactics/ucostac/ucos_bitsmap.vio: tactics/ucostac/ucos_bitsmap.v framework/include_frm.vio tactics/mathauto/math_sol.vio tactics/pure/tv_match.vio tactics/mathauto/int_auto.vio tactics/pure/pure_lib.vio certiucos/spec/os_inv.vio

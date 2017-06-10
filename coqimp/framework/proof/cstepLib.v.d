@@ -1,0 +1,2 @@
+framework/proof/cstepLib.vo framework/proof/cstepLib.glob framework/proof/cstepLib.v.beautified: framework/proof/cstepLib.v framework/include_frm.vo framework/proof/memory_prop.vo framework/proof/lmachLib.vo framework/proof/contLib.vo framework/model/code_notations.vo
+framework/proof/cstepLib.vio: framework/proof/cstepLib.v framework/include_frm.vio framework/proof/memory_prop.vio framework/proof/lmachLib.vio framework/proof/contLib.vio framework/model/code_notations.vio

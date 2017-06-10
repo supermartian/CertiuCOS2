@@ -1,0 +1,2 @@
+framework/proof/contLib.vo framework/proof/contLib.glob framework/proof/contLib.v.beautified: framework/proof/contLib.v framework/auxlibs/Coqlib.vo framework/model/memory.vo framework/auxlibs/Integers.vo framework/model/language.vo framework/model/opsem.vo tactics/basetac/LibTactics.vo framework/logic/assertion.vo
+framework/proof/contLib.vio: framework/proof/contLib.v framework/auxlibs/Coqlib.vio framework/model/memory.vio framework/auxlibs/Integers.vio framework/model/language.vio framework/model/opsem.vio tactics/basetac/LibTactics.vio framework/logic/assertion.vio

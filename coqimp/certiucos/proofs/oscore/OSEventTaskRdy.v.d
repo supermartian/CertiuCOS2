@@ -1,0 +1,2 @@
+certiucos/proofs/oscore/OSEventTaskRdy.vo certiucos/proofs/oscore/OSEventTaskRdy.glob certiucos/proofs/oscore/OSEventTaskRdy.v.beautified: certiucos/proofs/oscore/OSEventTaskRdy.v certiucos/proofs/ucos_include.vo certiucos/ucos_lib/OSEventTaskRdyPure.vo certiucos/ucos_lib/OSTimeDlyPure.vo tactics/pure/go.vo certiucos/spec/new_inv.vo
+certiucos/proofs/oscore/OSEventTaskRdy.vio: certiucos/proofs/oscore/OSEventTaskRdy.v certiucos/proofs/ucos_include.vio certiucos/ucos_lib/OSEventTaskRdyPure.vio certiucos/ucos_lib/OSTimeDlyPure.vio tactics/pure/go.vio certiucos/spec/new_inv.vio

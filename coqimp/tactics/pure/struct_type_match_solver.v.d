@@ -1,0 +1,2 @@
+tactics/pure/struct_type_match_solver.vo tactics/pure/struct_type_match_solver.glob tactics/pure/struct_type_match_solver.v.beautified: tactics/pure/struct_type_match_solver.v framework/include_frm.vo tactics/mathauto/math_rewrite.vo tactics/mathauto/int_auto.vo
+tactics/pure/struct_type_match_solver.vio: tactics/pure/struct_type_match_solver.v framework/include_frm.vio tactics/mathauto/math_rewrite.vio tactics/mathauto/int_auto.vio

@@ -1,0 +1,2 @@
+certiucos/proofs/mutex/OSMutexAcceptProof.vo certiucos/proofs/mutex/OSMutexAcceptProof.glob certiucos/proofs/mutex/OSMutexAcceptProof.v.beautified: certiucos/proofs/mutex/OSMutexAcceptProof.v certiucos/proofs/ucos_include.vo certiucos/ucos_lib/OSMutex_common.vo certiucos/code/os_ucos_h.vo certiucos/spec/absoprules/mutex_absop_rules.vo
+certiucos/proofs/mutex/OSMutexAcceptProof.vio: certiucos/proofs/mutex/OSMutexAcceptProof.v certiucos/proofs/ucos_include.vio certiucos/ucos_lib/OSMutex_common.vio certiucos/code/os_ucos_h.vio certiucos/spec/absoprules/mutex_absop_rules.vio

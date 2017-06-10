@@ -1,0 +1,2 @@
+framework/proof/joinmemLib.vo framework/proof/joinmemLib.glob framework/proof/joinmemLib.v.beautified: framework/proof/joinmemLib.v framework/include_frm.vo tactics/base_tac.vo framework/proof/simulation.vo tactics/sep_auto.vo tactics/basetac/join_lib.vo
+framework/proof/joinmemLib.vio: framework/proof/joinmemLib.v framework/include_frm.vio tactics/base_tac.vio framework/proof/simulation.vio tactics/sep_auto.vio tactics/basetac/join_lib.vio

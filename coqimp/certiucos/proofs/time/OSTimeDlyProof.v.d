@@ -1,0 +1,2 @@
+certiucos/proofs/time/OSTimeDlyProof.vo certiucos/proofs/time/OSTimeDlyProof.glob certiucos/proofs/time/OSTimeDlyProof.v.beautified: certiucos/proofs/time/OSTimeDlyProof.v certiucos/proofs/ucos_include.vo certiucos/ucos_lib/OSTimeDlyPure.vo certiucos/spec/absoprules/time_absop_rules.vo
+certiucos/proofs/time/OSTimeDlyProof.vio: certiucos/proofs/time/OSTimeDlyProof.v certiucos/proofs/ucos_include.vio certiucos/ucos_lib/OSTimeDlyPure.vio certiucos/spec/absoprules/time_absop_rules.vio

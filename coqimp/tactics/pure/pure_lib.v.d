@@ -1,0 +1,2 @@
+tactics/pure/pure_lib.vo tactics/pure/pure_lib.glob tactics/pure/pure_lib.v.beautified: tactics/pure/pure_lib.v framework/include_frm.vo tactics/mathauto/int_auto.vo tactics/sep_auto.vo tactics/mathauto/math_sol.vo framework/model/code_notations.vo tactics/basetac/join_lib.vo
+tactics/pure/pure_lib.vio: tactics/pure/pure_lib.v framework/include_frm.vio tactics/mathauto/int_auto.vio tactics/sep_auto.vio tactics/mathauto/math_sol.vio framework/model/code_notations.vio tactics/basetac/join_lib.vio

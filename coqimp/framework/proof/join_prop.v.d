@@ -1,0 +1,2 @@
+framework/proof/join_prop.vo framework/proof/join_prop.glob framework/proof/join_prop.v.beautified: framework/proof/join_prop.v framework/include_frm.vo framework/proof/simulation.vo tactics/basetac/join_lib.vo tactics/basetac/join_lib_aux.vo
+framework/proof/join_prop.vio: framework/proof/join_prop.v framework/include_frm.vio framework/proof/simulation.vio tactics/basetac/join_lib.vio tactics/basetac/join_lib_aux.vio

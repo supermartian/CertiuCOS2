@@ -1,0 +1,2 @@
+certiucos/spec/lemmas_for_inv_prop.vo certiucos/spec/lemmas_for_inv_prop.glob certiucos/spec/lemmas_for_inv_prop.v.beautified: certiucos/spec/lemmas_for_inv_prop.v framework/include_frm.vo certiucos/code/os_ucos_h.vo tactics/sep_auto.vo tactics/basetac/join_lib.vo
+certiucos/spec/lemmas_for_inv_prop.vio: certiucos/spec/lemmas_for_inv_prop.v framework/include_frm.vio certiucos/code/os_ucos_h.vio tactics/sep_auto.vio tactics/basetac/join_lib.vio

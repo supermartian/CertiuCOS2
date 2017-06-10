@@ -1,0 +1,6 @@
+DIGEST 247618bb0772875bb87e7d71a01f7d1d
+FCertiOS.tactics.sep_auto
+R15:27 CertiOS.tactics.sepauto.seplog_lemmas <> <> lib
+R45:58 CertiOS.tactics.sepauto.seplog_tactics <> <> lib
+R76:86 CertiOS.tactics.sepauto.sep_combine <> <> lib
+R104:117 CertiOS.tactics.sepauto.sep_cancel_ext <> <> lib

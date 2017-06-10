@@ -1,0 +1,9 @@
+DIGEST 0d8069d448b9f1b7bc376b1e2c9f68fc
+FCertiOS.tactics.hoare_forward
+R15:26 CertiOS.tactics.hoareforward.hoare_assign <> <> lib
+R44:56 CertiOS.tactics.hoareforward.derived_rules <> <> lib
+R74:85 CertiOS.tactics.hoareforward.hoare_conseq <> <> lib
+R103:115 CertiOS.tactics.hoareforward.hoare_tactics <> <> lib
+R133:141 CertiOS.tactics.hoareforward.init_spec <> <> lib
+R159:176 CertiOS.tactics.hoareforward.symbolic_execution <> <> lib
+R194:203 CertiOS.tactics.hoareforward.hoare_call <> <> lib

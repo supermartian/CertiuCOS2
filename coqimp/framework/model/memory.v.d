@@ -1,0 +1,2 @@
+framework/model/memory.vo framework/model/memory.glob framework/model/memory.v.beautified: framework/model/memory.v framework/auxlibs/Coqlib.vo framework/auxlibs/Integers.vo framework/auxlibs/MapLib.vo framework/auxlibs/Modules.vo framework/auxlibs/Maps.vo tactics/basetac/LibTactics.vo tactics/basetac/map_tactics.vo
+framework/model/memory.vio: framework/model/memory.v framework/auxlibs/Coqlib.vio framework/auxlibs/Integers.vio framework/auxlibs/MapLib.vio framework/auxlibs/Modules.vio framework/auxlibs/Maps.vio tactics/basetac/LibTactics.vio tactics/basetac/map_tactics.vio

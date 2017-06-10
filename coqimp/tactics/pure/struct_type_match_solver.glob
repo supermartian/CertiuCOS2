@@ -1,0 +1,42 @@
+DIGEST edb329e2195ff09702794b681a0d6447
+FCertiOS.tactics.pure.struct_type_match_solver
+R15:25 CertiOS.framework.include_frm <> <> lib
+R43:54 CertiOS.tactics.mathauto.math_rewrite <> <> lib
+R72:79 CertiOS.tactics.mathauto.int_auto <> <> lib
+prf 210:232 <> isptr_is_definitely_ptr
+R255:259 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R362:364 Coq.Init.Logic <> :type_scope:x_'='_x not
+R266:266 CertiOS.tactics.pure.struct_type_match_solver <> x var
+R278:283 CertiOS.framework.model.memory <> Vundef constr
+R288:292 Coq.Init.Datatypes <> false constr
+R299:303 CertiOS.framework.model.memory <> Vnull constr
+R308:311 Coq.Init.Datatypes <> true constr
+R318:323 CertiOS.framework.model.memory <> Vint32 constr
+R330:334 Coq.Init.Datatypes <> false constr
+R341:344 CertiOS.framework.model.memory <> Vptr constr
+R351:354 Coq.Init.Datatypes <> true constr
+R365:368 Coq.Init.Datatypes <> true constr
+R248:252 CertiOS.framework.logic.assertion <> isptr def
+R254:254 CertiOS.tactics.pure.struct_type_match_solver <> x var
+prf 453:467 <> le255_and_le255
+R511:514 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R541:544 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R515:526 CertiOS.framework.auxlibs.Integers Int unsigned def
+R530:535 CertiOS.framework.auxlibs.Integers <> :int_scope:x_'&ᵢ'_x not
+R529:529 CertiOS.tactics.pure.struct_type_match_solver <> x var
+R536:539 CertiOS.tactics.pure.struct_type_match_solver <> v'37 var
+R506:507 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R492:503 CertiOS.framework.auxlibs.Integers Int unsigned def
+R505:505 CertiOS.tactics.pure.struct_type_match_solver <> x var
+R574:583 CertiOS.framework.auxlibs.Integers Int and_le thm
+R574:583 CertiOS.framework.auxlibs.Integers Int and_le thm
+prf 615:623 <> ptr_isptr
+R637:641 CertiOS.framework.logic.assertion <> isptr def
+R644:647 CertiOS.framework.model.memory <> Vptr constr
+R649:649 CertiOS.tactics.pure.struct_type_match_solver <> x var
+prf 711:722 <> Vnull_is_ptr
+R726:730 CertiOS.framework.logic.assertion <> isptr def
+R732:736 CertiOS.framework.model.memory <> Vnull constr
+R1454:1478 CertiOS.framework.logic.assertion <> struct_type_vallist_match def
+R1454:1478 CertiOS.framework.logic.assertion <> struct_type_vallist_match def
+R1513:1537 CertiOS.framework.logic.assertion <> struct_type_vallist_match def

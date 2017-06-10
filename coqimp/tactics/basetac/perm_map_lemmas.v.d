@@ -1,0 +1,2 @@
+tactics/basetac/perm_map_lemmas.vo tactics/basetac/perm_map_lemmas.glob tactics/basetac/perm_map_lemmas.v.beautified: tactics/basetac/perm_map_lemmas.v tactics/basetac/perm_map_lemmas_part1.vo tactics/basetac/perm_map_lemmas_part2.vo tactics/basetac/perm_map_lemmas_part3.vo tactics/basetac/perm_map_lemmas_part4.vo
+tactics/basetac/perm_map_lemmas.vio: tactics/basetac/perm_map_lemmas.v tactics/basetac/perm_map_lemmas_part1.vio tactics/basetac/perm_map_lemmas_part2.vio tactics/basetac/perm_map_lemmas_part3.vio tactics/basetac/perm_map_lemmas_part4.vio

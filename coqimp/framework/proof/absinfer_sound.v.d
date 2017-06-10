@@ -1,0 +1,2 @@
+framework/proof/absinfer_sound.vo framework/proof/absinfer_sound.glob framework/proof/absinfer_sound.v.beautified: framework/proof/absinfer_sound.v framework/include_frm.vo tactics/base_tac.vo tactics/sep_auto.vo framework/proof/mem_join_lemmas.vo
+framework/proof/absinfer_sound.vio: framework/proof/absinfer_sound.v framework/include_frm.vio tactics/base_tac.vio tactics/sep_auto.vio framework/proof/mem_join_lemmas.vio

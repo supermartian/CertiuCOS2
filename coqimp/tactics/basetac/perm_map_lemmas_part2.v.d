@@ -1,0 +1,2 @@
+tactics/basetac/perm_map_lemmas_part2.vo tactics/basetac/perm_map_lemmas_part2.glob tactics/basetac/perm_map_lemmas_part2.v.beautified: tactics/basetac/perm_map_lemmas_part2.v framework/model/memory.vo framework/model/language.vo tactics/basetac/join_lib.vo tactics/basetac/join_tactics.vo
+tactics/basetac/perm_map_lemmas_part2.vio: tactics/basetac/perm_map_lemmas_part2.v framework/model/memory.vio framework/model/language.vio tactics/basetac/join_lib.vio tactics/basetac/join_tactics.vio

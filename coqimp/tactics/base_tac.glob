@@ -1,0 +1,5 @@
+DIGEST 2f10825c67ae1ced6fd215f992c43a4a
+FCertiOS.tactics.base_tac
+R15:24 CertiOS.tactics.basetac.LibTactics <> <> lib
+R42:52 CertiOS.tactics.basetac.map_tactics <> <> lib
+R70:77 CertiOS.tactics.basetac.join_lib <> <> lib

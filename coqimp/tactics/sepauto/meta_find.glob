@@ -1,0 +1,97 @@
+DIGEST e3db016f8edd16e33ae4739bf8ddc6c3
+FCertiOS.tactics.sepauto.meta_find
+R15:25 CertiOS.framework.include_frm <> <> lib
+R43:56 CertiOS.tactics.sepauto.seplog_tactics <> <> lib
+R74:91 CertiOS.tactics.sepauto.sep_combine_lemmas <> <> lib
+ind 151:165 <> find_tmp_result
+constr 172:180 <> tmp_res_Y
+constr 201:209 <> tmp_res_N
+R183:197 CertiOS.tactics.sepauto.meta_find <> find_tmp_result ind
+R212:226 CertiOS.tactics.sepauto.meta_find <> find_tmp_result ind
+R294:297 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R294:297 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R907:907 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R917:918 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R930:930 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R908:916 CertiOS.tactics.sepauto.meta_find <> tmp_res_N constr
+R921:923 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R835:835 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R845:846 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R858:859 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R861:861 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R836:844 CertiOS.tactics.sepauto.meta_find <> tmp_res_Y constr
+R849:851 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R363:363 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R373:374 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R377:378 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R382:382 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R364:372 CertiOS.tactics.sepauto.meta_find <> tmp_res_Y constr
+R363:363 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R373:374 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R377:378 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R382:382 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R364:372 CertiOS.tactics.sepauto.meta_find <> tmp_res_Y constr
+R433:433 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R443:444 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R447:447 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R434:442 CertiOS.tactics.sepauto.meta_find <> tmp_res_N constr
+R433:433 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R443:444 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R447:447 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R434:442 CertiOS.tactics.sepauto.meta_find <> tmp_res_N constr
+R404:404 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R414:415 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R417:418 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R421:421 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R405:413 CertiOS.tactics.sepauto.meta_find <> tmp_res_Y constr
+ind 966:976 <> find_result
+constr 983:988 <> fres_Y
+constr 1021:1026 <> fres_N
+R995:998 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1003:1006 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1007:1017 CertiOS.tactics.sepauto.meta_find <> find_result ind
+R999:1002 CertiOS.framework.logic.assertion <> asrt ind
+R992:994 Coq.Init.Datatypes <> nat ind
+R1030:1040 CertiOS.tactics.sepauto.meta_find <> find_result ind
+R1131:1131 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1141:1142 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1145:1146 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1149:1149 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1132:1140 CertiOS.tactics.sepauto.meta_find <> tmp_res_Y constr
+R1131:1131 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1141:1142 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1145:1146 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1149:1149 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1132:1140 CertiOS.tactics.sepauto.meta_find <> tmp_res_Y constr
+R1218:1218 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1228:1229 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1232:1232 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1219:1227 CertiOS.tactics.sepauto.meta_find <> tmp_res_N constr
+R1218:1218 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1228:1229 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1232:1232 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1219:1227 CertiOS.tactics.sepauto.meta_find <> tmp_res_N constr
+R1251:1256 CertiOS.tactics.sepauto.meta_find <> fres_N constr
+R1199:1204 CertiOS.tactics.sepauto.meta_find <> fres_Y constr
+R1402:1405 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R1402:1405 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R1558:1563 CertiOS.tactics.sepauto.meta_find <> fres_Y constr
+R1558:1563 CertiOS.tactics.sepauto.meta_find <> fres_Y constr
+R1687:1687 Coq.Init.Datatypes <> O constr
+R1687:1687 Coq.Init.Datatypes <> O constr
+R1734:1734 Coq.Init.Datatypes <> S constr
+R1734:1734 Coq.Init.Datatypes <> S constr
+R1775:1778 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R1775:1778 CertiOS.framework.logic.assertion <> ::x_'**'_x not
+R2320:2323 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R2320:2323 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R2509:2514 CertiOS.tactics.sepauto.meta_find <> fres_Y constr
+R2509:2514 CertiOS.tactics.sepauto.meta_find <> fres_Y constr
+R2661:2664 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R2661:2664 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R2820:2825 CertiOS.tactics.sepauto.meta_find <> fres_Y constr
+R2820:2825 CertiOS.tactics.sepauto.meta_find <> fres_Y constr
+R2950:2953 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R2950:2953 CertiOS.framework.logic.assertion <> ::x_'|='_x not
+R3142:3147 CertiOS.tactics.sepauto.meta_find <> fres_Y constr
+R3142:3147 CertiOS.tactics.sepauto.meta_find <> fres_Y constr

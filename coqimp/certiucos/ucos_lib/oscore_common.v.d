@@ -1,0 +1,2 @@
+certiucos/ucos_lib/oscore_common.vo certiucos/ucos_lib/oscore_common.glob certiucos/ucos_lib/oscore_common.v.beautified: certiucos/ucos_lib/oscore_common.v certiucos/proofs/ucos_include.vo tactics/basetac/join_lib_aux.vo certiucos/code/os_ucos_h.vo
+certiucos/ucos_lib/oscore_common.vio: certiucos/ucos_lib/oscore_common.v certiucos/proofs/ucos_include.vio tactics/basetac/join_lib_aux.vio certiucos/code/os_ucos_h.vio
